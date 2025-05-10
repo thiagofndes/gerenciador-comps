@@ -1,0 +1,10 @@
+{
+    "arma": ["Martelo Funebre", "Maça Pesada", "Queda Santa", "Canção Alvorecer", "Gelo Elevado", "Fura Bruma", "Caveira", "Arcano Elevado"],
+    "capuz": ["Mercenário", "Druida", "Assassino", "Judicante"],
+    "peito": ["Cavaleiro", "Férico", "Erudito", "Pureza"],
+    "bota": ["Judicante", "Real", "Espreitador"],
+    "capa": ["Martlock", "Lymhust"],
+    "comida": ["Sanduíche", "Guisado de Enguia", "Omelete"],
+    "pocao": ["Resist", "Crescimento"]
+  }
+  

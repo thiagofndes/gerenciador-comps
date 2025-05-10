@@ -1,0 +1,38 @@
+{
+  "2H_Bow_Avalon": {
+    "pt": "Arco Avalon",
+    "en": "Avalonian Bow",
+    "es": "Arco Avalon",
+    "id": "2H_Bow_Avalon"
+  },
+  "2H_Staff_Fire": {
+    "pt": "Cajado de Fogo",
+    "en": "Fire Staff",
+    "es": "Bastón de Fuego",
+    "id": "2H_Staff_Fire"
+  },
+  "T8_HEAD_Cloth": {
+    "pt": "Capuz de Tecido T8",
+    "en": "Cloth Cowl T8",
+    "es": "Capucha de Tela T8",
+    "id": "T8_HEAD_Cloth"
+  },
+  "T8_ARMOR_Leather": {
+    "pt": "Peitoral de Couro T8",
+    "en": "Leather Armor T8",
+    "es": "Armadura de Cuero T8",
+    "id": "T8_ARMOR_Leather"
+  },
+  "T7_MEAL_BeefStew": {
+    "pt": "Ensopado de Carne T7",
+    "en": "Beef Stew T7",
+    "es": "Estofado de Carne T7",
+    "id": "T7_MEAL_BeefStew"
+  },
+  "T8_POTION_Gigantify": {
+    "pt": "Poção de Gigantismo T8",
+    "en": "Gigantify Potion T8",
+    "es": "Poción de Gigantismo T8",
+    "id": "T8_POTION_Gigantify"
+  }
+}

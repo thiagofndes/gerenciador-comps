@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="{{ idioma }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ texts.title }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .btn-criar {
+      background-color: #4a4a6a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .comp-box {
+      background-color: #ffffff;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+
+    .comp-nome {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .botoes {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .botoes a,
+    .botoes button {
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      background-color: #333;
+      color: white;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .botoes input[type="password"] {
+      padding: 6px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .flash {
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    .flash.success {
+      background-color: #d4edda;
+      color: #155724;
+    }
+
+    .flash.error {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+  </style>
+</head>
+<body>
+  {% include 'header.html' %}
+
+  <div class="container">
+    <div class="top-bar">
+      <a href="{{ url_for('create') }}" class="btn-criar">{{ texts.create }}</a>
+    </div>
+
+    <h2>{{ texts.edit }}</h2>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="flash {{ category }}">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    {% if comps %}
+      {% for comp_id, comp in comps.items() %}
+        <div class="comp-box">
+          <div class="comp-nome">{{ comp.nome }} ({{ comp.qtde_jogadores }} {{ texts.num_players | lower }})</div>
+          <div class="botoes">
+            <a href="{{ url_for('view_comp', comp_id=comp_id) }}">👁️ {{ texts.view }}</a>
+            <form method="POST" action="{{ url_for('validate_password', comp_id=comp_id) }}" style="display:inline;">
+              <input type="password" name="senha" placeholder="{{ texts.enter_password }}" required>
+              <button type="submit">✏️ {{ texts.edit_btn }}</button>
+            </form>
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>{{ texts.no_comp }}</p>
+    {% endif %}
+  </div>
+</body>
+</html>

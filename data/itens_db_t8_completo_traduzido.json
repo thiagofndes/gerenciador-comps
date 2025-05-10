@@ -1,0 +1,3914 @@
+{
+  "T8_2H_NATURESTAFF_HELL": {
+    "id": "T8_2H_NATURESTAFF_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_MAIN_CURSEDSTAFF_UNDEAD": {
+    "id": "T8_MAIN_CURSEDSTAFF_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_WOOD_LEVEL2": {
+    "id": "T8_WOOD_LEVEL2",
+    "pt": "T8_WOOD_LEVEL2",
+    "en": "T8_WOOD_LEVEL2",
+    "es": "T8_WOOD_LEVEL2"
+  },
+  "T8_FURNITUREITEM_TROPHY_FISH": {
+    "id": "T8_FURNITUREITEM_TROPHY_FISH",
+    "pt": "T8_FURNITUREITEM_TROPHY_FISH",
+    "en": "T8_FURNITUREITEM_TROPHY_FISH",
+    "es": "T8_FURNITUREITEM_TROPHY_FISH"
+  },
+  "UNIQUE_MOUNT_BEETLE_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_BEETLE_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_BEETLE_CRYSTAL",
+    "en": "UNIQUE_MOUNT_BEETLE_CRYSTAL",
+    "es": "UNIQUE_MOUNT_BEETLE_CRYSTAL"
+  },
+  "UNIQUE_AVATAR_GVGSEASON_17_CRYSTAL": {
+    "id": "UNIQUE_AVATAR_GVGSEASON_17_CRYSTAL",
+    "pt": "UNIQUE_AVATAR_GVGSEASON_17_CRYSTAL",
+    "en": "UNIQUE_AVATAR_GVGSEASON_17_CRYSTAL",
+    "es": "UNIQUE_AVATAR_GVGSEASON_17_CRYSTAL"
+  },
+  "T8_FIBER": {
+    "id": "T8_FIBER",
+    "pt": "T8_FIBER",
+    "en": "T8_FIBER",
+    "es": "T8_FIBER"
+  },
+  "T8_CAPEITEM_FW_BRIDGEWATCH": {
+    "id": "T8_CAPEITEM_FW_BRIDGEWATCH",
+    "pt": "T8_CAPEITEM_FW_BRIDGEWATCH",
+    "en": "T8_CAPEITEM_FW_BRIDGEWATCH",
+    "es": "T8_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  "UNIQUE_AVATARRING_GVGSEASONREWARD_3RD": {
+    "id": "UNIQUE_AVATARRING_GVGSEASONREWARD_3RD",
+    "pt": "UNIQUE_AVATARRING_GVGSEASONREWARD_3RD",
+    "en": "UNIQUE_AVATARRING_GVGSEASONREWARD_3RD",
+    "es": "UNIQUE_AVATARRING_GVGSEASONREWARD_3RD"
+  },
+  "T8_FURNITUREITEM_TROPHY_FIBER": {
+    "id": "T8_FURNITUREITEM_TROPHY_FIBER",
+    "pt": "T8_FURNITUREITEM_TROPHY_FIBER",
+    "en": "T8_FURNITUREITEM_TROPHY_FIBER",
+    "es": "T8_FURNITUREITEM_TROPHY_FIBER"
+  },
+  "T8_SHOES_CLOTH_AVALON": {
+    "id": "T8_SHOES_CLOTH_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_BACKPACK_GATHERER_ROCK": {
+    "id": "T8_BACKPACK_GATHERER_ROCK",
+    "pt": "T8_BACKPACK_GATHERER_ROCK",
+    "en": "T8_BACKPACK_GATHERER_ROCK",
+    "es": "T8_BACKPACK_GATHERER_ROCK"
+  },
+  "T8_BACKPACK_GATHERER_ORE": {
+    "id": "T8_BACKPACK_GATHERER_ORE",
+    "pt": "T8_BACKPACK_GATHERER_ORE",
+    "en": "T8_BACKPACK_GATHERER_ORE",
+    "es": "T8_BACKPACK_GATHERER_ORE"
+  },
+  "T8_HEAD_GATHERER_FISH": {
+    "id": "T8_HEAD_GATHERER_FISH",
+    "pt": "T8_HEAD_GATHERER_FISH",
+    "en": "T8_HEAD_GATHERER_FISH",
+    "es": "T8_HEAD_GATHERER_FISH"
+  },
+  "T8_ARTEFACT_2H_MACE_MORGANA": {
+    "id": "T8_ARTEFACT_2H_MACE_MORGANA",
+    "pt": "T8_ARTEFACT_2H_MACE_MORGANA",
+    "en": "T8_ARTEFACT_2H_MACE_MORGANA",
+    "es": "T8_ARTEFACT_2H_MACE_MORGANA"
+  },
+  "T8_JOURNAL_TROPHY_WOOD": {
+    "id": "T8_JOURNAL_TROPHY_WOOD",
+    "pt": "T8_JOURNAL_TROPHY_WOOD",
+    "en": "T8_JOURNAL_TROPHY_WOOD",
+    "es": "T8_JOURNAL_TROPHY_WOOD"
+  },
+  "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN": {
+    "id": "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
+    "pt": "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
+    "en": "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
+    "es": "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_15_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_15_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_15_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_15_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_15_1ST"
+  },
+  "T8_CAPEITEM_FW_MARTLOCK_BP": {
+    "id": "T8_CAPEITEM_FW_MARTLOCK_BP",
+    "pt": "T8_CAPEITEM_FW_MARTLOCK_BP",
+    "en": "T8_CAPEITEM_FW_MARTLOCK_BP",
+    "es": "T8_CAPEITEM_FW_MARTLOCK_BP"
+  },
+  "T8_BACKPACK_GATHERER_FIBER": {
+    "id": "T8_BACKPACK_GATHERER_FIBER",
+    "pt": "T8_BACKPACK_GATHERER_FIBER",
+    "en": "T8_BACKPACK_GATHERER_FIBER",
+    "es": "T8_BACKPACK_GATHERER_FIBER"
+  },
+  "T8_ARTEFACT_2H_RAM_KEEPER": {
+    "id": "T8_ARTEFACT_2H_RAM_KEEPER",
+    "pt": "T8_ARTEFACT_2H_RAM_KEEPER",
+    "en": "T8_ARTEFACT_2H_RAM_KEEPER",
+    "es": "T8_ARTEFACT_2H_RAM_KEEPER"
+  },
+  "T8_OFF_SHIELD_AVALON": {
+    "id": "T8_OFF_SHIELD_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARTEFACT_MAIN_SPEAR_LANCE_AVALON": {
+    "id": "T8_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_RANDOM_DUNGEON_SOLO_TOKEN_1": {
+    "id": "T8_RANDOM_DUNGEON_SOLO_TOKEN_1",
+    "pt": "T8_RANDOM_DUNGEON_SOLO_TOKEN_1",
+    "en": "T8_RANDOM_DUNGEON_SOLO_TOKEN_1",
+    "es": "T8_RANDOM_DUNGEON_SOLO_TOKEN_1"
+  },
+  "T8_LABOURER_CONTRACT_MAGE": {
+    "id": "T8_LABOURER_CONTRACT_MAGE",
+    "pt": "T8_LABOURER_CONTRACT_MAGE",
+    "en": "T8_LABOURER_CONTRACT_MAGE",
+    "es": "T8_LABOURER_CONTRACT_MAGE"
+  },
+  "T8_FARM_DIREBEAR_GROWN": {
+    "id": "T8_FARM_DIREBEAR_GROWN",
+    "pt": "T8_FARM_DIREBEAR_GROWN",
+    "en": "T8_FARM_DIREBEAR_GROWN",
+    "es": "T8_FARM_DIREBEAR_GROWN"
+  },
+  "T8_ARMOR_CLOTH_MORGANA": {
+    "id": "T8_ARMOR_CLOTH_MORGANA",
+    "pt": "T8_ARMOR_CLOTH_MORGANA",
+    "en": "T8_ARMOR_CLOTH_MORGANA",
+    "es": "T8_ARMOR_CLOTH_MORGANA"
+  },
+  "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA_BROWN": {
+    "id": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA_BROWN",
+    "pt": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA_BROWN",
+    "en": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA_BROWN",
+    "es": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA_BROWN"
+  },
+  "T8_2H_SCYTHE_HELL": {
+    "id": "T8_2H_SCYTHE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_KEEPER": {
+    "id": "T8_ARTEFACT_ARMOR_PLATE_KEEPER",
+    "pt": "T8_ARTEFACT_ARMOR_PLATE_KEEPER",
+    "en": "T8_ARTEFACT_ARMOR_PLATE_KEEPER",
+    "es": "T8_ARTEFACT_ARMOR_PLATE_KEEPER"
+  },
+  "UNIQUE_MOUNT_BASTION_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_BASTION_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_BASTION_CRYSTAL",
+    "en": "UNIQUE_MOUNT_BASTION_CRYSTAL",
+    "es": "UNIQUE_MOUNT_BASTION_CRYSTAL"
+  },
+  "T8_MEAT": {
+    "id": "T8_MEAT",
+    "pt": "T8_MEAT",
+    "en": "T8_MEAT",
+    "es": "T8_MEAT"
+  },
+  "T8_2H_CLAWPAIR": {
+    "id": "T8_2H_CLAWPAIR",
+    "pt": "T8_2H_CLAWPAIR",
+    "en": "T8_2H_CLAWPAIR",
+    "es": "T8_2H_CLAWPAIR"
+  },
+  "T8_2H_TOOL_SIEGEHAMMER": {
+    "id": "T8_2H_TOOL_SIEGEHAMMER",
+    "pt": "Martelo de Cerco",
+    "en": "Siegehammer",
+    "es": "Martillo de Asedio"
+  },
+  "T8_ARTEFACT_SHOES_PLATE_KEEPER": {
+    "id": "T8_ARTEFACT_SHOES_PLATE_KEEPER",
+    "pt": "T8_ARTEFACT_SHOES_PLATE_KEEPER",
+    "en": "T8_ARTEFACT_SHOES_PLATE_KEEPER",
+    "es": "T8_ARTEFACT_SHOES_PLATE_KEEPER"
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_HELL": {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_SHOES_LEATHER_ROYAL": {
+    "id": "T8_SHOES_LEATHER_ROYAL",
+    "pt": "T8_SHOES_LEATHER_ROYAL",
+    "en": "T8_SHOES_LEATHER_ROYAL",
+    "es": "T8_SHOES_LEATHER_ROYAL"
+  },
+  "T8_ARTEFACT_MAIN_CURSEDSTAFF_AVALON": {
+    "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T7_MEAL_OMELETTE_FISH": {
+    "id": "T7_MEAL_OMELETTE_FISH",
+    "pt": "T7_MEAL_OMELETTE_FISH",
+    "en": "T7_MEAL_OMELETTE_FISH",
+    "es": "T7_MEAL_OMELETTE_FISH"
+  },
+  "T8_2H_NATURESTAFF": {
+    "id": "T8_2H_NATURESTAFF",
+    "pt": "T8_2H_NATURESTAFF",
+    "en": "T8_2H_NATURESTAFF",
+    "es": "T8_2H_NATURESTAFF"
+  },
+  "T8_ARTEFACT_2H_TWINSCYTHE_HELL": {
+    "id": "T8_ARTEFACT_2H_TWINSCYTHE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_MAIN_NATURESTAFF_KEEPER": {
+    "id": "T8_ARTEFACT_MAIN_NATURESTAFF_KEEPER",
+    "pt": "T8_ARTEFACT_MAIN_NATURESTAFF_KEEPER",
+    "en": "T8_ARTEFACT_MAIN_NATURESTAFF_KEEPER",
+    "es": "T8_ARTEFACT_MAIN_NATURESTAFF_KEEPER"
+  },
+  "T8_SHOES_GATHERER_HIDE": {
+    "id": "T8_SHOES_GATHERER_HIDE",
+    "pt": "T8_SHOES_GATHERER_HIDE",
+    "en": "T8_SHOES_GATHERER_HIDE",
+    "es": "T8_SHOES_GATHERER_HIDE"
+  },
+  "T8_CAPEITEM_UNDEAD": {
+    "id": "T8_CAPEITEM_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_KEEPER": {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_KEEPER",
+    "pt": "T8_ARTEFACT_SHOES_CLOTH_KEEPER",
+    "en": "T8_ARTEFACT_SHOES_CLOTH_KEEPER",
+    "es": "T8_ARTEFACT_SHOES_CLOTH_KEEPER"
+  },
+  "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN": {
+    "id": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
+    "pt": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
+    "en": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
+    "es": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN"
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_UNDEAD": {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_FARM_RAM_FW_MARTLOCK_GROWN": {
+    "id": "T8_FARM_RAM_FW_MARTLOCK_GROWN",
+    "pt": "T8_FARM_RAM_FW_MARTLOCK_GROWN",
+    "en": "T8_FARM_RAM_FW_MARTLOCK_GROWN",
+    "es": "T8_FARM_RAM_FW_MARTLOCK_GROWN"
+  },
+  "T8_2H_TRIDENT_UNDEAD": {
+    "id": "T8_2H_TRIDENT_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_INFERNOSTAFF_MORGANA": {
+    "id": "T8_2H_INFERNOSTAFF_MORGANA",
+    "pt": "T8_2H_INFERNOSTAFF_MORGANA",
+    "en": "T8_2H_INFERNOSTAFF_MORGANA",
+    "es": "T8_2H_INFERNOSTAFF_MORGANA"
+  },
+  "T8_2H_CURSEDSTAFF": {
+    "id": "T8_2H_CURSEDSTAFF",
+    "pt": "T8_2H_CURSEDSTAFF",
+    "en": "T8_2H_CURSEDSTAFF",
+    "es": "T8_2H_CURSEDSTAFF"
+  },
+  "T8_FIBER_LEVEL3": {
+    "id": "T8_FIBER_LEVEL3",
+    "pt": "T8_FIBER_LEVEL3",
+    "en": "T8_FIBER_LEVEL3",
+    "es": "T8_FIBER_LEVEL3"
+  },
+  "T8_ARTEFACT_HEAD_PLATE_UNDEAD": {
+    "id": "T8_ARTEFACT_HEAD_PLATE_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "UNIQUE_FOCUSPOTION_ADC_NONTRADABLE_01": {
+    "id": "UNIQUE_FOCUSPOTION_ADC_NONTRADABLE_01",
+    "pt": "UNIQUE_FOCUSPOTION_ADC_NONTRADABLE_01",
+    "en": "UNIQUE_FOCUSPOTION_ADC_NONTRADABLE_01",
+    "es": "UNIQUE_FOCUSPOTION_ADC_NONTRADABLE_01"
+  },
+  "T8_MAIN_SPEAR": {
+    "id": "T8_MAIN_SPEAR",
+    "pt": "T8_MAIN_SPEAR",
+    "en": "T8_MAIN_SPEAR",
+    "es": "T8_MAIN_SPEAR"
+  },
+  "T8_WOOD_LEVEL1": {
+    "id": "T8_WOOD_LEVEL1",
+    "pt": "T8_WOOD_LEVEL1",
+    "en": "T8_WOOD_LEVEL1",
+    "es": "T8_WOOD_LEVEL1"
+  },
+  "T8_OFF_HORN_KEEPER": {
+    "id": "T8_OFF_HORN_KEEPER",
+    "pt": "T8_OFF_HORN_KEEPER",
+    "en": "T8_OFF_HORN_KEEPER",
+    "es": "T8_OFF_HORN_KEEPER"
+  },
+  "QUESTITEM_TOKEN_ROYAL_T8": {
+    "id": "QUESTITEM_TOKEN_ROYAL_T8",
+    "pt": "QUESTITEM_TOKEN_ROYAL_T8",
+    "en": "QUESTITEM_TOKEN_ROYAL_T8",
+    "es": "QUESTITEM_TOKEN_ROYAL_T8"
+  },
+  "T8_LEATHER": {
+    "id": "T8_LEATHER",
+    "pt": "T8_LEATHER",
+    "en": "T8_LEATHER",
+    "es": "T8_LEATHER"
+  },
+  "T8_ARMOR_GATHERER_HIDE": {
+    "id": "T8_ARMOR_GATHERER_HIDE",
+    "pt": "T8_ARMOR_GATHERER_HIDE",
+    "en": "T8_ARMOR_GATHERER_HIDE",
+    "es": "T8_ARMOR_GATHERER_HIDE"
+  },
+  "T8_2H_IRONCLADEDSTAFF": {
+    "id": "T8_2H_IRONCLADEDSTAFF",
+    "pt": "T8_2H_IRONCLADEDSTAFF",
+    "en": "T8_2H_IRONCLADEDSTAFF",
+    "es": "T8_2H_IRONCLADEDSTAFF"
+  },
+  "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA": {
+    "id": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+    "pt": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+    "en": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
+    "es": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA"
+  },
+  "UNIQUE_AVATAR_GVGSEASON_16_CRYSTAL": {
+    "id": "UNIQUE_AVATAR_GVGSEASON_16_CRYSTAL",
+    "pt": "UNIQUE_AVATAR_GVGSEASON_16_CRYSTAL",
+    "en": "UNIQUE_AVATAR_GVGSEASON_16_CRYSTAL",
+    "es": "UNIQUE_AVATAR_GVGSEASON_16_CRYSTAL"
+  },
+  "T8_BACKPACK_GATHERER_HIDE": {
+    "id": "T8_BACKPACK_GATHERER_HIDE",
+    "pt": "T8_BACKPACK_GATHERER_HIDE",
+    "en": "T8_BACKPACK_GATHERER_HIDE",
+    "es": "T8_BACKPACK_GATHERER_HIDE"
+  },
+  "T8_ARMOR_PLATE_HELL": {
+    "id": "T8_ARMOR_PLATE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_2H_CLAYMORE": {
+    "id": "T8_2H_CLAYMORE",
+    "pt": "T8_2H_CLAYMORE",
+    "en": "T8_2H_CLAYMORE",
+    "es": "T8_2H_CLAYMORE"
+  },
+  "T8_2H_TOOL_FISHINGROD_AVALON": {
+    "id": "T8_2H_TOOL_FISHINGROD_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_CAPEITEM_DEMON_BP": {
+    "id": "T8_CAPEITEM_DEMON_BP",
+    "pt": "T8_CAPEITEM_DEMON_BP",
+    "en": "T8_CAPEITEM_DEMON_BP",
+    "es": "T8_CAPEITEM_DEMON_BP"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_16_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_16_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_16_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_16_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_16_1ST"
+  },
+  "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER": {
+    "id": "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER",
+    "pt": "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER",
+    "en": "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER",
+    "es": "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER"
+  },
+  "T8_ARTEFACT_2H_NATURESTAFF_HELL": {
+    "id": "T8_ARTEFACT_2H_NATURESTAFF_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_2H_QUARTERSTAFF_AVALON": {
+    "id": "T8_ARTEFACT_2H_QUARTERSTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T4_DEBUG_ARMOR_HIDDEN": {
+    "id": "T4_DEBUG_ARMOR_HIDDEN",
+    "pt": "T4_DEBUG_ARMOR_HIDDEN",
+    "en": "T4_DEBUG_ARMOR_HIDDEN",
+    "es": "T4_DEBUG_ARMOR_HIDDEN"
+  },
+  "T8_2H_FIRESTAFF": {
+    "id": "T8_2H_FIRESTAFF",
+    "pt": "T8_2H_FIRESTAFF",
+    "en": "T8_2H_FIRESTAFF",
+    "es": "T8_2H_FIRESTAFF"
+  },
+  "T8_ESSENCE": {
+    "id": "T8_ESSENCE",
+    "pt": "T8_ESSENCE",
+    "en": "T8_ESSENCE",
+    "es": "T8_ESSENCE"
+  },
+  "T8_HEAD_LEATHER_ROYAL": {
+    "id": "T8_HEAD_LEATHER_ROYAL",
+    "pt": "T8_HEAD_LEATHER_ROYAL",
+    "en": "T8_HEAD_LEATHER_ROYAL",
+    "es": "T8_HEAD_LEATHER_ROYAL"
+  },
+  "T8_ARMOR_CLOTH_KEEPER": {
+    "id": "T8_ARMOR_CLOTH_KEEPER",
+    "pt": "T8_ARMOR_CLOTH_KEEPER",
+    "en": "T8_ARMOR_CLOTH_KEEPER",
+    "es": "T8_ARMOR_CLOTH_KEEPER"
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_FEY": {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_FEY",
+    "pt": "T8_ARTEFACT_HEAD_LEATHER_FEY",
+    "en": "T8_ARTEFACT_HEAD_LEATHER_FEY",
+    "es": "T8_ARTEFACT_HEAD_LEATHER_FEY"
+  },
+  "T8_2H_SKULLORB_HELL": {
+    "id": "T8_2H_SKULLORB_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_FURNITUREITEM_BED": {
+    "id": "T8_FURNITUREITEM_BED",
+    "pt": "T8_FURNITUREITEM_BED",
+    "en": "T8_FURNITUREITEM_BED",
+    "es": "T8_FURNITUREITEM_BED"
+  },
+  "T8_2H_DUALSCIMITAR_UNDEAD": {
+    "id": "T8_2H_DUALSCIMITAR_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_FIRE_RINGPAIR_AVALON": {
+    "id": "T8_2H_FIRE_RINGPAIR_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_PLANKS": {
+    "id": "T8_PLANKS",
+    "pt": "T8_PLANKS",
+    "en": "T8_PLANKS",
+    "es": "T8_PLANKS"
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_KEEPER": {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_KEEPER",
+    "pt": "T8_ARTEFACT_ARMOR_CLOTH_KEEPER",
+    "en": "T8_ARTEFACT_ARMOR_CLOTH_KEEPER",
+    "es": "T8_ARTEFACT_ARMOR_CLOTH_KEEPER"
+  },
+  "T8_JOURNAL_WOOD": {
+    "id": "T8_JOURNAL_WOOD",
+    "pt": "T8_JOURNAL_WOOD",
+    "en": "T8_JOURNAL_WOOD",
+    "es": "T8_JOURNAL_WOOD"
+  },
+  "T8_HEAD_CLOTH_AVALON": {
+    "id": "T8_HEAD_CLOTH_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_FURNITUREITEM_TROPHY_ORE": {
+    "id": "T8_FURNITUREITEM_TROPHY_ORE",
+    "pt": "T8_FURNITUREITEM_TROPHY_ORE",
+    "en": "T8_FURNITUREITEM_TROPHY_ORE",
+    "es": "T8_FURNITUREITEM_TROPHY_ORE"
+  },
+  "T8_LABOURER_CONTRACT_WARRIOR": {
+    "id": "T8_LABOURER_CONTRACT_WARRIOR",
+    "pt": "T8_LABOURER_CONTRACT_WARRIOR",
+    "en": "T8_LABOURER_CONTRACT_WARRIOR",
+    "es": "T8_LABOURER_CONTRACT_WARRIOR"
+  },
+  "T8_MAIN_FROSTSTAFF": {
+    "id": "T8_MAIN_FROSTSTAFF",
+    "pt": "T8_MAIN_FROSTSTAFF",
+    "en": "T8_MAIN_FROSTSTAFF",
+    "es": "T8_MAIN_FROSTSTAFF"
+  },
+  "T8_ARTEFACT_2H_BOW_KEEPER": {
+    "id": "T8_ARTEFACT_2H_BOW_KEEPER",
+    "pt": "T8_ARTEFACT_2H_BOW_KEEPER",
+    "en": "T8_ARTEFACT_2H_BOW_KEEPER",
+    "es": "T8_ARTEFACT_2H_BOW_KEEPER"
+  },
+  "UNIQUE_UNLOCK_VANITY_2H_FW_BRIDGEWATCH_BANNER": {
+    "id": "UNIQUE_UNLOCK_VANITY_2H_FW_BRIDGEWATCH_BANNER",
+    "pt": "UNIQUE_UNLOCK_VANITY_2H_FW_BRIDGEWATCH_BANNER",
+    "en": "UNIQUE_UNLOCK_VANITY_2H_FW_BRIDGEWATCH_BANNER",
+    "es": "UNIQUE_UNLOCK_VANITY_2H_FW_BRIDGEWATCH_BANNER"
+  },
+  "T8_MOUNT_OX": {
+    "id": "T8_MOUNT_OX",
+    "pt": "T8_MOUNT_OX",
+    "en": "T8_MOUNT_OX",
+    "es": "T8_MOUNT_OX"
+  },
+  "T8_FARM_PUMPKIN_SEED": {
+    "id": "T8_FARM_PUMPKIN_SEED",
+    "pt": "T8_FARM_PUMPKIN_SEED",
+    "en": "T8_FARM_PUMPKIN_SEED",
+    "es": "T8_FARM_PUMPKIN_SEED"
+  },
+  "T8_MOUNT_MAMMOTH_BATTLE": {
+    "id": "T8_MOUNT_MAMMOTH_BATTLE",
+    "pt": "T8_MOUNT_MAMMOTH_BATTLE",
+    "en": "T8_MOUNT_MAMMOTH_BATTLE",
+    "es": "T8_MOUNT_MAMMOTH_BATTLE"
+  },
+  "T8_CAPEITEM_FW_FORTSTERLING_BP": {
+    "id": "T8_CAPEITEM_FW_FORTSTERLING_BP",
+    "pt": "T8_CAPEITEM_FW_FORTSTERLING_BP",
+    "en": "T8_CAPEITEM_FW_FORTSTERLING_BP",
+    "es": "T8_CAPEITEM_FW_FORTSTERLING_BP"
+  },
+  "T8_MOUNTUPGRADE_COUGAR_KEEPER": {
+    "id": "T8_MOUNTUPGRADE_COUGAR_KEEPER",
+    "pt": "T8_MOUNTUPGRADE_COUGAR_KEEPER",
+    "en": "T8_MOUNTUPGRADE_COUGAR_KEEPER",
+    "es": "T8_MOUNTUPGRADE_COUGAR_KEEPER"
+  },
+  "T8_ARTEFACT_2H_CLEAVER_HELL": {
+    "id": "T8_ARTEFACT_2H_CLEAVER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_14_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_14_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_14_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_14_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_14_1ST"
+  },
+  "T8_SHOES_PLATE_FEY": {
+    "id": "T8_SHOES_PLATE_FEY",
+    "pt": "T8_SHOES_PLATE_FEY",
+    "en": "T8_SHOES_PLATE_FEY",
+    "es": "T8_SHOES_PLATE_FEY"
+  },
+  "T8_2H_MACE_MORGANA": {
+    "id": "T8_2H_MACE_MORGANA",
+    "pt": "T8_2H_MACE_MORGANA",
+    "en": "T8_2H_MACE_MORGANA",
+    "es": "T8_2H_MACE_MORGANA"
+  },
+  "T8_ORE_LEVEL3": {
+    "id": "T8_ORE_LEVEL3",
+    "pt": "T8_ORE_LEVEL3",
+    "en": "T8_ORE_LEVEL3",
+    "es": "T8_ORE_LEVEL3"
+  },
+  "T8_JOURNAL_TROPHY_STONE": {
+    "id": "T8_JOURNAL_TROPHY_STONE",
+    "pt": "T8_JOURNAL_TROPHY_STONE",
+    "en": "T8_JOURNAL_TROPHY_STONE",
+    "es": "T8_JOURNAL_TROPHY_STONE"
+  },
+  "T8_2H_DUALSICKLE_UNDEAD": {
+    "id": "T8_2H_DUALSICKLE_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_TOOL_KNIFE": {
+    "id": "T8_2H_TOOL_KNIFE",
+    "pt": "Ferramenta",
+    "en": "Tool",
+    "es": "Herramienta"
+  },
+  "T8_2H_GLACIALSTAFF": {
+    "id": "T8_2H_GLACIALSTAFF",
+    "pt": "T8_2H_GLACIALSTAFF",
+    "en": "T8_2H_GLACIALSTAFF",
+    "es": "T8_2H_GLACIALSTAFF"
+  },
+  "T8_FISH_SALTWATER_ALL_BOSS_SHARK": {
+    "id": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+    "pt": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+    "en": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+    "es": "T8_FISH_SALTWATER_ALL_BOSS_SHARK"
+  },
+  "T8_HEAD_LEATHER_MORGANA": {
+    "id": "T8_HEAD_LEATHER_MORGANA",
+    "pt": "T8_HEAD_LEATHER_MORGANA",
+    "en": "T8_HEAD_LEATHER_MORGANA",
+    "es": "T8_HEAD_LEATHER_MORGANA"
+  },
+  "T4_DEBUG_CAPE_HIDDEN": {
+    "id": "T4_DEBUG_CAPE_HIDDEN",
+    "pt": "T4_DEBUG_CAPE_HIDDEN",
+    "en": "T4_DEBUG_CAPE_HIDDEN",
+    "es": "T4_DEBUG_CAPE_HIDDEN"
+  },
+  "T8_2H_TOOL_PICK": {
+    "id": "T8_2H_TOOL_PICK",
+    "pt": "Ferramenta",
+    "en": "Tool",
+    "es": "Herramienta"
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_HELL": {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_JOURNAL_STONE": {
+    "id": "T8_JOURNAL_STONE",
+    "pt": "T8_JOURNAL_STONE",
+    "en": "T8_JOURNAL_STONE",
+    "es": "T8_JOURNAL_STONE"
+  },
+  "T8_LABOURER_CONTRACT_FISHERMAN": {
+    "id": "T8_LABOURER_CONTRACT_FISHERMAN",
+    "pt": "T8_LABOURER_CONTRACT_FISHERMAN",
+    "en": "T8_LABOURER_CONTRACT_FISHERMAN",
+    "es": "T8_LABOURER_CONTRACT_FISHERMAN"
+  },
+  "T8_CAPEITEM_HERETIC_BP": {
+    "id": "T8_CAPEITEM_HERETIC_BP",
+    "pt": "T8_CAPEITEM_HERETIC_BP",
+    "en": "T8_CAPEITEM_HERETIC_BP",
+    "es": "T8_CAPEITEM_HERETIC_BP"
+  },
+  "T8_2H_ARCANESTAFF": {
+    "id": "T8_2H_ARCANESTAFF",
+    "pt": "T8_2H_ARCANESTAFF",
+    "en": "T8_2H_ARCANESTAFF",
+    "es": "T8_2H_ARCANESTAFF"
+  },
+  "T8_2H_BOW": {
+    "id": "T8_2H_BOW",
+    "pt": "T8_2H_BOW",
+    "en": "T8_2H_BOW",
+    "es": "T8_2H_BOW"
+  },
+  "T8_2H_HAMMER": {
+    "id": "T8_2H_HAMMER",
+    "pt": "Martelo",
+    "en": "Hammer",
+    "es": "Martillo"
+  },
+  "T8_MOUNT_DIREBEAR": {
+    "id": "T8_MOUNT_DIREBEAR",
+    "pt": "T8_MOUNT_DIREBEAR",
+    "en": "T8_MOUNT_DIREBEAR",
+    "es": "T8_MOUNT_DIREBEAR"
+  },
+  "T8_ARTEFACT_2H_KNUCKLES_KEEPER": {
+    "id": "T8_ARTEFACT_2H_KNUCKLES_KEEPER",
+    "pt": "T8_ARTEFACT_2H_KNUCKLES_KEEPER",
+    "en": "T8_ARTEFACT_2H_KNUCKLES_KEEPER",
+    "es": "T8_ARTEFACT_2H_KNUCKLES_KEEPER"
+  },
+  "T8_2H_HOLYSTAFF_UNDEAD": {
+    "id": "T8_2H_HOLYSTAFF_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_AXE_AVALON": {
+    "id": "T8_2H_AXE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T4_DEBUG_OFFHAND_HIDDEN": {
+    "id": "T4_DEBUG_OFFHAND_HIDDEN",
+    "pt": "T4_DEBUG_OFFHAND_HIDDEN",
+    "en": "T4_DEBUG_OFFHAND_HIDDEN",
+    "es": "T4_DEBUG_OFFHAND_HIDDEN"
+  },
+  "T8_MAIN_CURSEDSTAFF_AVALON": {
+    "id": "T8_MAIN_CURSEDSTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T7_MEAL_ROAST_FISH": {
+    "id": "T7_MEAL_ROAST_FISH",
+    "pt": "T7_MEAL_ROAST_FISH",
+    "en": "T7_MEAL_ROAST_FISH",
+    "es": "T7_MEAL_ROAST_FISH"
+  },
+  "T1_KILL_EMOTE_HELLGATE_CHARGES_TRADABLE": {
+    "id": "T1_KILL_EMOTE_HELLGATE_CHARGES_TRADABLE",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_SHOES_PLATE_UNDEAD": {
+    "id": "T8_SHOES_PLATE_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_GLAIVE": {
+    "id": "T8_2H_GLAIVE",
+    "pt": "T8_2H_GLAIVE",
+    "en": "T8_2H_GLAIVE",
+    "es": "T8_2H_GLAIVE"
+  },
+  "T8_ARMOR_LEATHER_SET3": {
+    "id": "T8_ARMOR_LEATHER_SET3",
+    "pt": "T8_ARMOR_LEATHER_SET3",
+    "en": "T8_ARMOR_LEATHER_SET3",
+    "es": "T8_ARMOR_LEATHER_SET3"
+  },
+  "T8_MAIN_DAGGER_HELL": {
+    "id": "T8_MAIN_DAGGER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_LABOURER_CONTRACT_STONE": {
+    "id": "T8_LABOURER_CONTRACT_STONE",
+    "pt": "T8_LABOURER_CONTRACT_STONE",
+    "en": "T8_LABOURER_CONTRACT_STONE",
+    "es": "T8_LABOURER_CONTRACT_STONE"
+  },
+  "T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE": {
+    "id": "T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE",
+    "pt": "T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE",
+    "en": "T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE",
+    "es": "T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE"
+  },
+  "T8_ARMOR_PLATE_UNDEAD": {
+    "id": "T8_ARMOR_PLATE_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_TOOL_PICK_AVALON": {
+    "id": "T8_2H_TOOL_PICK_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_SHOES_PLATE_SET2": {
+    "id": "T8_SHOES_PLATE_SET2",
+    "pt": "T8_SHOES_PLATE_SET2",
+    "en": "T8_SHOES_PLATE_SET2",
+    "es": "T8_SHOES_PLATE_SET2"
+  },
+  "T8_FIBER_LEVEL2": {
+    "id": "T8_FIBER_LEVEL2",
+    "pt": "T8_FIBER_LEVEL2",
+    "en": "T8_FIBER_LEVEL2",
+    "es": "T8_FIBER_LEVEL2"
+  },
+  "T8_JOURNAL_HIDE": {
+    "id": "T8_JOURNAL_HIDE",
+    "pt": "T8_JOURNAL_HIDE",
+    "en": "T8_JOURNAL_HIDE",
+    "es": "T8_JOURNAL_HIDE"
+  },
+  "T8_ARTEFACT_2H_INFERNOSTAFF_MORGANA": {
+    "id": "T8_ARTEFACT_2H_INFERNOSTAFF_MORGANA",
+    "pt": "T8_ARTEFACT_2H_INFERNOSTAFF_MORGANA",
+    "en": "T8_ARTEFACT_2H_INFERNOSTAFF_MORGANA",
+    "es": "T8_ARTEFACT_2H_INFERNOSTAFF_MORGANA"
+  },
+  "T8_LOOTCHEST_CRYSTAL_LEAGUE": {
+    "id": "T8_LOOTCHEST_CRYSTAL_LEAGUE",
+    "pt": "T8_LOOTCHEST_CRYSTAL_LEAGUE",
+    "en": "T8_LOOTCHEST_CRYSTAL_LEAGUE",
+    "es": "T8_LOOTCHEST_CRYSTAL_LEAGUE"
+  },
+  "T8_LABOURER_CONTRACT_WOOD": {
+    "id": "T8_LABOURER_CONTRACT_WOOD",
+    "pt": "T8_LABOURER_CONTRACT_WOOD",
+    "en": "T8_LABOURER_CONTRACT_WOOD",
+    "es": "T8_LABOURER_CONTRACT_WOOD"
+  },
+  "T8_ARTEFACT_2H_DUALCROSSBOW_HELL": {
+    "id": "T8_ARTEFACT_2H_DUALCROSSBOW_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_OFF_TORCH": {
+    "id": "T8_OFF_TORCH",
+    "pt": "T8_OFF_TORCH",
+    "en": "T8_OFF_TORCH",
+    "es": "T8_OFF_TORCH"
+  },
+  "T8_ARTEFACT_SHOES_PLATE_AVALON": {
+    "id": "T8_ARTEFACT_SHOES_PLATE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_SHOES_LEATHER_SET1": {
+    "id": "T8_SHOES_LEATHER_SET1",
+    "pt": "T8_SHOES_LEATHER_SET1",
+    "en": "T8_SHOES_LEATHER_SET1",
+    "es": "T8_SHOES_LEATHER_SET1"
+  },
+  "T8_2H_HOLYSTAFF": {
+    "id": "T8_2H_HOLYSTAFF",
+    "pt": "T8_2H_HOLYSTAFF",
+    "en": "T8_2H_HOLYSTAFF",
+    "es": "T8_2H_HOLYSTAFF"
+  },
+  "T8_ORE_LEVEL4": {
+    "id": "T8_ORE_LEVEL4",
+    "pt": "T8_ORE_LEVEL4",
+    "en": "T8_ORE_LEVEL4",
+    "es": "T8_ORE_LEVEL4"
+  },
+  "T8_ARMOR_CLOTH_SET2": {
+    "id": "T8_ARMOR_CLOTH_SET2",
+    "pt": "T8_ARMOR_CLOTH_SET2",
+    "en": "T8_ARMOR_CLOTH_SET2",
+    "es": "T8_ARMOR_CLOTH_SET2"
+  },
+  "T8_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD": {
+    "id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_MORGANA": {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_MORGANA",
+    "pt": "T8_ARTEFACT_HEAD_LEATHER_MORGANA",
+    "en": "T8_ARTEFACT_HEAD_LEATHER_MORGANA",
+    "es": "T8_ARTEFACT_HEAD_LEATHER_MORGANA"
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_AVALON": {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_RANDOM_DUNGEON_ELITE_TOKEN_1": {
+    "id": "T8_RANDOM_DUNGEON_ELITE_TOKEN_1",
+    "pt": "T8_RANDOM_DUNGEON_ELITE_TOKEN_1",
+    "en": "T8_RANDOM_DUNGEON_ELITE_TOKEN_1",
+    "es": "T8_RANDOM_DUNGEON_ELITE_TOKEN_1"
+  },
+  "T8_JOURNAL_ORE": {
+    "id": "T8_JOURNAL_ORE",
+    "pt": "T8_JOURNAL_ORE",
+    "en": "T8_JOURNAL_ORE",
+    "es": "T8_JOURNAL_ORE"
+  },
+  "T4_DEBUG_HEAD_HIDDEN": {
+    "id": "T4_DEBUG_HEAD_HIDDEN",
+    "pt": "T4_DEBUG_HEAD_HIDDEN",
+    "en": "T4_DEBUG_HEAD_HIDDEN",
+    "es": "T4_DEBUG_HEAD_HIDDEN"
+  },
+  "T8_ARMOR_GATHERER_ORE": {
+    "id": "T8_ARMOR_GATHERER_ORE",
+    "pt": "T8_ARMOR_GATHERER_ORE",
+    "en": "T8_ARMOR_GATHERER_ORE",
+    "es": "T8_ARMOR_GATHERER_ORE"
+  },
+  "T8_RANDOM_DUNGEON_ELITE_TOKEN_4": {
+    "id": "T8_RANDOM_DUNGEON_ELITE_TOKEN_4",
+    "pt": "T8_RANDOM_DUNGEON_ELITE_TOKEN_4",
+    "en": "T8_RANDOM_DUNGEON_ELITE_TOKEN_4",
+    "es": "T8_RANDOM_DUNGEON_ELITE_TOKEN_4"
+  },
+  "T8_JOURNAL_HUNTER": {
+    "id": "T8_JOURNAL_HUNTER",
+    "pt": "T8_JOURNAL_HUNTER",
+    "en": "T8_JOURNAL_HUNTER",
+    "es": "T8_JOURNAL_HUNTER"
+  },
+  "T8_FARM_MAMMOTH_GROWN": {
+    "id": "T8_FARM_MAMMOTH_GROWN",
+    "pt": "T8_FARM_MAMMOTH_GROWN",
+    "en": "T8_FARM_MAMMOTH_GROWN",
+    "es": "T8_FARM_MAMMOTH_GROWN"
+  },
+  "T8_MOUNT_COUGAR_KEEPER": {
+    "id": "T8_MOUNT_COUGAR_KEEPER",
+    "pt": "T8_MOUNT_COUGAR_KEEPER",
+    "en": "T8_MOUNT_COUGAR_KEEPER",
+    "es": "T8_MOUNT_COUGAR_KEEPER"
+  },
+  "UNIQUE_REPAIRPOWDER_ADC_GENERAL_01": {
+    "id": "UNIQUE_REPAIRPOWDER_ADC_GENERAL_01",
+    "pt": "UNIQUE_REPAIRPOWDER_ADC_GENERAL_01",
+    "en": "UNIQUE_REPAIRPOWDER_ADC_GENERAL_01",
+    "es": "UNIQUE_REPAIRPOWDER_ADC_GENERAL_01"
+  },
+  "UNIQUE_FOCUSPOTION_ADC_GENERAL_01": {
+    "id": "UNIQUE_FOCUSPOTION_ADC_GENERAL_01",
+    "pt": "UNIQUE_FOCUSPOTION_ADC_GENERAL_01",
+    "en": "UNIQUE_FOCUSPOTION_ADC_GENERAL_01",
+    "es": "UNIQUE_FOCUSPOTION_ADC_GENERAL_01"
+  },
+  "T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE": {
+    "id": "T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_HEAD_PLATE_HELL": {
+    "id": "T8_ARTEFACT_HEAD_PLATE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_SKILLBOOK_GATHER_WOOD": {
+    "id": "T8_SKILLBOOK_GATHER_WOOD",
+    "pt": "T8_SKILLBOOK_GATHER_WOOD",
+    "en": "T8_SKILLBOOK_GATHER_WOOD",
+    "es": "T8_SKILLBOOK_GATHER_WOOD"
+  },
+  "T8_STONEBLOCK": {
+    "id": "T8_STONEBLOCK",
+    "pt": "T8_STONEBLOCK",
+    "en": "T8_STONEBLOCK",
+    "es": "T8_STONEBLOCK"
+  },
+  "T8_CAPEITEM_MORGANA": {
+    "id": "T8_CAPEITEM_MORGANA",
+    "pt": "T8_CAPEITEM_MORGANA",
+    "en": "T8_CAPEITEM_MORGANA",
+    "es": "T8_CAPEITEM_MORGANA"
+  },
+  "T8_ARTEFACT_MAIN_SCIMITAR_MORGANA": {
+    "id": "T8_ARTEFACT_MAIN_SCIMITAR_MORGANA",
+    "pt": "T8_ARTEFACT_MAIN_SCIMITAR_MORGANA",
+    "en": "T8_ARTEFACT_MAIN_SCIMITAR_MORGANA",
+    "es": "T8_ARTEFACT_MAIN_SCIMITAR_MORGANA"
+  },
+  "T8_CAPEITEM_KEEPER": {
+    "id": "T8_CAPEITEM_KEEPER",
+    "pt": "T8_CAPEITEM_KEEPER",
+    "en": "T8_CAPEITEM_KEEPER",
+    "es": "T8_CAPEITEM_KEEPER"
+  },
+  "T8_CAPEITEM_DEMON": {
+    "id": "T8_CAPEITEM_DEMON",
+    "pt": "T8_CAPEITEM_DEMON",
+    "en": "T8_CAPEITEM_DEMON",
+    "es": "T8_CAPEITEM_DEMON"
+  },
+  "T8_JOURNAL_TROPHY_FISHING": {
+    "id": "T8_JOURNAL_TROPHY_FISHING",
+    "pt": "T8_JOURNAL_TROPHY_FISHING",
+    "en": "T8_JOURNAL_TROPHY_FISHING",
+    "es": "T8_JOURNAL_TROPHY_FISHING"
+  },
+  "T8_FARM_YARROW_SEED": {
+    "id": "T8_FARM_YARROW_SEED",
+    "pt": "T8_FARM_YARROW_SEED",
+    "en": "T8_FARM_YARROW_SEED",
+    "es": "T8_FARM_YARROW_SEED"
+  },
+  "T8_SOUL": {
+    "id": "T8_SOUL",
+    "pt": "T8_SOUL",
+    "en": "T8_SOUL",
+    "es": "T8_SOUL"
+  },
+  "T8_HIDE_LEVEL4": {
+    "id": "T8_HIDE_LEVEL4",
+    "pt": "T8_HIDE_LEVEL4",
+    "en": "T8_HIDE_LEVEL4",
+    "es": "T8_HIDE_LEVEL4"
+  },
+  "UNIQUE_UNLOCK_VANITY_2H_FW_THETFORD_BANNER": {
+    "id": "UNIQUE_UNLOCK_VANITY_2H_FW_THETFORD_BANNER",
+    "pt": "UNIQUE_UNLOCK_VANITY_2H_FW_THETFORD_BANNER",
+    "en": "UNIQUE_UNLOCK_VANITY_2H_FW_THETFORD_BANNER",
+    "es": "UNIQUE_UNLOCK_VANITY_2H_FW_THETFORD_BANNER"
+  },
+  "T8_MAIN_HOLYSTAFF_AVALON": {
+    "id": "T8_MAIN_HOLYSTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARMOR_LEATHER_AVALON": {
+    "id": "T8_ARMOR_LEATHER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_CLEAVER_HELL": {
+    "id": "T8_2H_CLEAVER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ORE_LEVEL1": {
+    "id": "T8_ORE_LEVEL1",
+    "pt": "T8_ORE_LEVEL1",
+    "en": "T8_ORE_LEVEL1",
+    "es": "T8_ORE_LEVEL1"
+  },
+  "T8_LEATHER_LEVEL3": {
+    "id": "T8_LEATHER_LEVEL3",
+    "pt": "T8_LEATHER_LEVEL3",
+    "en": "T8_LEATHER_LEVEL3",
+    "es": "T8_LEATHER_LEVEL3"
+  },
+  "T8_ARTEFACT_2H_DUALSICKLE_UNDEAD": {
+    "id": "T8_ARTEFACT_2H_DUALSICKLE_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_HEAD_LEATHER_FEY": {
+    "id": "T8_HEAD_LEATHER_FEY",
+    "pt": "T8_HEAD_LEATHER_FEY",
+    "en": "T8_HEAD_LEATHER_FEY",
+    "es": "T8_HEAD_LEATHER_FEY"
+  },
+  "T8_FURNITUREITEM_TROPHY_HIDE": {
+    "id": "T8_FURNITUREITEM_TROPHY_HIDE",
+    "pt": "T8_FURNITUREITEM_TROPHY_HIDE",
+    "en": "T8_FURNITUREITEM_TROPHY_HIDE",
+    "es": "T8_FURNITUREITEM_TROPHY_HIDE"
+  },
+  "T8_MOUNT_RABBIT_EASTER": {
+    "id": "T8_MOUNT_RABBIT_EASTER",
+    "pt": "T8_MOUNT_RABBIT_EASTER",
+    "en": "T8_MOUNT_RABBIT_EASTER",
+    "es": "T8_MOUNT_RABBIT_EASTER"
+  },
+  "T8_OFF_SHIELD": {
+    "id": "T8_OFF_SHIELD",
+    "pt": "T8_OFF_SHIELD",
+    "en": "T8_OFF_SHIELD",
+    "es": "T8_OFF_SHIELD"
+  },
+  "T8_SHOES_PLATE_ROYAL": {
+    "id": "T8_SHOES_PLATE_ROYAL",
+    "pt": "T8_SHOES_PLATE_ROYAL",
+    "en": "T8_SHOES_PLATE_ROYAL",
+    "es": "T8_SHOES_PLATE_ROYAL"
+  },
+  "T8_RANDOM_DUNGEON_TOKEN_2": {
+    "id": "T8_RANDOM_DUNGEON_TOKEN_2",
+    "pt": "T8_RANDOM_DUNGEON_TOKEN_2",
+    "en": "T8_RANDOM_DUNGEON_TOKEN_2",
+    "es": "T8_RANDOM_DUNGEON_TOKEN_2"
+  },
+  "UNIQUE_UNLOCK_VANITY_2H_FW_CAERLEON_BANNER": {
+    "id": "UNIQUE_UNLOCK_VANITY_2H_FW_CAERLEON_BANNER",
+    "pt": "UNIQUE_UNLOCK_VANITY_2H_FW_CAERLEON_BANNER",
+    "en": "UNIQUE_UNLOCK_VANITY_2H_FW_CAERLEON_BANNER",
+    "es": "UNIQUE_UNLOCK_VANITY_2H_FW_CAERLEON_BANNER"
+  },
+  "T8_CAPE_ARENA_BANNER": {
+    "id": "T8_CAPE_ARENA_BANNER",
+    "pt": "T8_CAPE_ARENA_BANNER",
+    "en": "T8_CAPE_ARENA_BANNER",
+    "es": "T8_CAPE_ARENA_BANNER"
+  },
+  "T8_HEAD_PLATE_UNDEAD": {
+    "id": "T8_HEAD_PLATE_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ARTEFACT_SHOES_PLATE_FEY": {
+    "id": "T8_ARTEFACT_SHOES_PLATE_FEY",
+    "pt": "T8_ARTEFACT_SHOES_PLATE_FEY",
+    "en": "T8_ARTEFACT_SHOES_PLATE_FEY",
+    "es": "T8_ARTEFACT_SHOES_PLATE_FEY"
+  },
+  "T8_ARMOR_CLOTH_FEY": {
+    "id": "T8_ARMOR_CLOTH_FEY",
+    "pt": "T8_ARMOR_CLOTH_FEY",
+    "en": "T8_ARMOR_CLOTH_FEY",
+    "es": "T8_ARMOR_CLOTH_FEY"
+  },
+  "T8_SHOES_PLATE_SET1": {
+    "id": "T8_SHOES_PLATE_SET1",
+    "pt": "T8_SHOES_PLATE_SET1",
+    "en": "T8_SHOES_PLATE_SET1",
+    "es": "T8_SHOES_PLATE_SET1"
+  },
+  "T8_LABOURER_CONTRACT_MERCENARY": {
+    "id": "T8_LABOURER_CONTRACT_MERCENARY",
+    "pt": "T8_LABOURER_CONTRACT_MERCENARY",
+    "en": "T8_LABOURER_CONTRACT_MERCENARY",
+    "es": "T8_LABOURER_CONTRACT_MERCENARY"
+  },
+  "T8_2H_TOOL_SIEGEHAMMER_AVALON": {
+    "id": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_SHOES_GATHERER_FIBER": {
+    "id": "T8_SHOES_GATHERER_FIBER",
+    "pt": "T8_SHOES_GATHERER_FIBER",
+    "en": "T8_SHOES_GATHERER_FIBER",
+    "es": "T8_SHOES_GATHERER_FIBER"
+  },
+  "T8_ARTEFACT_2H_TRIDENT_UNDEAD": {
+    "id": "T8_ARTEFACT_2H_TRIDENT_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_HEAD_PLATE_ROYAL": {
+    "id": "T8_HEAD_PLATE_ROYAL",
+    "pt": "T8_HEAD_PLATE_ROYAL",
+    "en": "T8_HEAD_PLATE_ROYAL",
+    "es": "T8_HEAD_PLATE_ROYAL"
+  },
+  "T8_FARM_RABBIT_EASTER_GROWN": {
+    "id": "T8_FARM_RABBIT_EASTER_GROWN",
+    "pt": "T8_FARM_RABBIT_EASTER_GROWN",
+    "en": "T8_FARM_RABBIT_EASTER_GROWN",
+    "es": "T8_FARM_RABBIT_EASTER_GROWN"
+  },
+  "T8_FARM_OX_GROWN": {
+    "id": "T8_FARM_OX_GROWN",
+    "pt": "T8_FARM_OX_GROWN",
+    "en": "T8_FARM_OX_GROWN",
+    "es": "T8_FARM_OX_GROWN"
+  },
+  "T8_FARM_GREYWOLF_FW_CAERLEON_BABY": {
+    "id": "T8_FARM_GREYWOLF_FW_CAERLEON_BABY",
+    "pt": "T8_FARM_GREYWOLF_FW_CAERLEON_BABY",
+    "en": "T8_FARM_GREYWOLF_FW_CAERLEON_BABY",
+    "es": "T8_FARM_GREYWOLF_FW_CAERLEON_BABY"
+  },
+  "T8_FISH_FRESHWATER_ALL_COMMON": {
+    "id": "T8_FISH_FRESHWATER_ALL_COMMON",
+    "pt": "T8_FISH_FRESHWATER_ALL_COMMON",
+    "en": "T8_FISH_FRESHWATER_ALL_COMMON",
+    "es": "T8_FISH_FRESHWATER_ALL_COMMON"
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_FEY": {
+    "id": "T8_ARTEFACT_ARMOR_PLATE_FEY",
+    "pt": "T8_ARTEFACT_ARMOR_PLATE_FEY",
+    "en": "T8_ARTEFACT_ARMOR_PLATE_FEY",
+    "es": "T8_ARTEFACT_ARMOR_PLATE_FEY"
+  },
+  "T7_MEAL_OMELETTE": {
+    "id": "T7_MEAL_OMELETTE",
+    "pt": "T7_MEAL_OMELETTE",
+    "en": "T7_MEAL_OMELETTE",
+    "es": "T7_MEAL_OMELETTE"
+  },
+  "T8_2H_HALBERD": {
+    "id": "T8_2H_HALBERD",
+    "pt": "T8_2H_HALBERD",
+    "en": "T8_2H_HALBERD",
+    "es": "T8_2H_HALBERD"
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_MORGANA": {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_MORGANA",
+    "pt": "T8_ARTEFACT_ARMOR_LEATHER_MORGANA",
+    "en": "T8_ARTEFACT_ARMOR_LEATHER_MORGANA",
+    "es": "T8_ARTEFACT_ARMOR_LEATHER_MORGANA"
+  },
+  "T8_GVGSEASONREWARD_FAMEBUFF": {
+    "id": "T8_GVGSEASONREWARD_FAMEBUFF",
+    "pt": "T8_GVGSEASONREWARD_FAMEBUFF",
+    "en": "T8_GVGSEASONREWARD_FAMEBUFF",
+    "es": "T8_GVGSEASONREWARD_FAMEBUFF"
+  },
+  "T8_CAPEITEM_FW_THETFORD_BP": {
+    "id": "T8_CAPEITEM_FW_THETFORD_BP",
+    "pt": "T8_CAPEITEM_FW_THETFORD_BP",
+    "en": "T8_CAPEITEM_FW_THETFORD_BP",
+    "es": "T8_CAPEITEM_FW_THETFORD_BP"
+  },
+  "T8_2H_DUALMACE_AVALON": {
+    "id": "T8_2H_DUALMACE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ORE_LEVEL2": {
+    "id": "T8_ORE_LEVEL2",
+    "pt": "T8_ORE_LEVEL2",
+    "en": "T8_ORE_LEVEL2",
+    "es": "T8_ORE_LEVEL2"
+  },
+  "T8_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD": {
+    "id": "T8_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ARTEFACT_TOKEN_FAVOR_4": {
+    "id": "T8_ARTEFACT_TOKEN_FAVOR_4",
+    "pt": "T8_ARTEFACT_TOKEN_FAVOR_4",
+    "en": "T8_ARTEFACT_TOKEN_FAVOR_4",
+    "es": "T8_ARTEFACT_TOKEN_FAVOR_4"
+  },
+  "T8_ARTEFACT_2H_AXE_AVALON": {
+    "id": "T8_ARTEFACT_2H_AXE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARMOR_CLOTH_AVALON": {
+    "id": "T8_ARMOR_CLOTH_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_10_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_10_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_10_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_10_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_10_1ST"
+  },
+  "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_AMETHYST": {
+    "id": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_AMETHYST",
+    "pt": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_AMETHYST",
+    "en": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_AMETHYST",
+    "es": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_AMETHYST"
+  },
+  "T8_ARMOR_LEATHER_FEY": {
+    "id": "T8_ARMOR_LEATHER_FEY",
+    "pt": "T8_ARMOR_LEATHER_FEY",
+    "en": "T8_ARMOR_LEATHER_FEY",
+    "es": "T8_ARMOR_LEATHER_FEY"
+  },
+  "T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE": {
+    "id": "T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE",
+    "pt": "T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE",
+    "en": "T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE",
+    "es": "T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE"
+  },
+  "T8_HIDE": {
+    "id": "T8_HIDE",
+    "pt": "T8_HIDE",
+    "en": "T8_HIDE",
+    "es": "T8_HIDE"
+  },
+  "T8_BACKPACK_GATHERER_FISH": {
+    "id": "T8_BACKPACK_GATHERER_FISH",
+    "pt": "T8_BACKPACK_GATHERER_FISH",
+    "en": "T8_BACKPACK_GATHERER_FISH",
+    "es": "T8_BACKPACK_GATHERER_FISH"
+  },
+  "T8_MEAL_STEW_AVALON": {
+    "id": "T8_MEAL_STEW_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARTEFACT_2H_DUALSCIMITAR_UNDEAD": {
+    "id": "T8_ARTEFACT_2H_DUALSCIMITAR_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ROCK": {
+    "id": "T8_ROCK",
+    "pt": "T8_ROCK",
+    "en": "T8_ROCK",
+    "es": "T8_ROCK"
+  },
+  "T8_ESSENCE_POTION": {
+    "id": "T8_ESSENCE_POTION",
+    "pt": "T8_ESSENCE_POTION",
+    "en": "T8_ESSENCE_POTION",
+    "es": "T8_ESSENCE_POTION"
+  },
+  "T8_2H_DUALCROSSBOW_HELL": {
+    "id": "T8_2H_DUALCROSSBOW_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_2H_BOW_KEEPER": {
+    "id": "T8_2H_BOW_KEEPER",
+    "pt": "T8_2H_BOW_KEEPER",
+    "en": "T8_2H_BOW_KEEPER",
+    "es": "T8_2H_BOW_KEEPER"
+  },
+  "T8_POTION_COOLDOWN": {
+    "id": "T8_POTION_COOLDOWN",
+    "pt": "T8_POTION_COOLDOWN",
+    "en": "T8_POTION_COOLDOWN",
+    "es": "T8_POTION_COOLDOWN"
+  },
+  "UNIQUE_MOUNT_RHINO_SEASON_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_RHINO_SEASON_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_RHINO_SEASON_CRYSTAL",
+    "en": "UNIQUE_MOUNT_RHINO_SEASON_CRYSTAL",
+    "es": "UNIQUE_MOUNT_RHINO_SEASON_CRYSTAL"
+  },
+  "T8_FARM_SWAMPDRAGON_FW_THETFORD_BABY": {
+    "id": "T8_FARM_SWAMPDRAGON_FW_THETFORD_BABY",
+    "pt": "T8_FARM_SWAMPDRAGON_FW_THETFORD_BABY",
+    "en": "T8_FARM_SWAMPDRAGON_FW_THETFORD_BABY",
+    "es": "T8_FARM_SWAMPDRAGON_FW_THETFORD_BABY"
+  },
+  "T8_2H_WILDSTAFF": {
+    "id": "T8_2H_WILDSTAFF",
+    "pt": "T8_2H_WILDSTAFF",
+    "en": "T8_2H_WILDSTAFF",
+    "es": "T8_2H_WILDSTAFF"
+  },
+  "T8_2H_ICEGAUNTLETS_HELL": {
+    "id": "T8_2H_ICEGAUNTLETS_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_MAIN_HOLYSTAFF_AVALON": {
+    "id": "T8_ARTEFACT_MAIN_HOLYSTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_JOURNAL_TROPHY_MERCENARY": {
+    "id": "T8_JOURNAL_TROPHY_MERCENARY",
+    "pt": "T8_JOURNAL_TROPHY_MERCENARY",
+    "en": "T8_JOURNAL_TROPHY_MERCENARY",
+    "es": "T8_JOURNAL_TROPHY_MERCENARY"
+  },
+  "T8_ARTEFACT_2H_HOLYSTAFF_UNDEAD": {
+    "id": "T8_ARTEFACT_2H_HOLYSTAFF_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "UNIQUE_UNLOCK_VANITY_2H_FW_FORTSTERLING_BANNER": {
+    "id": "UNIQUE_UNLOCK_VANITY_2H_FW_FORTSTERLING_BANNER",
+    "pt": "UNIQUE_UNLOCK_VANITY_2H_FW_FORTSTERLING_BANNER",
+    "en": "UNIQUE_UNLOCK_VANITY_2H_FW_FORTSTERLING_BANNER",
+    "es": "UNIQUE_UNLOCK_VANITY_2H_FW_FORTSTERLING_BANNER"
+  },
+  "T8_ARTEFACT_2H_HARPOON_HELL": {
+    "id": "T8_ARTEFACT_2H_HARPOON_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_UNDEAD": {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_MAIN_FIRESTAFF_KEEPER": {
+    "id": "T8_MAIN_FIRESTAFF_KEEPER",
+    "pt": "T8_MAIN_FIRESTAFF_KEEPER",
+    "en": "T8_MAIN_FIRESTAFF_KEEPER",
+    "es": "T8_MAIN_FIRESTAFF_KEEPER"
+  },
+  "T8_RANDOM_DUNGEON_SOLO_TOKEN_2": {
+    "id": "T8_RANDOM_DUNGEON_SOLO_TOKEN_2",
+    "pt": "T8_RANDOM_DUNGEON_SOLO_TOKEN_2",
+    "en": "T8_RANDOM_DUNGEON_SOLO_TOKEN_2",
+    "es": "T8_RANDOM_DUNGEON_SOLO_TOKEN_2"
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_FEY": {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_FEY",
+    "pt": "T8_ARTEFACT_ARMOR_LEATHER_FEY",
+    "en": "T8_ARTEFACT_ARMOR_LEATHER_FEY",
+    "es": "T8_ARTEFACT_ARMOR_LEATHER_FEY"
+  },
+  "T8_SKILLBOOK_GATHER_ROCK": {
+    "id": "T8_SKILLBOOK_GATHER_ROCK",
+    "pt": "T8_SKILLBOOK_GATHER_ROCK",
+    "en": "T8_SKILLBOOK_GATHER_ROCK",
+    "es": "T8_SKILLBOOK_GATHER_ROCK"
+  },
+  "T8_ARMOR_LEATHER_UNDEAD": {
+    "id": "T8_ARMOR_LEATHER_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ARTEFACT_MAIN_SPEAR_KEEPER": {
+    "id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+    "pt": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+    "en": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
+    "es": "T8_ARTEFACT_MAIN_SPEAR_KEEPER"
+  },
+  "T8_SHOES_CLOTH_SET3": {
+    "id": "T8_SHOES_CLOTH_SET3",
+    "pt": "T8_SHOES_CLOTH_SET3",
+    "en": "T8_SHOES_CLOTH_SET3",
+    "es": "T8_SHOES_CLOTH_SET3"
+  },
+  "T8_ARTEFACT_2H_FIRESTAFF_HELL": {
+    "id": "T8_ARTEFACT_2H_FIRESTAFF_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_CLOTH": {
+    "id": "T8_CLOTH",
+    "pt": "T8_CLOTH",
+    "en": "T8_CLOTH",
+    "es": "T8_CLOTH"
+  },
+  "T8_METALBAR": {
+    "id": "T8_METALBAR",
+    "pt": "T8_METALBAR",
+    "en": "T8_METALBAR",
+    "es": "T8_METALBAR"
+  },
+  "T8_JOURNAL_FISHING": {
+    "id": "T8_JOURNAL_FISHING",
+    "pt": "T8_JOURNAL_FISHING",
+    "en": "T8_JOURNAL_FISHING",
+    "es": "T8_JOURNAL_FISHING"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_17_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_17_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_17_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_17_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_17_1ST"
+  },
+  "T8_ARTEFACT_MAIN_FROSTSTAFF_AVALON": {
+    "id": "T8_ARTEFACT_MAIN_FROSTSTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_CROSSBOWLARGE": {
+    "id": "T8_2H_CROSSBOWLARGE",
+    "pt": "T8_2H_CROSSBOWLARGE",
+    "en": "T8_2H_CROSSBOWLARGE",
+    "es": "T8_2H_CROSSBOWLARGE"
+  },
+  "T8_2H_ENIGMATICSTAFF": {
+    "id": "T8_2H_ENIGMATICSTAFF",
+    "pt": "T8_2H_ENIGMATICSTAFF",
+    "en": "T8_2H_ENIGMATICSTAFF",
+    "es": "T8_2H_ENIGMATICSTAFF"
+  },
+  "T8_ARTEFACT_MAIN_FIRESTAFF_KEEPER": {
+    "id": "T8_ARTEFACT_MAIN_FIRESTAFF_KEEPER",
+    "pt": "T8_ARTEFACT_MAIN_FIRESTAFF_KEEPER",
+    "en": "T8_ARTEFACT_MAIN_FIRESTAFF_KEEPER",
+    "es": "T8_ARTEFACT_MAIN_FIRESTAFF_KEEPER"
+  },
+  "T8_SHOES_CLOTH_SET1": {
+    "id": "T8_SHOES_CLOTH_SET1",
+    "pt": "T8_SHOES_CLOTH_SET1",
+    "en": "T8_SHOES_CLOTH_SET1",
+    "es": "T8_SHOES_CLOTH_SET1"
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_AVALON": {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_KNUCKLES_SET3": {
+    "id": "T8_2H_KNUCKLES_SET3",
+    "pt": "T8_2H_KNUCKLES_SET3",
+    "en": "T8_2H_KNUCKLES_SET3",
+    "es": "T8_2H_KNUCKLES_SET3"
+  },
+  "T8_FURNITUREITEM_TABLE": {
+    "id": "T8_FURNITUREITEM_TABLE",
+    "pt": "T8_FURNITUREITEM_TABLE",
+    "en": "T8_FURNITUREITEM_TABLE",
+    "es": "T8_FURNITUREITEM_TABLE"
+  },
+  "T8_FARM_COW_BABY": {
+    "id": "T8_FARM_COW_BABY",
+    "pt": "T8_FARM_COW_BABY",
+    "en": "T8_FARM_COW_BABY",
+    "es": "T8_FARM_COW_BABY"
+  },
+  "T8_ARTEFACT_HEAD_PLATE_FEY": {
+    "id": "T8_ARTEFACT_HEAD_PLATE_FEY",
+    "pt": "T8_ARTEFACT_HEAD_PLATE_FEY",
+    "en": "T8_ARTEFACT_HEAD_PLATE_FEY",
+    "es": "T8_ARTEFACT_HEAD_PLATE_FEY"
+  },
+  "T8_2H_CROSSBOW_CANNON_AVALON": {
+    "id": "T8_2H_CROSSBOW_CANNON_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_CAPEITEM_FW_MARTLOCK": {
+    "id": "T8_CAPEITEM_FW_MARTLOCK",
+    "pt": "T8_CAPEITEM_FW_MARTLOCK",
+    "en": "T8_CAPEITEM_FW_MARTLOCK",
+    "es": "T8_CAPEITEM_FW_MARTLOCK"
+  },
+  "T8_2H_TWINSCYTHE_HELL": {
+    "id": "T8_2H_TWINSCYTHE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_BUTTER": {
+    "id": "T8_BUTTER",
+    "pt": "T8_BUTTER",
+    "en": "T8_BUTTER",
+    "es": "T8_BUTTER"
+  },
+  "T8_ARMOR_PLATE_ROYAL": {
+    "id": "T8_ARMOR_PLATE_ROYAL",
+    "pt": "T8_ARMOR_PLATE_ROYAL",
+    "en": "T8_ARMOR_PLATE_ROYAL",
+    "es": "T8_ARMOR_PLATE_ROYAL"
+  },
+  "T8_CLOTH_LEVEL1": {
+    "id": "T8_CLOTH_LEVEL1",
+    "pt": "T8_CLOTH_LEVEL1",
+    "en": "T8_CLOTH_LEVEL1",
+    "es": "T8_CLOTH_LEVEL1"
+  },
+  "T8_2H_POLEHAMMER": {
+    "id": "T8_2H_POLEHAMMER",
+    "pt": "Martelo",
+    "en": "Hammer",
+    "es": "Martillo"
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_FEY": {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_FEY",
+    "pt": "T8_ARTEFACT_SHOES_CLOTH_FEY",
+    "en": "T8_ARTEFACT_SHOES_CLOTH_FEY",
+    "es": "T8_ARTEFACT_SHOES_CLOTH_FEY"
+  },
+  "T8_RANDOM_DUNGEON_TOKEN_4": {
+    "id": "T8_RANDOM_DUNGEON_TOKEN_4",
+    "pt": "T8_RANDOM_DUNGEON_TOKEN_4",
+    "en": "T8_RANDOM_DUNGEON_TOKEN_4",
+    "es": "T8_RANDOM_DUNGEON_TOKEN_4"
+  },
+  "T8_LOOTBAG_ARENA_RANK_UP_CRYSTAL": {
+    "id": "T8_LOOTBAG_ARENA_RANK_UP_CRYSTAL",
+    "pt": "T8_LOOTBAG_ARENA_RANK_UP_CRYSTAL",
+    "en": "T8_LOOTBAG_ARENA_RANK_UP_CRYSTAL",
+    "es": "T8_LOOTBAG_ARENA_RANK_UP_CRYSTAL"
+  },
+  "T8_CAPEITEM_FW_THETFORD": {
+    "id": "T8_CAPEITEM_FW_THETFORD",
+    "pt": "T8_CAPEITEM_FW_THETFORD",
+    "en": "T8_CAPEITEM_FW_THETFORD",
+    "es": "T8_CAPEITEM_FW_THETFORD"
+  },
+  "T8_METALBAR_LEVEL1": {
+    "id": "T8_METALBAR_LEVEL1",
+    "pt": "T8_METALBAR_LEVEL1",
+    "en": "T8_METALBAR_LEVEL1",
+    "es": "T8_METALBAR_LEVEL1"
+  },
+  "T8_ARTEFACT_MAIN_HOLYSTAFF_MORGANA": {
+    "id": "T8_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+    "pt": "T8_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+    "en": "T8_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+    "es": "T8_ARTEFACT_MAIN_HOLYSTAFF_MORGANA"
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_AVALON": {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_MILK": {
+    "id": "T8_MILK",
+    "pt": "T8_MILK",
+    "en": "T8_MILK",
+    "es": "T8_MILK"
+  },
+  "T8_ARMOR_PLATE_SET2": {
+    "id": "T8_ARMOR_PLATE_SET2",
+    "pt": "T8_ARMOR_PLATE_SET2",
+    "en": "T8_ARMOR_PLATE_SET2",
+    "es": "T8_ARMOR_PLATE_SET2"
+  },
+  "T8_HEAD_CLOTH_ROYAL": {
+    "id": "T8_HEAD_CLOTH_ROYAL",
+    "pt": "T8_HEAD_CLOTH_ROYAL",
+    "en": "T8_HEAD_CLOTH_ROYAL",
+    "es": "T8_HEAD_CLOTH_ROYAL"
+  },
+  "T8_ARTEFACT_2H_DUALHAMMER_HELL": {
+    "id": "T8_ARTEFACT_2H_DUALHAMMER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_HEAD_PLATE_AVALON": {
+    "id": "T8_HEAD_PLATE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARMOR_LEATHER_SET2": {
+    "id": "T8_ARMOR_LEATHER_SET2",
+    "pt": "T8_ARMOR_LEATHER_SET2",
+    "en": "T8_ARMOR_LEATHER_SET2",
+    "es": "T8_ARMOR_LEATHER_SET2"
+  },
+  "T8_SKILLBOOK_GATHER_HIDE": {
+    "id": "T8_SKILLBOOK_GATHER_HIDE",
+    "pt": "T8_SKILLBOOK_GATHER_HIDE",
+    "en": "T8_SKILLBOOK_GATHER_HIDE",
+    "es": "T8_SKILLBOOK_GATHER_HIDE"
+  },
+  "T8_MAIN_SWORD": {
+    "id": "T8_MAIN_SWORD",
+    "pt": "T8_MAIN_SWORD",
+    "en": "T8_MAIN_SWORD",
+    "es": "T8_MAIN_SWORD"
+  },
+  "T8_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON": {
+    "id": "T8_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "UNIQUE_MOUNT_TANKBEETLE_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_TANKBEETLE_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_TANKBEETLE_CRYSTAL",
+    "en": "UNIQUE_MOUNT_TANKBEETLE_CRYSTAL",
+    "es": "UNIQUE_MOUNT_TANKBEETLE_CRYSTAL"
+  },
+  "T8_ARTEFACT_SHOES_PLATE_HELL": {
+    "id": "T8_ARTEFACT_SHOES_PLATE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_SHOES_CLOTH_HELL": {
+    "id": "T8_SHOES_CLOTH_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_WOOD_LEVEL4": {
+    "id": "T8_WOOD_LEVEL4",
+    "pt": "T8_WOOD_LEVEL4",
+    "en": "T8_WOOD_LEVEL4",
+    "es": "T8_WOOD_LEVEL4"
+  },
+  "T8_MOUNT_RAM_FW_MARTLOCK_ELITE": {
+    "id": "T8_MOUNT_RAM_FW_MARTLOCK_ELITE",
+    "pt": "T8_MOUNT_RAM_FW_MARTLOCK_ELITE",
+    "en": "T8_MOUNT_RAM_FW_MARTLOCK_ELITE",
+    "es": "T8_MOUNT_RAM_FW_MARTLOCK_ELITE"
+  },
+  "T8_ARTEFACT_2H_ICEGAUNTLETS_HELL": {
+    "id": "T8_ARTEFACT_2H_ICEGAUNTLETS_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "UNIQUE_AVATARRING_GVGSEASONREWARD_CRYSTAL": {
+    "id": "UNIQUE_AVATARRING_GVGSEASONREWARD_CRYSTAL",
+    "pt": "UNIQUE_AVATARRING_GVGSEASONREWARD_CRYSTAL",
+    "en": "UNIQUE_AVATARRING_GVGSEASONREWARD_CRYSTAL",
+    "es": "UNIQUE_AVATARRING_GVGSEASONREWARD_CRYSTAL"
+  },
+  "T8_2H_ARCANESTAFF_HELL": {
+    "id": "T8_2H_ARCANESTAFF_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_HEAD_LEATHER_HELL": {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_CAPEITEM_FW_CAERLEON_BP": {
+    "id": "T8_CAPEITEM_FW_CAERLEON_BP",
+    "pt": "T8_CAPEITEM_FW_CAERLEON_BP",
+    "en": "T8_CAPEITEM_FW_CAERLEON_BP",
+    "es": "T8_CAPEITEM_FW_CAERLEON_BP"
+  },
+  "T8_SHOES_LEATHER_SET3": {
+    "id": "T8_SHOES_LEATHER_SET3",
+    "pt": "T8_SHOES_LEATHER_SET3",
+    "en": "T8_SHOES_LEATHER_SET3",
+    "es": "T8_SHOES_LEATHER_SET3"
+  },
+  "T8_LABOURER_CONTRACT_ORE": {
+    "id": "T8_LABOURER_CONTRACT_ORE",
+    "pt": "T8_LABOURER_CONTRACT_ORE",
+    "en": "T8_LABOURER_CONTRACT_ORE",
+    "es": "T8_LABOURER_CONTRACT_ORE"
+  },
+  "T8_HEAD_PLATE_HELL": {
+    "id": "T8_HEAD_PLATE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_LABOURER_CONTRACT_TOOLMAKER": {
+    "id": "T8_LABOURER_CONTRACT_TOOLMAKER",
+    "pt": "Ferramenta",
+    "en": "Tool",
+    "es": "Herramienta"
+  },
+  "T8_HELLGATE_10V10_LETHAL_1_MAP": {
+    "id": "T8_HELLGATE_10V10_LETHAL_1_MAP",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_CAPEITEM_UNDEAD_BP": {
+    "id": "T8_CAPEITEM_UNDEAD_BP",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_CLAYMORE_AVALON": {
+    "id": "T8_2H_CLAYMORE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_JOURNAL_TROPHY_ORE": {
+    "id": "T8_JOURNAL_TROPHY_ORE",
+    "pt": "T8_JOURNAL_TROPHY_ORE",
+    "en": "T8_JOURNAL_TROPHY_ORE",
+    "es": "T8_JOURNAL_TROPHY_ORE"
+  },
+  "T8_FIBER_LEVEL4": {
+    "id": "T8_FIBER_LEVEL4",
+    "pt": "T8_FIBER_LEVEL4",
+    "en": "T8_FIBER_LEVEL4",
+    "es": "T8_FIBER_LEVEL4"
+  },
+  "T8_2H_LONGBOW": {
+    "id": "T8_2H_LONGBOW",
+    "pt": "T8_2H_LONGBOW",
+    "en": "T8_2H_LONGBOW",
+    "es": "T8_2H_LONGBOW"
+  },
+  "T8_HEAD_CLOTH_MORGANA": {
+    "id": "T8_HEAD_CLOTH_MORGANA",
+    "pt": "T8_HEAD_CLOTH_MORGANA",
+    "en": "T8_HEAD_CLOTH_MORGANA",
+    "es": "T8_HEAD_CLOTH_MORGANA"
+  },
+  "UNIQUE_UNLOCK_VANITY_2H_FW_LYMHURST_BANNER": {
+    "id": "UNIQUE_UNLOCK_VANITY_2H_FW_LYMHURST_BANNER",
+    "pt": "UNIQUE_UNLOCK_VANITY_2H_FW_LYMHURST_BANNER",
+    "en": "UNIQUE_UNLOCK_VANITY_2H_FW_LYMHURST_BANNER",
+    "es": "UNIQUE_UNLOCK_VANITY_2H_FW_LYMHURST_BANNER"
+  },
+  "T8_ARTEFACT_2H_DUALMACE_AVALON": {
+    "id": "T8_ARTEFACT_2H_DUALMACE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_SHOES_LEATHER_AVALON": {
+    "id": "T8_SHOES_LEATHER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_FEY": {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_FEY",
+    "pt": "T8_ARTEFACT_ARMOR_CLOTH_FEY",
+    "en": "T8_ARTEFACT_ARMOR_CLOTH_FEY",
+    "es": "T8_ARTEFACT_ARMOR_CLOTH_FEY"
+  },
+  "T8_2H_INFERNOSTAFF": {
+    "id": "T8_2H_INFERNOSTAFF",
+    "pt": "T8_2H_INFERNOSTAFF",
+    "en": "T8_2H_INFERNOSTAFF",
+    "es": "T8_2H_INFERNOSTAFF"
+  },
+  "T8_HIDE_LEVEL1": {
+    "id": "T8_HIDE_LEVEL1",
+    "pt": "T8_HIDE_LEVEL1",
+    "en": "T8_HIDE_LEVEL1",
+    "es": "T8_HIDE_LEVEL1"
+  },
+  "T8_2H_TOOL_HAMMER_AVALON": {
+    "id": "T8_2H_TOOL_HAMMER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "UNIQUE_MOUNT_BEHEMOTH_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_BEHEMOTH_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_BEHEMOTH_CRYSTAL",
+    "en": "UNIQUE_MOUNT_BEHEMOTH_CRYSTAL",
+    "es": "UNIQUE_MOUNT_BEHEMOTH_CRYSTAL"
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_AVALON": {
+    "id": "T8_ARTEFACT_ARMOR_PLATE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_LOOTBAG_ARENA_RANK_UP_9": {
+    "id": "T8_LOOTBAG_ARENA_RANK_UP_9",
+    "pt": "T8_LOOTBAG_ARENA_RANK_UP_9",
+    "en": "T8_LOOTBAG_ARENA_RANK_UP_9",
+    "es": "T8_LOOTBAG_ARENA_RANK_UP_9"
+  },
+  "UNIQUE_ALTAR_OF_CHEATING": {
+    "id": "UNIQUE_ALTAR_OF_CHEATING",
+    "pt": "UNIQUE_ALTAR_OF_CHEATING",
+    "en": "UNIQUE_ALTAR_OF_CHEATING",
+    "es": "UNIQUE_ALTAR_OF_CHEATING"
+  },
+  "T8_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA": {
+    "id": "T8_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
+    "pt": "T8_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
+    "en": "T8_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
+    "es": "T8_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_MORGANA": {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_MORGANA",
+    "pt": "T8_ARTEFACT_SHOES_LEATHER_MORGANA",
+    "en": "T8_ARTEFACT_SHOES_LEATHER_MORGANA",
+    "es": "T8_ARTEFACT_SHOES_LEATHER_MORGANA"
+  },
+  "T8_MAIN_SCIMITAR_MORGANA": {
+    "id": "T8_MAIN_SCIMITAR_MORGANA",
+    "pt": "T8_MAIN_SCIMITAR_MORGANA",
+    "en": "T8_MAIN_SCIMITAR_MORGANA",
+    "es": "T8_MAIN_SCIMITAR_MORGANA"
+  },
+  "T8_ARMOR_CLOTH_ROYAL": {
+    "id": "T8_ARMOR_CLOTH_ROYAL",
+    "pt": "T8_ARMOR_CLOTH_ROYAL",
+    "en": "T8_ARMOR_CLOTH_ROYAL",
+    "es": "T8_ARMOR_CLOTH_ROYAL"
+  },
+  "UNIQUE_UNLOCK_VANITY_2H_FW_MARTLOCK_BANNER": {
+    "id": "UNIQUE_UNLOCK_VANITY_2H_FW_MARTLOCK_BANNER",
+    "pt": "UNIQUE_UNLOCK_VANITY_2H_FW_MARTLOCK_BANNER",
+    "en": "UNIQUE_UNLOCK_VANITY_2H_FW_MARTLOCK_BANNER",
+    "es": "UNIQUE_UNLOCK_VANITY_2H_FW_MARTLOCK_BANNER"
+  },
+  "T8_MAIN_SPEAR_LANCE_AVALON": {
+    "id": "T8_MAIN_SPEAR_LANCE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARMOR_GATHERER_ROCK": {
+    "id": "T8_ARMOR_GATHERER_ROCK",
+    "pt": "T8_ARMOR_GATHERER_ROCK",
+    "en": "T8_ARMOR_GATHERER_ROCK",
+    "es": "T8_ARMOR_GATHERER_ROCK"
+  },
+  "T8_HEAD_LEATHER_UNDEAD": {
+    "id": "T8_HEAD_LEATHER_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_KNUCKLES_SET1": {
+    "id": "T8_2H_KNUCKLES_SET1",
+    "pt": "T8_2H_KNUCKLES_SET1",
+    "en": "T8_2H_KNUCKLES_SET1",
+    "es": "T8_2H_KNUCKLES_SET1"
+  },
+  "T8_HEAD_GATHERER_HIDE": {
+    "id": "T8_HEAD_GATHERER_HIDE",
+    "pt": "T8_HEAD_GATHERER_HIDE",
+    "en": "T8_HEAD_GATHERER_HIDE",
+    "es": "T8_HEAD_GATHERER_HIDE"
+  },
+  "T7_MEAL_PIE": {
+    "id": "T7_MEAL_PIE",
+    "pt": "T7_MEAL_PIE",
+    "en": "T7_MEAL_PIE",
+    "es": "T7_MEAL_PIE"
+  },
+  "T8_CAPEITEM_MORGANA_BP": {
+    "id": "T8_CAPEITEM_MORGANA_BP",
+    "pt": "T8_CAPEITEM_MORGANA_BP",
+    "en": "T8_CAPEITEM_MORGANA_BP",
+    "es": "T8_CAPEITEM_MORGANA_BP"
+  },
+  "T8_RANDOM_DUNGEON_ELITE_TOKEN_2": {
+    "id": "T8_RANDOM_DUNGEON_ELITE_TOKEN_2",
+    "pt": "T8_RANDOM_DUNGEON_ELITE_TOKEN_2",
+    "en": "T8_RANDOM_DUNGEON_ELITE_TOKEN_2",
+    "es": "T8_RANDOM_DUNGEON_ELITE_TOKEN_2"
+  },
+  "T8_SHOES_PLATE_HELL": {
+    "id": "T8_SHOES_PLATE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_HEAD_PLATE_KEEPER": {
+    "id": "T8_HEAD_PLATE_KEEPER",
+    "pt": "T8_HEAD_PLATE_KEEPER",
+    "en": "T8_HEAD_PLATE_KEEPER",
+    "es": "T8_HEAD_PLATE_KEEPER"
+  },
+  "T8_2H_CURSEDSTAFF_MORGANA": {
+    "id": "T8_2H_CURSEDSTAFF_MORGANA",
+    "pt": "T8_2H_CURSEDSTAFF_MORGANA",
+    "en": "T8_2H_CURSEDSTAFF_MORGANA",
+    "es": "T8_2H_CURSEDSTAFF_MORGANA"
+  },
+  "T8_MEAL_STEW": {
+    "id": "T8_MEAL_STEW",
+    "pt": "T8_MEAL_STEW",
+    "en": "T8_MEAL_STEW",
+    "es": "T8_MEAL_STEW"
+  },
+  "T8_ARMOR_LEATHER_MORGANA": {
+    "id": "T8_ARMOR_LEATHER_MORGANA",
+    "pt": "T8_ARMOR_LEATHER_MORGANA",
+    "en": "T8_ARMOR_LEATHER_MORGANA",
+    "es": "T8_ARMOR_LEATHER_MORGANA"
+  },
+  "UNIQUE_AVATARRING_GVGSEASONREWARD_1ST": {
+    "id": "UNIQUE_AVATARRING_GVGSEASONREWARD_1ST",
+    "pt": "UNIQUE_AVATARRING_GVGSEASONREWARD_1ST",
+    "en": "UNIQUE_AVATARRING_GVGSEASONREWARD_1ST",
+    "es": "UNIQUE_AVATARRING_GVGSEASONREWARD_1ST"
+  },
+  "T8_LEATHER_LEVEL1": {
+    "id": "T8_LEATHER_LEVEL1",
+    "pt": "T8_LEATHER_LEVEL1",
+    "en": "T8_LEATHER_LEVEL1",
+    "es": "T8_LEATHER_LEVEL1"
+  },
+  "T8_ARTEFACT_2H_HAMMER_UNDEAD": {
+    "id": "T8_ARTEFACT_2H_HAMMER_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_FARM_HORSE_BABY": {
+    "id": "T8_FARM_HORSE_BABY",
+    "pt": "T8_FARM_HORSE_BABY",
+    "en": "T8_FARM_HORSE_BABY",
+    "es": "T8_FARM_HORSE_BABY"
+  },
+  "T8_ARTEFACT_2H_ARCANESTAFF_HELL": {
+    "id": "T8_ARTEFACT_2H_ARCANESTAFF_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_MAIN_FROSTSTAFF_AVALON": {
+    "id": "T8_MAIN_FROSTSTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_ICECRYSTAL_UNDEAD": {
+    "id": "T8_2H_ICECRYSTAL_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_QUARTERSTAFF_AVALON": {
+    "id": "T8_2H_QUARTERSTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARTEFACT_OFF_TOWERSHIELD_UNDEAD": {
+    "id": "T8_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_HELL": {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_KEEPER": {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_KEEPER",
+    "pt": "T8_ARTEFACT_HEAD_CLOTH_KEEPER",
+    "en": "T8_ARTEFACT_HEAD_CLOTH_KEEPER",
+    "es": "T8_ARTEFACT_HEAD_CLOTH_KEEPER"
+  },
+  "T8_2H_KNUCKLES_SET2": {
+    "id": "T8_2H_KNUCKLES_SET2",
+    "pt": "T8_2H_KNUCKLES_SET2",
+    "en": "T8_2H_KNUCKLES_SET2",
+    "es": "T8_2H_KNUCKLES_SET2"
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_UNDEAD": {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_CAPE": {
+    "id": "T8_CAPE",
+    "pt": "T8_CAPE",
+    "en": "T8_CAPE",
+    "es": "T8_CAPE"
+  },
+  "T8_2H_DAGGERPAIR": {
+    "id": "T8_2H_DAGGERPAIR",
+    "pt": "T8_2H_DAGGERPAIR",
+    "en": "T8_2H_DAGGERPAIR",
+    "es": "T8_2H_DAGGERPAIR"
+  },
+  "T8_ARMOR_PLATE_SET1": {
+    "id": "T8_ARMOR_PLATE_SET1",
+    "pt": "T8_ARMOR_PLATE_SET1",
+    "en": "T8_ARMOR_PLATE_SET1",
+    "es": "T8_ARMOR_PLATE_SET1"
+  },
+  "T8_YARROW": {
+    "id": "T8_YARROW",
+    "pt": "T8_YARROW",
+    "en": "T8_YARROW",
+    "es": "T8_YARROW"
+  },
+  "T8_ARTEFACT_SHOES_PLATE_UNDEAD": {
+    "id": "T8_ARTEFACT_SHOES_PLATE_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_LABOURER_CONTRACT_HUNTER": {
+    "id": "T8_LABOURER_CONTRACT_HUNTER",
+    "pt": "T8_LABOURER_CONTRACT_HUNTER",
+    "en": "T8_LABOURER_CONTRACT_HUNTER",
+    "es": "T8_LABOURER_CONTRACT_HUNTER"
+  },
+  "T8_MAIN_FIRESTAFF": {
+    "id": "T8_MAIN_FIRESTAFF",
+    "pt": "T8_MAIN_FIRESTAFF",
+    "en": "T8_MAIN_FIRESTAFF",
+    "es": "T8_MAIN_FIRESTAFF"
+  },
+  "T8_MEAL_SANDWICH_AVALON": {
+    "id": "T8_MEAL_SANDWICH_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_OFF_BOOK": {
+    "id": "T8_OFF_BOOK",
+    "pt": "T8_OFF_BOOK",
+    "en": "T8_OFF_BOOK",
+    "es": "T8_OFF_BOOK"
+  },
+  "T8_SHOES_PLATE_SET3": {
+    "id": "T8_SHOES_PLATE_SET3",
+    "pt": "T8_SHOES_PLATE_SET3",
+    "en": "T8_SHOES_PLATE_SET3",
+    "es": "T8_SHOES_PLATE_SET3"
+  },
+  "T8_ARTEFACT_TOKEN_FAVOR_1": {
+    "id": "T8_ARTEFACT_TOKEN_FAVOR_1",
+    "pt": "T8_ARTEFACT_TOKEN_FAVOR_1",
+    "en": "T8_ARTEFACT_TOKEN_FAVOR_1",
+    "es": "T8_ARTEFACT_TOKEN_FAVOR_1"
+  },
+  "T8_ORE": {
+    "id": "T8_ORE",
+    "pt": "T8_ORE",
+    "en": "T8_ORE",
+    "es": "T8_ORE"
+  },
+  "T8_FURNITUREITEM_TROPHY_WOOD": {
+    "id": "T8_FURNITUREITEM_TROPHY_WOOD",
+    "pt": "T8_FURNITUREITEM_TROPHY_WOOD",
+    "en": "T8_FURNITUREITEM_TROPHY_WOOD",
+    "es": "T8_FURNITUREITEM_TROPHY_WOOD"
+  },
+  "T8_FARM_HORSE_GROWN": {
+    "id": "T8_FARM_HORSE_GROWN",
+    "pt": "T8_FARM_HORSE_GROWN",
+    "en": "T8_FARM_HORSE_GROWN",
+    "es": "T8_FARM_HORSE_GROWN"
+  },
+  "T8_ARTEFACT_ARMOR_LEATHER_AVALON": {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_SHOES_LEATHER_HELL": {
+    "id": "T8_SHOES_LEATHER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "TREASURE_AVALON_RARITY3": {
+    "id": "TREASURE_AVALON_RARITY3",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_METALBAR_LEVEL2": {
+    "id": "T8_METALBAR_LEVEL2",
+    "pt": "T8_METALBAR_LEVEL2",
+    "en": "T8_METALBAR_LEVEL2",
+    "es": "T8_METALBAR_LEVEL2"
+  },
+  "T8_MEAL_SANDWICH_FISH": {
+    "id": "T8_MEAL_SANDWICH_FISH",
+    "pt": "T8_MEAL_SANDWICH_FISH",
+    "en": "T8_MEAL_SANDWICH_FISH",
+    "es": "T8_MEAL_SANDWICH_FISH"
+  },
+  "T8_CAPEITEM_FW_LYMHURST": {
+    "id": "T8_CAPEITEM_FW_LYMHURST",
+    "pt": "T8_CAPEITEM_FW_LYMHURST",
+    "en": "T8_CAPEITEM_FW_LYMHURST",
+    "es": "T8_CAPEITEM_FW_LYMHURST"
+  },
+  "T8_2H_ARCANE_RINGPAIR_AVALON": {
+    "id": "T8_2H_ARCANE_RINGPAIR_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_SPEAR": {
+    "id": "T8_2H_SPEAR",
+    "pt": "T8_2H_SPEAR",
+    "en": "T8_2H_SPEAR",
+    "es": "T8_2H_SPEAR"
+  },
+  "UNIQUE_AVATAR_GVGSEASON_14_CRYSTAL": {
+    "id": "UNIQUE_AVATAR_GVGSEASON_14_CRYSTAL",
+    "pt": "UNIQUE_AVATAR_GVGSEASON_14_CRYSTAL",
+    "en": "UNIQUE_AVATAR_GVGSEASON_14_CRYSTAL",
+    "es": "UNIQUE_AVATAR_GVGSEASON_14_CRYSTAL"
+  },
+  "T8_ARTEFACT_MAIN_DAGGER_HELL": {
+    "id": "T8_ARTEFACT_MAIN_DAGGER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_SHOES_CLOTH_FEY": {
+    "id": "T8_SHOES_CLOTH_FEY",
+    "pt": "T8_SHOES_CLOTH_FEY",
+    "en": "T8_SHOES_CLOTH_FEY",
+    "es": "T8_SHOES_CLOTH_FEY"
+  },
+  "T8_OFF_LAMP_UNDEAD": {
+    "id": "T8_OFF_LAMP_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_CLOTH_LEVEL2": {
+    "id": "T8_CLOTH_LEVEL2",
+    "pt": "T8_CLOTH_LEVEL2",
+    "en": "T8_CLOTH_LEVEL2",
+    "es": "T8_CLOTH_LEVEL2"
+  },
+  "T8_ARTEFACT_TOKEN_FAVOR_3": {
+    "id": "T8_ARTEFACT_TOKEN_FAVOR_3",
+    "pt": "T8_ARTEFACT_TOKEN_FAVOR_3",
+    "en": "T8_ARTEFACT_TOKEN_FAVOR_3",
+    "es": "T8_ARTEFACT_TOKEN_FAVOR_3"
+  },
+  "T8_LABOURER_CONTRACT_FIBER": {
+    "id": "T8_LABOURER_CONTRACT_FIBER",
+    "pt": "T8_LABOURER_CONTRACT_FIBER",
+    "en": "T8_LABOURER_CONTRACT_FIBER",
+    "es": "T8_LABOURER_CONTRACT_FIBER"
+  },
+  "T8_MEAL_SANDWICH": {
+    "id": "T8_MEAL_SANDWICH",
+    "pt": "T8_MEAL_SANDWICH",
+    "en": "T8_MEAL_SANDWICH",
+    "es": "T8_MEAL_SANDWICH"
+  },
+  "T8_MAIN_NATURESTAFF": {
+    "id": "T8_MAIN_NATURESTAFF",
+    "pt": "T8_MAIN_NATURESTAFF",
+    "en": "T8_MAIN_NATURESTAFF",
+    "es": "T8_MAIN_NATURESTAFF"
+  },
+  "UNIQUE_AVATAR_GVGSEASON_19_CRYSTAL": {
+    "id": "UNIQUE_AVATAR_GVGSEASON_19_CRYSTAL",
+    "pt": "UNIQUE_AVATAR_GVGSEASON_19_CRYSTAL",
+    "en": "UNIQUE_AVATAR_GVGSEASON_19_CRYSTAL",
+    "es": "UNIQUE_AVATAR_GVGSEASON_19_CRYSTAL"
+  },
+  "T8_ARTEFACT_2H_KNUCKLES_HELL": {
+    "id": "T8_ARTEFACT_2H_KNUCKLES_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T7_POTION_REVIVE": {
+    "id": "T7_POTION_REVIVE",
+    "pt": "T7_POTION_REVIVE",
+    "en": "T7_POTION_REVIVE",
+    "es": "T7_POTION_REVIVE"
+  },
+  "T8_ARMOR_CLOTH_HELL": {
+    "id": "T8_ARMOR_CLOTH_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_JOURNAL_MAGE": {
+    "id": "T8_JOURNAL_MAGE",
+    "pt": "T8_JOURNAL_MAGE",
+    "en": "T8_JOURNAL_MAGE",
+    "es": "T8_JOURNAL_MAGE"
+  },
+  "T8_HEAD_GATHERER_WOOD": {
+    "id": "T8_HEAD_GATHERER_WOOD",
+    "pt": "T8_HEAD_GATHERER_WOOD",
+    "en": "T8_HEAD_GATHERER_WOOD",
+    "es": "T8_HEAD_GATHERER_WOOD"
+  },
+  "T8_CAPEITEM_HERETIC": {
+    "id": "T8_CAPEITEM_HERETIC",
+    "pt": "T8_CAPEITEM_HERETIC",
+    "en": "T8_CAPEITEM_HERETIC",
+    "es": "T8_CAPEITEM_HERETIC"
+  },
+  "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY": {
+    "id": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
+    "pt": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
+    "en": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
+    "es": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY"
+  },
+  "T8_2H_DUALSWORD": {
+    "id": "T8_2H_DUALSWORD",
+    "pt": "T8_2H_DUALSWORD",
+    "en": "T8_2H_DUALSWORD",
+    "es": "T8_2H_DUALSWORD"
+  },
+  "T8_MOUNT_MAMMOTH_TRANSPORT": {
+    "id": "T8_MOUNT_MAMMOTH_TRANSPORT",
+    "pt": "T8_MOUNT_MAMMOTH_TRANSPORT",
+    "en": "T8_MOUNT_MAMMOTH_TRANSPORT",
+    "es": "T8_MOUNT_MAMMOTH_TRANSPORT"
+  },
+  "T8_JOURNAL_TOOLMAKER": {
+    "id": "T8_JOURNAL_TOOLMAKER",
+    "pt": "Ferramenta",
+    "en": "Tool",
+    "es": "Herramienta"
+  },
+  "UNIQUE_LOOTCHEST_BATTLEMOUNT_CRYSTAL": {
+    "id": "UNIQUE_LOOTCHEST_BATTLEMOUNT_CRYSTAL",
+    "pt": "UNIQUE_LOOTCHEST_BATTLEMOUNT_CRYSTAL",
+    "en": "UNIQUE_LOOTCHEST_BATTLEMOUNT_CRYSTAL",
+    "es": "UNIQUE_LOOTCHEST_BATTLEMOUNT_CRYSTAL"
+  },
+  "T8_SHOES_GATHERER_FISH": {
+    "id": "T8_SHOES_GATHERER_FISH",
+    "pt": "T8_SHOES_GATHERER_FISH",
+    "en": "T8_SHOES_GATHERER_FISH",
+    "es": "T8_SHOES_GATHERER_FISH"
+  },
+  "T8_FARM_RAM_FW_MARTLOCK_BABY": {
+    "id": "T8_FARM_RAM_FW_MARTLOCK_BABY",
+    "pt": "T8_FARM_RAM_FW_MARTLOCK_BABY",
+    "en": "T8_FARM_RAM_FW_MARTLOCK_BABY",
+    "es": "T8_FARM_RAM_FW_MARTLOCK_BABY"
+  },
+  "T8_MOUNTUPGRADE_HORSE_MORGANA": {
+    "id": "T8_MOUNTUPGRADE_HORSE_MORGANA",
+    "pt": "T8_MOUNTUPGRADE_HORSE_MORGANA",
+    "en": "T8_MOUNTUPGRADE_HORSE_MORGANA",
+    "es": "T8_MOUNTUPGRADE_HORSE_MORGANA"
+  },
+  "T8_ARTEFACT_OFF_SHIELD_HELL": {
+    "id": "T8_ARTEFACT_OFF_SHIELD_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_2H_DEMONICSTAFF": {
+    "id": "T8_2H_DEMONICSTAFF",
+    "pt": "T8_2H_DEMONICSTAFF",
+    "en": "T8_2H_DEMONICSTAFF",
+    "es": "T8_2H_DEMONICSTAFF"
+  },
+  "T8_MAIN_ARCANESTAFF_UNDEAD": {
+    "id": "T8_MAIN_ARCANESTAFF_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_MAIN_AXE": {
+    "id": "T8_MAIN_AXE",
+    "pt": "Machado",
+    "en": "Axe",
+    "es": "Hacha"
+  },
+  "T8_ARTEFACT_MAIN_FROSTSTAFF_KEEPER": {
+    "id": "T8_ARTEFACT_MAIN_FROSTSTAFF_KEEPER",
+    "pt": "T8_ARTEFACT_MAIN_FROSTSTAFF_KEEPER",
+    "en": "T8_ARTEFACT_MAIN_FROSTSTAFF_KEEPER",
+    "es": "T8_ARTEFACT_MAIN_FROSTSTAFF_KEEPER"
+  },
+  "T8_2H_HAMMER_AVALON": {
+    "id": "T8_2H_HAMMER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_HEAD_GATHERER_ROCK": {
+    "id": "T8_HEAD_GATHERER_ROCK",
+    "pt": "T8_HEAD_GATHERER_ROCK",
+    "en": "T8_HEAD_GATHERER_ROCK",
+    "es": "T8_HEAD_GATHERER_ROCK"
+  },
+  "T8_FURNITUREITEM_TROPHY_MERCENARY": {
+    "id": "T8_FURNITUREITEM_TROPHY_MERCENARY",
+    "pt": "T8_FURNITUREITEM_TROPHY_MERCENARY",
+    "en": "T8_FURNITUREITEM_TROPHY_MERCENARY",
+    "es": "T8_FURNITUREITEM_TROPHY_MERCENARY"
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_MORGANA": {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_MORGANA",
+    "pt": "T8_ARTEFACT_HEAD_CLOTH_MORGANA",
+    "en": "T8_ARTEFACT_HEAD_CLOTH_MORGANA",
+    "es": "T8_ARTEFACT_HEAD_CLOTH_MORGANA"
+  },
+  "T8_ARTEFACT_OFF_ORB_MORGANA": {
+    "id": "T8_ARTEFACT_OFF_ORB_MORGANA",
+    "pt": "T8_ARTEFACT_OFF_ORB_MORGANA",
+    "en": "T8_ARTEFACT_OFF_ORB_MORGANA",
+    "es": "T8_ARTEFACT_OFF_ORB_MORGANA"
+  },
+  "T8_SHOES_LEATHER_SET2": {
+    "id": "T8_SHOES_LEATHER_SET2",
+    "pt": "T8_SHOES_LEATHER_SET2",
+    "en": "T8_SHOES_LEATHER_SET2",
+    "es": "T8_SHOES_LEATHER_SET2"
+  },
+  "T8_SHARD_AVALONIAN": {
+    "id": "T8_SHARD_AVALONIAN",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_HEAD_CLOTH_FEY": {
+    "id": "T8_HEAD_CLOTH_FEY",
+    "pt": "T8_HEAD_CLOTH_FEY",
+    "en": "T8_HEAD_CLOTH_FEY",
+    "es": "T8_HEAD_CLOTH_FEY"
+  },
+  "T8_ROCK_LEVEL3": {
+    "id": "T8_ROCK_LEVEL3",
+    "pt": "T8_ROCK_LEVEL3",
+    "en": "T8_ROCK_LEVEL3",
+    "es": "T8_ROCK_LEVEL3"
+  },
+  "T8_JOURNAL_TROPHY_GENERAL": {
+    "id": "T8_JOURNAL_TROPHY_GENERAL",
+    "pt": "T8_JOURNAL_TROPHY_GENERAL",
+    "en": "T8_JOURNAL_TROPHY_GENERAL",
+    "es": "T8_JOURNAL_TROPHY_GENERAL"
+  },
+  "T8_FARM_DIREBOAR_FW_LYMHURST_BABY": {
+    "id": "T8_FARM_DIREBOAR_FW_LYMHURST_BABY",
+    "pt": "T8_FARM_DIREBOAR_FW_LYMHURST_BABY",
+    "en": "T8_FARM_DIREBOAR_FW_LYMHURST_BABY",
+    "es": "T8_FARM_DIREBOAR_FW_LYMHURST_BABY"
+  },
+  "T8_OFF_CENSER_AVALON": {
+    "id": "T8_OFF_CENSER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_MAIN_DAGGER": {
+    "id": "T8_MAIN_DAGGER",
+    "pt": "T8_MAIN_DAGGER",
+    "en": "T8_MAIN_DAGGER",
+    "es": "T8_MAIN_DAGGER"
+  },
+  "UNIQUE_LOOTCHEST_CONQUEROR_WEEKLY_REWARD": {
+    "id": "UNIQUE_LOOTCHEST_CONQUEROR_WEEKLY_REWARD",
+    "pt": "UNIQUE_LOOTCHEST_CONQUEROR_WEEKLY_REWARD",
+    "en": "UNIQUE_LOOTCHEST_CONQUEROR_WEEKLY_REWARD",
+    "es": "UNIQUE_LOOTCHEST_CONQUEROR_WEEKLY_REWARD"
+  },
+  "T8_2H_NATURESTAFF_KEEPER": {
+    "id": "T8_2H_NATURESTAFF_KEEPER",
+    "pt": "T8_2H_NATURESTAFF_KEEPER",
+    "en": "T8_2H_NATURESTAFF_KEEPER",
+    "es": "T8_2H_NATURESTAFF_KEEPER"
+  },
+  "T8_CAPEITEM_FW_BRIDGEWATCH_BP": {
+    "id": "T8_CAPEITEM_FW_BRIDGEWATCH_BP",
+    "pt": "T8_CAPEITEM_FW_BRIDGEWATCH_BP",
+    "en": "T8_CAPEITEM_FW_BRIDGEWATCH_BP",
+    "es": "T8_CAPEITEM_FW_BRIDGEWATCH_BP"
+  },
+  "T8_HEAD_CLOTH_SET2": {
+    "id": "T8_HEAD_CLOTH_SET2",
+    "pt": "T8_HEAD_CLOTH_SET2",
+    "en": "T8_HEAD_CLOTH_SET2",
+    "es": "T8_HEAD_CLOTH_SET2"
+  },
+  "T8_ARMOR_PLATE_FEY": {
+    "id": "T8_ARMOR_PLATE_FEY",
+    "pt": "T8_ARMOR_PLATE_FEY",
+    "en": "T8_ARMOR_PLATE_FEY",
+    "es": "T8_ARMOR_PLATE_FEY"
+  },
+  "T8_OFF_ORB_MORGANA": {
+    "id": "T8_OFF_ORB_MORGANA",
+    "pt": "T8_OFF_ORB_MORGANA",
+    "en": "T8_OFF_ORB_MORGANA",
+    "es": "T8_OFF_ORB_MORGANA"
+  },
+  "T8_ARTEFACT_OFF_JESTERCANE_HELL": {
+    "id": "T8_ARTEFACT_OFF_JESTERCANE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_SHOES_GATHERER_ROCK": {
+    "id": "T8_SHOES_GATHERER_ROCK",
+    "pt": "T8_SHOES_GATHERER_ROCK",
+    "en": "T8_SHOES_GATHERER_ROCK",
+    "es": "T8_SHOES_GATHERER_ROCK"
+  },
+  "T4_DEBUG_SHOES_HIDDEN": {
+    "id": "T4_DEBUG_SHOES_HIDDEN",
+    "pt": "T4_DEBUG_SHOES_HIDDEN",
+    "en": "T4_DEBUG_SHOES_HIDDEN",
+    "es": "T4_DEBUG_SHOES_HIDDEN"
+  },
+  "T8_CAPEITEM_FW_CAERLEON": {
+    "id": "T8_CAPEITEM_FW_CAERLEON",
+    "pt": "T8_CAPEITEM_FW_CAERLEON",
+    "en": "T8_CAPEITEM_FW_CAERLEON",
+    "es": "T8_CAPEITEM_FW_CAERLEON"
+  },
+  "T8_2H_KNUCKLES_MORGANA": {
+    "id": "T8_2H_KNUCKLES_MORGANA",
+    "pt": "T8_2H_KNUCKLES_MORGANA",
+    "en": "T8_2H_KNUCKLES_MORGANA",
+    "es": "T8_2H_KNUCKLES_MORGANA"
+  },
+  "T8_CLOTH_LEVEL4": {
+    "id": "T8_CLOTH_LEVEL4",
+    "pt": "T8_CLOTH_LEVEL4",
+    "en": "T8_CLOTH_LEVEL4",
+    "es": "T8_CLOTH_LEVEL4"
+  },
+  "T8_ARTEFACT_2H_COMBATSTAFF_MORGANA": {
+    "id": "T8_ARTEFACT_2H_COMBATSTAFF_MORGANA",
+    "pt": "T8_ARTEFACT_2H_COMBATSTAFF_MORGANA",
+    "en": "T8_ARTEFACT_2H_COMBATSTAFF_MORGANA",
+    "es": "T8_ARTEFACT_2H_COMBATSTAFF_MORGANA"
+  },
+  "T8_FURNITUREITEM_REPAIRKIT": {
+    "id": "T8_FURNITUREITEM_REPAIRKIT",
+    "pt": "T8_FURNITUREITEM_REPAIRKIT",
+    "en": "T8_FURNITUREITEM_REPAIRKIT",
+    "es": "T8_FURNITUREITEM_REPAIRKIT"
+  },
+  "T8_ARTEFACT_2H_ENIGMATICORB_MORGANA": {
+    "id": "T8_ARTEFACT_2H_ENIGMATICORB_MORGANA",
+    "pt": "T8_ARTEFACT_2H_ENIGMATICORB_MORGANA",
+    "en": "T8_ARTEFACT_2H_ENIGMATICORB_MORGANA",
+    "es": "T8_ARTEFACT_2H_ENIGMATICORB_MORGANA"
+  },
+  "T8_ARTEFACT_2H_FIRE_RINGPAIR_AVALON": {
+    "id": "T8_ARTEFACT_2H_FIRE_RINGPAIR_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_LEATHER_LEVEL4": {
+    "id": "T8_LEATHER_LEVEL4",
+    "pt": "T8_LEATHER_LEVEL4",
+    "en": "T8_LEATHER_LEVEL4",
+    "es": "T8_LEATHER_LEVEL4"
+  },
+  "T8_SILVERBAG_NONTRADABLE": {
+    "id": "T8_SILVERBAG_NONTRADABLE",
+    "pt": "T8_SILVERBAG_NONTRADABLE",
+    "en": "T8_SILVERBAG_NONTRADABLE",
+    "es": "T8_SILVERBAG_NONTRADABLE"
+  },
+  "T8_METALBAR_LEVEL4": {
+    "id": "T8_METALBAR_LEVEL4",
+    "pt": "T8_METALBAR_LEVEL4",
+    "en": "T8_METALBAR_LEVEL4",
+    "es": "T8_METALBAR_LEVEL4"
+  },
+  "T8_ARTEFACT_2H_LONGBOW_UNDEAD": {
+    "id": "T8_ARTEFACT_2H_LONGBOW_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_MORGANA": {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_MORGANA",
+    "pt": "T8_ARTEFACT_SHOES_CLOTH_MORGANA",
+    "en": "T8_ARTEFACT_SHOES_CLOTH_MORGANA",
+    "es": "T8_ARTEFACT_SHOES_CLOTH_MORGANA"
+  },
+  "T8_2H_DUALAXE_KEEPER": {
+    "id": "T8_2H_DUALAXE_KEEPER",
+    "pt": "Machado",
+    "en": "Axe",
+    "es": "Hacha"
+  },
+  "T8_2H_DUALHAMMER_HELL": {
+    "id": "T8_2H_DUALHAMMER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_MOUNT_HORSE_UNDEAD": {
+    "id": "T8_MOUNT_HORSE_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_RANDOM_DUNGEON_ELITE_TOKEN_3": {
+    "id": "T8_RANDOM_DUNGEON_ELITE_TOKEN_3",
+    "pt": "T8_RANDOM_DUNGEON_ELITE_TOKEN_3",
+    "en": "T8_RANDOM_DUNGEON_ELITE_TOKEN_3",
+    "es": "T8_RANDOM_DUNGEON_ELITE_TOKEN_3"
+  },
+  "T8_FARM_DIREBEAR_FW_FORTSTERLING_BABY": {
+    "id": "T8_FARM_DIREBEAR_FW_FORTSTERLING_BABY",
+    "pt": "T8_FARM_DIREBEAR_FW_FORTSTERLING_BABY",
+    "en": "T8_FARM_DIREBEAR_FW_FORTSTERLING_BABY",
+    "es": "T8_FARM_DIREBEAR_FW_FORTSTERLING_BABY"
+  },
+  "T8_PLANKS_LEVEL4": {
+    "id": "T8_PLANKS_LEVEL4",
+    "pt": "T8_PLANKS_LEVEL4",
+    "en": "T8_PLANKS_LEVEL4",
+    "es": "T8_PLANKS_LEVEL4"
+  },
+  "T8_HEAD_CLOTH_SET1": {
+    "id": "T8_HEAD_CLOTH_SET1",
+    "pt": "T8_HEAD_CLOTH_SET1",
+    "en": "T8_HEAD_CLOTH_SET1",
+    "es": "T8_HEAD_CLOTH_SET1"
+  },
+  "T8_ARMOR_CLOTH_SET3": {
+    "id": "T8_ARMOR_CLOTH_SET3",
+    "pt": "T8_ARMOR_CLOTH_SET3",
+    "en": "T8_ARMOR_CLOTH_SET3",
+    "es": "T8_ARMOR_CLOTH_SET3"
+  },
+  "UNIQUE_AVATAR_GVGSEASON_15_CRYSTAL": {
+    "id": "UNIQUE_AVATAR_GVGSEASON_15_CRYSTAL",
+    "pt": "UNIQUE_AVATAR_GVGSEASON_15_CRYSTAL",
+    "en": "UNIQUE_AVATAR_GVGSEASON_15_CRYSTAL",
+    "es": "UNIQUE_AVATAR_GVGSEASON_15_CRYSTAL"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_13_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_13_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_13_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_13_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_13_1ST"
+  },
+  "T7_MEAL_ROAST": {
+    "id": "T7_MEAL_ROAST",
+    "pt": "T7_MEAL_ROAST",
+    "en": "T7_MEAL_ROAST",
+    "es": "T7_MEAL_ROAST"
+  },
+  "T8_FARM_MAMMOTH_BABY": {
+    "id": "T8_FARM_MAMMOTH_BABY",
+    "pt": "T8_FARM_MAMMOTH_BABY",
+    "en": "T8_FARM_MAMMOTH_BABY",
+    "es": "T8_FARM_MAMMOTH_BABY"
+  },
+  "T8_ARTEFACT_OFF_TOTEM_KEEPER": {
+    "id": "T8_ARTEFACT_OFF_TOTEM_KEEPER",
+    "pt": "T8_ARTEFACT_OFF_TOTEM_KEEPER",
+    "en": "T8_ARTEFACT_OFF_TOTEM_KEEPER",
+    "es": "T8_ARTEFACT_OFF_TOTEM_KEEPER"
+  },
+  "T8_ARTEFACT_2H_HALBERD_MORGANA": {
+    "id": "T8_ARTEFACT_2H_HALBERD_MORGANA",
+    "pt": "T8_ARTEFACT_2H_HALBERD_MORGANA",
+    "en": "T8_ARTEFACT_2H_HALBERD_MORGANA",
+    "es": "T8_ARTEFACT_2H_HALBERD_MORGANA"
+  },
+  "T8_2H_BOW_AVALON": {
+    "id": "T8_2H_BOW_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARTEFACT_OFF_TALISMAN_AVALON": {
+    "id": "T8_ARTEFACT_OFF_TALISMAN_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_SHOES_PLATE_KEEPER": {
+    "id": "T8_SHOES_PLATE_KEEPER",
+    "pt": "T8_SHOES_PLATE_KEEPER",
+    "en": "T8_SHOES_PLATE_KEEPER",
+    "es": "T8_SHOES_PLATE_KEEPER"
+  },
+  "T8_HEAD_LEATHER_AVALON": {
+    "id": "T8_HEAD_LEATHER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_FISH_SALTWATER_ALL_COMMON": {
+    "id": "T8_FISH_SALTWATER_ALL_COMMON",
+    "pt": "T8_FISH_SALTWATER_ALL_COMMON",
+    "en": "T8_FISH_SALTWATER_ALL_COMMON",
+    "es": "T8_FISH_SALTWATER_ALL_COMMON"
+  },
+  "T8_HEAD_CLOTH_HELL": {
+    "id": "T8_HEAD_CLOTH_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_2H_CROSSBOW_CANNON_AVALON": {
+    "id": "T8_ARTEFACT_2H_CROSSBOW_CANNON_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_MAIN_HOLYSTAFF_MORGANA": {
+    "id": "T8_MAIN_HOLYSTAFF_MORGANA",
+    "pt": "T8_MAIN_HOLYSTAFF_MORGANA",
+    "en": "T8_MAIN_HOLYSTAFF_MORGANA",
+    "es": "T8_MAIN_HOLYSTAFF_MORGANA"
+  },
+  "T8_2H_TOOL_HAMMER": {
+    "id": "T8_2H_TOOL_HAMMER",
+    "pt": "Ferramenta",
+    "en": "Tool",
+    "es": "Herramienta"
+  },
+  "T8_2H_FIRESTAFF_HELL": {
+    "id": "T8_2H_FIRESTAFF_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_2H_TOOL_KNIFE_AVALON": {
+    "id": "T8_2H_TOOL_KNIFE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL",
+    "en": "UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL",
+    "es": "UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL"
+  },
+  "T8_HEAD_LEATHER_SET2": {
+    "id": "T8_HEAD_LEATHER_SET2",
+    "pt": "T8_HEAD_LEATHER_SET2",
+    "en": "T8_HEAD_LEATHER_SET2",
+    "es": "T8_HEAD_LEATHER_SET2"
+  },
+  "T8_2H_TOOL_FISHINGROD": {
+    "id": "T8_2H_TOOL_FISHINGROD",
+    "pt": "Ferramenta",
+    "en": "Tool",
+    "es": "Herramienta"
+  },
+  "T7_POTION_SLOWFIELD": {
+    "id": "T7_POTION_SLOWFIELD",
+    "pt": "T7_POTION_SLOWFIELD",
+    "en": "T7_POTION_SLOWFIELD",
+    "es": "T7_POTION_SLOWFIELD"
+  },
+  "T8_ROCK_LEVEL1": {
+    "id": "T8_ROCK_LEVEL1",
+    "pt": "T8_ROCK_LEVEL1",
+    "en": "T8_ROCK_LEVEL1",
+    "es": "T8_ROCK_LEVEL1"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_18_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_18_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_18_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_18_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_18_1ST"
+  },
+  "T8_HEAD_GATHERER_FIBER": {
+    "id": "T8_HEAD_GATHERER_FIBER",
+    "pt": "T8_HEAD_GATHERER_FIBER",
+    "en": "T8_HEAD_GATHERER_FIBER",
+    "es": "T8_HEAD_GATHERER_FIBER"
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_HELL": {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_2H_DAGGER_KATAR_AVALON": {
+    "id": "T8_2H_DAGGER_KATAR_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_SHOES_GATHERER_WOOD": {
+    "id": "T8_SHOES_GATHERER_WOOD",
+    "pt": "T8_SHOES_GATHERER_WOOD",
+    "en": "T8_SHOES_GATHERER_WOOD",
+    "es": "T8_SHOES_GATHERER_WOOD"
+  },
+  "T8_2H_LONGBOW_UNDEAD": {
+    "id": "T8_2H_LONGBOW_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_AVALON": {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_MAIN_HAMMER": {
+    "id": "T8_MAIN_HAMMER",
+    "pt": "Martelo",
+    "en": "Hammer",
+    "es": "Martillo"
+  },
+  "T8_MAIN_MACE_HELL": {
+    "id": "T8_MAIN_MACE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_12_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_12_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_12_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_12_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_12_1ST"
+  },
+  "T8_MOUNT_DIREBOAR_FW_LYMHURST_ELITE": {
+    "id": "T8_MOUNT_DIREBOAR_FW_LYMHURST_ELITE",
+    "pt": "T8_MOUNT_DIREBOAR_FW_LYMHURST_ELITE",
+    "en": "T8_MOUNT_DIREBOAR_FW_LYMHURST_ELITE",
+    "es": "T8_MOUNT_DIREBOAR_FW_LYMHURST_ELITE"
+  },
+  "T8_HEAD_PLATE_SET2": {
+    "id": "T8_HEAD_PLATE_SET2",
+    "pt": "T8_HEAD_PLATE_SET2",
+    "en": "T8_HEAD_PLATE_SET2",
+    "es": "T8_HEAD_PLATE_SET2"
+  },
+  "T8_MAIN_NATURESTAFF_AVALON": {
+    "id": "T8_MAIN_NATURESTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_RELIC": {
+    "id": "T8_RELIC",
+    "pt": "T8_RELIC",
+    "en": "T8_RELIC",
+    "es": "T8_RELIC"
+  },
+  "T8_OFF_JESTERCANE_HELL": {
+    "id": "T8_OFF_JESTERCANE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_FURNITUREITEM_TROPHY_ROCK": {
+    "id": "T8_FURNITUREITEM_TROPHY_ROCK",
+    "pt": "T8_FURNITUREITEM_TROPHY_ROCK",
+    "en": "T8_FURNITUREITEM_TROPHY_ROCK",
+    "es": "T8_FURNITUREITEM_TROPHY_ROCK"
+  },
+  "UNIQUE_AVATARRING_GVGSEASONREWARD_2ND": {
+    "id": "UNIQUE_AVATARRING_GVGSEASONREWARD_2ND",
+    "pt": "UNIQUE_AVATARRING_GVGSEASONREWARD_2ND",
+    "en": "UNIQUE_AVATARRING_GVGSEASONREWARD_2ND",
+    "es": "UNIQUE_AVATARRING_GVGSEASONREWARD_2ND"
+  },
+  "T8_SHOES_CLOTH_ROYAL": {
+    "id": "T8_SHOES_CLOTH_ROYAL",
+    "pt": "T8_SHOES_CLOTH_ROYAL",
+    "en": "T8_SHOES_CLOTH_ROYAL",
+    "es": "T8_SHOES_CLOTH_ROYAL"
+  },
+  "T8_FARM_DIREWOLF_GROWN": {
+    "id": "T8_FARM_DIREWOLF_GROWN",
+    "pt": "T8_FARM_DIREWOLF_GROWN",
+    "en": "T8_FARM_DIREWOLF_GROWN",
+    "es": "T8_FARM_DIREWOLF_GROWN"
+  },
+  "UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL",
+    "en": "UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL",
+    "es": "UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL"
+  },
+  "T8_BAG_INSIGHT": {
+    "id": "T8_BAG_INSIGHT",
+    "pt": "T8_BAG_INSIGHT",
+    "en": "T8_BAG_INSIGHT",
+    "es": "T8_BAG_INSIGHT"
+  },
+  "T8_ARMOR_CLOTH_SET1": {
+    "id": "T8_ARMOR_CLOTH_SET1",
+    "pt": "T8_ARMOR_CLOTH_SET1",
+    "en": "T8_ARMOR_CLOTH_SET1",
+    "es": "T8_ARMOR_CLOTH_SET1"
+  },
+  "T8_2H_HARPOON_HELL": {
+    "id": "T8_2H_HARPOON_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ROCK_LEVEL2": {
+    "id": "T8_ROCK_LEVEL2",
+    "pt": "T8_ROCK_LEVEL2",
+    "en": "T8_ROCK_LEVEL2",
+    "es": "T8_ROCK_LEVEL2"
+  },
+  "T8_SHOES_CLOTH_MORGANA": {
+    "id": "T8_SHOES_CLOTH_MORGANA",
+    "pt": "T8_SHOES_CLOTH_MORGANA",
+    "en": "T8_SHOES_CLOTH_MORGANA",
+    "es": "T8_SHOES_CLOTH_MORGANA"
+  },
+  "T7_POTION_STONESKIN": {
+    "id": "T7_POTION_STONESKIN",
+    "pt": "T7_POTION_STONESKIN",
+    "en": "T7_POTION_STONESKIN",
+    "es": "T7_POTION_STONESKIN"
+  },
+  "UNIQUE_MOUNT_BLACK_PANTHER_ADC": {
+    "id": "UNIQUE_MOUNT_BLACK_PANTHER_ADC",
+    "pt": "UNIQUE_MOUNT_BLACK_PANTHER_ADC",
+    "en": "UNIQUE_MOUNT_BLACK_PANTHER_ADC",
+    "es": "UNIQUE_MOUNT_BLACK_PANTHER_ADC"
+  },
+  "T8_ARTEFACT_MAIN_RAPIER_MORGANA": {
+    "id": "T8_ARTEFACT_MAIN_RAPIER_MORGANA",
+    "pt": "T8_ARTEFACT_MAIN_RAPIER_MORGANA",
+    "en": "T8_ARTEFACT_MAIN_RAPIER_MORGANA",
+    "es": "T8_ARTEFACT_MAIN_RAPIER_MORGANA"
+  },
+  "T8_JOURNAL_MERCENARY": {
+    "id": "T8_JOURNAL_MERCENARY",
+    "pt": "T8_JOURNAL_MERCENARY",
+    "en": "T8_JOURNAL_MERCENARY",
+    "es": "T8_JOURNAL_MERCENARY"
+  },
+  "T8_RUNE": {
+    "id": "T8_RUNE",
+    "pt": "T8_RUNE",
+    "en": "T8_RUNE",
+    "es": "T8_RUNE"
+  },
+  "T8_ARTEFACT_MAIN_MACE_HELL": {
+    "id": "T8_ARTEFACT_MAIN_MACE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_WOOD": {
+    "id": "T8_WOOD",
+    "pt": "T8_WOOD",
+    "en": "T8_WOOD",
+    "es": "T8_WOOD"
+  },
+  "T8_LABOURER_CONTRACT_HIDE": {
+    "id": "T8_LABOURER_CONTRACT_HIDE",
+    "pt": "T8_LABOURER_CONTRACT_HIDE",
+    "en": "T8_LABOURER_CONTRACT_HIDE",
+    "es": "T8_LABOURER_CONTRACT_HIDE"
+  },
+  "T8_ARTEFACT_TOKEN_FAVOR_2": {
+    "id": "T8_ARTEFACT_TOKEN_FAVOR_2",
+    "pt": "T8_ARTEFACT_TOKEN_FAVOR_2",
+    "en": "T8_ARTEFACT_TOKEN_FAVOR_2",
+    "es": "T8_ARTEFACT_TOKEN_FAVOR_2"
+  },
+  "T8_MAIN_MACE": {
+    "id": "T8_MAIN_MACE",
+    "pt": "T8_MAIN_MACE",
+    "en": "T8_MAIN_MACE",
+    "es": "T8_MAIN_MACE"
+  },
+  "T8_METALBAR_LEVEL3": {
+    "id": "T8_METALBAR_LEVEL3",
+    "pt": "T8_METALBAR_LEVEL3",
+    "en": "T8_METALBAR_LEVEL3",
+    "es": "T8_METALBAR_LEVEL3"
+  },
+  "T8_2H_CROSSBOW": {
+    "id": "T8_2H_CROSSBOW",
+    "pt": "T8_2H_CROSSBOW",
+    "en": "T8_2H_CROSSBOW",
+    "es": "T8_2H_CROSSBOW"
+  },
+  "T8_OFF_SPIKEDSHIELD_MORGANA": {
+    "id": "T8_OFF_SPIKEDSHIELD_MORGANA",
+    "pt": "T8_OFF_SPIKEDSHIELD_MORGANA",
+    "en": "T8_OFF_SPIKEDSHIELD_MORGANA",
+    "es": "T8_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  "T8_OFF_TOTEM_KEEPER": {
+    "id": "T8_OFF_TOTEM_KEEPER",
+    "pt": "T8_OFF_TOTEM_KEEPER",
+    "en": "T8_OFF_TOTEM_KEEPER",
+    "es": "T8_OFF_TOTEM_KEEPER"
+  },
+  "T8_2H_ENIGMATICORB_MORGANA": {
+    "id": "T8_2H_ENIGMATICORB_MORGANA",
+    "pt": "T8_2H_ENIGMATICORB_MORGANA",
+    "en": "T8_2H_ENIGMATICORB_MORGANA",
+    "es": "T8_2H_ENIGMATICORB_MORGANA"
+  },
+  "T8_SHOES_LEATHER_MORGANA": {
+    "id": "T8_SHOES_LEATHER_MORGANA",
+    "pt": "T8_SHOES_LEATHER_MORGANA",
+    "en": "T8_SHOES_LEATHER_MORGANA",
+    "es": "T8_SHOES_LEATHER_MORGANA"
+  },
+  "T8_ARMOR_GATHERER_FISH": {
+    "id": "T8_ARMOR_GATHERER_FISH",
+    "pt": "T8_ARMOR_GATHERER_FISH",
+    "en": "T8_ARMOR_GATHERER_FISH",
+    "es": "T8_ARMOR_GATHERER_FISH"
+  },
+  "T8_MAIN_ARCANESTAFF": {
+    "id": "T8_MAIN_ARCANESTAFF",
+    "pt": "T8_MAIN_ARCANESTAFF",
+    "en": "T8_MAIN_ARCANESTAFF",
+    "es": "T8_MAIN_ARCANESTAFF"
+  },
+  "T8_2H_FLAIL": {
+    "id": "T8_2H_FLAIL",
+    "pt": "T8_2H_FLAIL",
+    "en": "T8_2H_FLAIL",
+    "es": "T8_2H_FLAIL"
+  },
+  "T8_HIDE_LEVEL3": {
+    "id": "T8_HIDE_LEVEL3",
+    "pt": "T8_HIDE_LEVEL3",
+    "en": "T8_HIDE_LEVEL3",
+    "es": "T8_HIDE_LEVEL3"
+  },
+  "T8_OFF_TOWERSHIELD_UNDEAD": {
+    "id": "T8_OFF_TOWERSHIELD_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "UNIQUE_MOUNT_ENT_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_ENT_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_ENT_CRYSTAL",
+    "en": "UNIQUE_MOUNT_ENT_CRYSTAL",
+    "es": "UNIQUE_MOUNT_ENT_CRYSTAL"
+  },
+  "T7_MEAL_OMELETTE_AVALON": {
+    "id": "T7_MEAL_OMELETTE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_MAIN_HOLYSTAFF": {
+    "id": "T8_MAIN_HOLYSTAFF",
+    "pt": "T8_MAIN_HOLYSTAFF",
+    "en": "T8_MAIN_HOLYSTAFF",
+    "es": "T8_MAIN_HOLYSTAFF"
+  },
+  "T8_2H_KNUCKLES_KEEPER": {
+    "id": "T8_2H_KNUCKLES_KEEPER",
+    "pt": "T8_2H_KNUCKLES_KEEPER",
+    "en": "T8_2H_KNUCKLES_KEEPER",
+    "es": "T8_2H_KNUCKLES_KEEPER"
+  },
+  "T8_SHOES_GATHERER_ORE": {
+    "id": "T8_SHOES_GATHERER_ORE",
+    "pt": "T8_SHOES_GATHERER_ORE",
+    "en": "T8_SHOES_GATHERER_ORE",
+    "es": "T8_SHOES_GATHERER_ORE"
+  },
+  "UNIQUE_MOUNT_JUGGERNAUT_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_JUGGERNAUT_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_JUGGERNAUT_CRYSTAL",
+    "en": "UNIQUE_MOUNT_JUGGERNAUT_CRYSTAL",
+    "es": "UNIQUE_MOUNT_JUGGERNAUT_CRYSTAL"
+  },
+  "T8_MOUNT_HORSE": {
+    "id": "T8_MOUNT_HORSE",
+    "pt": "T8_MOUNT_HORSE",
+    "en": "T8_MOUNT_HORSE",
+    "es": "T8_MOUNT_HORSE"
+  },
+  "T8_ARTEFACT_ARMOR_CLOTH_MORGANA": {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_MORGANA",
+    "pt": "T8_ARTEFACT_ARMOR_CLOTH_MORGANA",
+    "en": "T8_ARTEFACT_ARMOR_CLOTH_MORGANA",
+    "es": "T8_ARTEFACT_ARMOR_CLOTH_MORGANA"
+  },
+  "T8_RANDOM_DUNGEON_SOLO_TOKEN_3": {
+    "id": "T8_RANDOM_DUNGEON_SOLO_TOKEN_3",
+    "pt": "T8_RANDOM_DUNGEON_SOLO_TOKEN_3",
+    "en": "T8_RANDOM_DUNGEON_SOLO_TOKEN_3",
+    "es": "T8_RANDOM_DUNGEON_SOLO_TOKEN_3"
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_FEY": {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_FEY",
+    "pt": "T8_ARTEFACT_HEAD_CLOTH_FEY",
+    "en": "T8_ARTEFACT_HEAD_CLOTH_FEY",
+    "es": "T8_ARTEFACT_HEAD_CLOTH_FEY"
+  },
+  "T8_ARMOR_LEATHER_SET1": {
+    "id": "T8_ARMOR_LEATHER_SET1",
+    "pt": "T8_ARMOR_LEATHER_SET1",
+    "en": "T8_ARMOR_LEATHER_SET1",
+    "es": "T8_ARMOR_LEATHER_SET1"
+  },
+  "T8_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD": {
+    "id": "T8_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_FURNITUREITEM_TROPHY_GENERAL": {
+    "id": "T8_FURNITUREITEM_TROPHY_GENERAL",
+    "pt": "T8_FURNITUREITEM_TROPHY_GENERAL",
+    "en": "T8_FURNITUREITEM_TROPHY_GENERAL",
+    "es": "T8_FURNITUREITEM_TROPHY_GENERAL"
+  },
+  "T8_RANDOM_DUNGEON_SOLO_TOKEN_4": {
+    "id": "T8_RANDOM_DUNGEON_SOLO_TOKEN_4",
+    "pt": "T8_RANDOM_DUNGEON_SOLO_TOKEN_4",
+    "en": "T8_RANDOM_DUNGEON_SOLO_TOKEN_4",
+    "es": "T8_RANDOM_DUNGEON_SOLO_TOKEN_4"
+  },
+  "T8_ARTEFACT_2H_ICECRYSTAL_UNDEAD": {
+    "id": "T8_ARTEFACT_2H_ICECRYSTAL_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_POTION_CLEANSE": {
+    "id": "T8_POTION_CLEANSE",
+    "pt": "T8_POTION_CLEANSE",
+    "en": "T8_POTION_CLEANSE",
+    "es": "T8_POTION_CLEANSE"
+  },
+  "T8_PUMPKIN": {
+    "id": "T8_PUMPKIN",
+    "pt": "T8_PUMPKIN",
+    "en": "T8_PUMPKIN",
+    "es": "T8_PUMPKIN"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_09_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_09_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_09_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_09_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_09_1ST"
+  },
+  "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN": {
+    "id": "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN",
+    "pt": "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN",
+    "en": "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN",
+    "es": "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN"
+  },
+  "T8_ARTEFACT_2H_BOW_AVALON": {
+    "id": "T8_ARTEFACT_2H_BOW_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_OFF_TALISMAN_AVALON": {
+    "id": "T8_OFF_TALISMAN_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_COMBATSTAFF_MORGANA": {
+    "id": "T8_2H_COMBATSTAFF_MORGANA",
+    "pt": "T8_2H_COMBATSTAFF_MORGANA",
+    "en": "T8_2H_COMBATSTAFF_MORGANA",
+    "es": "T8_2H_COMBATSTAFF_MORGANA"
+  },
+  "T8_MAIN_ROCKMACE_KEEPER": {
+    "id": "T8_MAIN_ROCKMACE_KEEPER",
+    "pt": "T8_MAIN_ROCKMACE_KEEPER",
+    "en": "T8_MAIN_ROCKMACE_KEEPER",
+    "es": "T8_MAIN_ROCKMACE_KEEPER"
+  },
+  "T8_JOURNAL_FIBER": {
+    "id": "T8_JOURNAL_FIBER",
+    "pt": "T8_JOURNAL_FIBER",
+    "en": "T8_JOURNAL_FIBER",
+    "es": "T8_JOURNAL_FIBER"
+  },
+  "T8_HEAD_LEATHER_SET3": {
+    "id": "T8_HEAD_LEATHER_SET3",
+    "pt": "T8_HEAD_LEATHER_SET3",
+    "en": "T8_HEAD_LEATHER_SET3",
+    "es": "T8_HEAD_LEATHER_SET3"
+  },
+  "T8_ARTEFACT_OFF_CENSER_AVALON": {
+    "id": "T8_ARTEFACT_OFF_CENSER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T4_DEBUG_MAINHAND_HIDDEN": {
+    "id": "T4_DEBUG_MAINHAND_HIDDEN",
+    "pt": "T4_DEBUG_MAINHAND_HIDDEN",
+    "en": "T4_DEBUG_MAINHAND_HIDDEN",
+    "es": "T4_DEBUG_MAINHAND_HIDDEN"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_11_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_11_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_11_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_11_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_11_1ST"
+  },
+  "T8_2H_CROSSBOWLARGE_MORGANA": {
+    "id": "T8_2H_CROSSBOWLARGE_MORGANA",
+    "pt": "T8_2H_CROSSBOWLARGE_MORGANA",
+    "en": "T8_2H_CROSSBOWLARGE_MORGANA",
+    "es": "T8_2H_CROSSBOWLARGE_MORGANA"
+  },
+  "T8_ARTEFACT_2H_IRONGAUNTLETS_HELL": {
+    "id": "T8_ARTEFACT_2H_IRONGAUNTLETS_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_2H_HOLYSTAFF_HELL": {
+    "id": "T8_2H_HOLYSTAFF_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_JOURNAL_WARRIOR": {
+    "id": "T8_JOURNAL_WARRIOR",
+    "pt": "T8_JOURNAL_WARRIOR",
+    "en": "T8_JOURNAL_WARRIOR",
+    "es": "T8_JOURNAL_WARRIOR"
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_HELL": {
+    "id": "T8_ARTEFACT_ARMOR_PLATE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_2H_HALBERD_MORGANA": {
+    "id": "T8_2H_HALBERD_MORGANA",
+    "pt": "T8_2H_HALBERD_MORGANA",
+    "en": "T8_2H_HALBERD_MORGANA",
+    "es": "T8_2H_HALBERD_MORGANA"
+  },
+  "T8_ARTEFACT_2H_HOLYSTAFF_HELL": {
+    "id": "T8_ARTEFACT_2H_HOLYSTAFF_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_HEAD_LEATHER_SET1": {
+    "id": "T8_HEAD_LEATHER_SET1",
+    "pt": "T8_HEAD_LEATHER_SET1",
+    "en": "T8_HEAD_LEATHER_SET1",
+    "es": "T8_HEAD_LEATHER_SET1"
+  },
+  "T8_SHOES_LEATHER_UNDEAD": {
+    "id": "T8_SHOES_LEATHER_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_2H_DOUBLEBLADEDSTAFF": {
+    "id": "T8_2H_DOUBLEBLADEDSTAFF",
+    "pt": "T8_2H_DOUBLEBLADEDSTAFF",
+    "en": "T8_2H_DOUBLEBLADEDSTAFF",
+    "es": "T8_2H_DOUBLEBLADEDSTAFF"
+  },
+  "T8_MOUNT_SWAMPDRAGON_FW_THETFORD_ELITE": {
+    "id": "T8_MOUNT_SWAMPDRAGON_FW_THETFORD_ELITE",
+    "pt": "T8_MOUNT_SWAMPDRAGON_FW_THETFORD_ELITE",
+    "en": "T8_MOUNT_SWAMPDRAGON_FW_THETFORD_ELITE",
+    "es": "T8_MOUNT_SWAMPDRAGON_FW_THETFORD_ELITE"
+  },
+  "T8_ARTEFACT_2H_KNUCKLES_AVALON": {
+    "id": "T8_ARTEFACT_2H_KNUCKLES_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARTEFACT_2H_CLAYMORE_AVALON": {
+    "id": "T8_ARTEFACT_2H_CLAYMORE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_SHOES_CLOTH_SET2": {
+    "id": "T8_SHOES_CLOTH_SET2",
+    "pt": "T8_SHOES_CLOTH_SET2",
+    "en": "T8_SHOES_CLOTH_SET2",
+    "es": "T8_SHOES_CLOTH_SET2"
+  },
+  "T8_ARMOR_GATHERER_WOOD": {
+    "id": "T8_ARMOR_GATHERER_WOOD",
+    "pt": "T8_ARMOR_GATHERER_WOOD",
+    "en": "T8_ARMOR_GATHERER_WOOD",
+    "es": "T8_ARMOR_GATHERER_WOOD"
+  },
+  "T8_ARTEFACT_2H_SCYTHE_HELL": {
+    "id": "T8_ARTEFACT_2H_SCYTHE_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_MEAL_STEW_FISH": {
+    "id": "T8_MEAL_STEW_FISH",
+    "pt": "T8_MEAL_STEW_FISH",
+    "en": "T8_MEAL_STEW_FISH",
+    "es": "T8_MEAL_STEW_FISH"
+  },
+  "T8_ARTEFACT_HEAD_PLATE_AVALON": {
+    "id": "T8_ARTEFACT_HEAD_PLATE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_ARTEFACT_SHOES_CLOTH_AVALON": {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_OFF_DEMONSKULL_HELL": {
+    "id": "T8_OFF_DEMONSKULL_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_OFF_LAMP_UNDEAD": {
+    "id": "T8_ARTEFACT_OFF_LAMP_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_ARTEFACT_2H_DAGGER_KATAR_AVALON": {
+    "id": "T8_ARTEFACT_2H_DAGGER_KATAR_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_PLANKS_LEVEL2": {
+    "id": "T8_PLANKS_LEVEL2",
+    "pt": "T8_PLANKS_LEVEL2",
+    "en": "T8_PLANKS_LEVEL2",
+    "es": "T8_PLANKS_LEVEL2"
+  },
+  "T8_SHOES_PLATE_AVALON": {
+    "id": "T8_SHOES_PLATE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_SHOES_CLOTH_KEEPER": {
+    "id": "T8_SHOES_CLOTH_KEEPER",
+    "pt": "T8_SHOES_CLOTH_KEEPER",
+    "en": "T8_SHOES_CLOTH_KEEPER",
+    "es": "T8_SHOES_CLOTH_KEEPER"
+  },
+  "T8_WOOD_LEVEL3": {
+    "id": "T8_WOOD_LEVEL3",
+    "pt": "T8_WOOD_LEVEL3",
+    "en": "T8_WOOD_LEVEL3",
+    "es": "T8_WOOD_LEVEL3"
+  },
+  "T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA": {
+    "id": "T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA",
+    "pt": "T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA",
+    "en": "T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA",
+    "es": "T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA"
+  },
+  "T8_ARTEFACT_2H_NATURESTAFF_KEEPER": {
+    "id": "T8_ARTEFACT_2H_NATURESTAFF_KEEPER",
+    "pt": "T8_ARTEFACT_2H_NATURESTAFF_KEEPER",
+    "en": "T8_ARTEFACT_2H_NATURESTAFF_KEEPER",
+    "es": "T8_ARTEFACT_2H_NATURESTAFF_KEEPER"
+  },
+  "T8_2H_TOOL_AXE_AVALON": {
+    "id": "T8_2H_TOOL_AXE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "UNIQUE_UNLOCK_SKIN_COUGAR_AMETHYST": {
+    "id": "UNIQUE_UNLOCK_SKIN_COUGAR_AMETHYST",
+    "pt": "UNIQUE_UNLOCK_SKIN_COUGAR_AMETHYST",
+    "en": "UNIQUE_UNLOCK_SKIN_COUGAR_AMETHYST",
+    "es": "UNIQUE_UNLOCK_SKIN_COUGAR_AMETHYST"
+  },
+  "T8_2H_IRONGAUNTLETS_HELL": {
+    "id": "T8_2H_IRONGAUNTLETS_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_2H_HAMMER_AVALON": {
+    "id": "T8_ARTEFACT_2H_HAMMER_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_HEAD_PLATE_SET3": {
+    "id": "T8_HEAD_PLATE_SET3",
+    "pt": "T8_HEAD_PLATE_SET3",
+    "en": "T8_HEAD_PLATE_SET3",
+    "es": "T8_HEAD_PLATE_SET3"
+  },
+  "T8_FARM_COW_GROWN": {
+    "id": "T8_FARM_COW_GROWN",
+    "pt": "T8_FARM_COW_GROWN",
+    "en": "T8_FARM_COW_GROWN",
+    "es": "T8_FARM_COW_GROWN"
+  },
+  "T8_SKILLBOOK_NONTRADABLE": {
+    "id": "T8_SKILLBOOK_NONTRADABLE",
+    "pt": "T8_SKILLBOOK_NONTRADABLE",
+    "en": "T8_SKILLBOOK_NONTRADABLE",
+    "es": "T8_SKILLBOOK_NONTRADABLE"
+  },
+  "T8_ARMOR_GATHERER_FIBER": {
+    "id": "T8_ARMOR_GATHERER_FIBER",
+    "pt": "T8_ARMOR_GATHERER_FIBER",
+    "en": "T8_ARMOR_GATHERER_FIBER",
+    "es": "T8_ARMOR_GATHERER_FIBER"
+  },
+  "T8_MOUNT_ARMORED_HORSE_SKIN_01": {
+    "id": "T8_MOUNT_ARMORED_HORSE_SKIN_01",
+    "pt": "T8_MOUNT_ARMORED_HORSE_SKIN_01",
+    "en": "T8_MOUNT_ARMORED_HORSE_SKIN_01",
+    "es": "T8_MOUNT_ARMORED_HORSE_SKIN_01"
+  },
+  "T8_FURNITUREITEM_TROPHY_FISHING_BOSS": {
+    "id": "T8_FURNITUREITEM_TROPHY_FISHING_BOSS",
+    "pt": "T8_FURNITUREITEM_TROPHY_FISHING_BOSS",
+    "en": "T8_FURNITUREITEM_TROPHY_FISHING_BOSS",
+    "es": "T8_FURNITUREITEM_TROPHY_FISHING_BOSS"
+  },
+  "T8_BACKPACK_GATHERER_WOOD": {
+    "id": "T8_BACKPACK_GATHERER_WOOD",
+    "pt": "T8_BACKPACK_GATHERER_WOOD",
+    "en": "T8_BACKPACK_GATHERER_WOOD",
+    "es": "T8_BACKPACK_GATHERER_WOOD"
+  },
+  "T7_MEAL_PIE_FISH": {
+    "id": "T7_MEAL_PIE_FISH",
+    "pt": "T7_MEAL_PIE_FISH",
+    "en": "T7_MEAL_PIE_FISH",
+    "es": "T7_MEAL_PIE_FISH"
+  },
+  "T8_2H_REPEATINGCROSSBOW_UNDEAD": {
+    "id": "T8_2H_REPEATINGCROSSBOW_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_HIDE_LEVEL2": {
+    "id": "T8_HIDE_LEVEL2",
+    "pt": "T8_HIDE_LEVEL2",
+    "en": "T8_HIDE_LEVEL2",
+    "es": "T8_HIDE_LEVEL2"
+  },
+  "T8_ARTEFACT_OFF_SHIELD_AVALON": {
+    "id": "T8_ARTEFACT_OFF_SHIELD_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_ROCKSTAFF_KEEPER": {
+    "id": "T8_2H_ROCKSTAFF_KEEPER",
+    "pt": "T8_2H_ROCKSTAFF_KEEPER",
+    "en": "T8_2H_ROCKSTAFF_KEEPER",
+    "es": "T8_2H_ROCKSTAFF_KEEPER"
+  },
+  "T8_RANDOM_DUNGEON_TOKEN_1": {
+    "id": "T8_RANDOM_DUNGEON_TOKEN_1",
+    "pt": "T8_RANDOM_DUNGEON_TOKEN_1",
+    "en": "T8_RANDOM_DUNGEON_TOKEN_1",
+    "es": "T8_RANDOM_DUNGEON_TOKEN_1"
+  },
+  "T8_ARMOR_PLATE_AVALON": {
+    "id": "T8_ARMOR_PLATE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_TRASH": {
+    "id": "T8_TRASH",
+    "pt": "T8_TRASH",
+    "en": "T8_TRASH",
+    "es": "T8_TRASH"
+  },
+  "T8_2H_HAMMER_UNDEAD": {
+    "id": "T8_2H_HAMMER_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "T8_HEAD_CLOTH_KEEPER": {
+    "id": "T8_HEAD_CLOTH_KEEPER",
+    "pt": "T8_HEAD_CLOTH_KEEPER",
+    "en": "T8_HEAD_CLOTH_KEEPER",
+    "es": "T8_HEAD_CLOTH_KEEPER"
+  },
+  "T8_RANDOM_DUNGEON_TOKEN_3": {
+    "id": "T8_RANDOM_DUNGEON_TOKEN_3",
+    "pt": "T8_RANDOM_DUNGEON_TOKEN_3",
+    "en": "T8_RANDOM_DUNGEON_TOKEN_3",
+    "es": "T8_RANDOM_DUNGEON_TOKEN_3"
+  },
+  "T8_2H_DIVINESTAFF": {
+    "id": "T8_2H_DIVINESTAFF",
+    "pt": "T8_2H_DIVINESTAFF",
+    "en": "T8_2H_DIVINESTAFF",
+    "es": "T8_2H_DIVINESTAFF"
+  },
+  "T8_CLOTH_LEVEL3": {
+    "id": "T8_CLOTH_LEVEL3",
+    "pt": "T8_CLOTH_LEVEL3",
+    "en": "T8_CLOTH_LEVEL3",
+    "es": "T8_CLOTH_LEVEL3"
+  },
+  "T8_ARMOR_LEATHER_ROYAL": {
+    "id": "T8_ARMOR_LEATHER_ROYAL",
+    "pt": "T8_ARMOR_LEATHER_ROYAL",
+    "en": "T8_ARMOR_LEATHER_ROYAL",
+    "es": "T8_ARMOR_LEATHER_ROYAL"
+  },
+  "T8_2H_KNUCKLES_AVALON": {
+    "id": "T8_2H_KNUCKLES_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_TOOL_SICKLE": {
+    "id": "T8_2H_TOOL_SICKLE",
+    "pt": "Ferramenta",
+    "en": "Tool",
+    "es": "Herramienta"
+  },
+  "T8_MOUNT_ARMORED_HORSE_MORGANA": {
+    "id": "T8_MOUNT_ARMORED_HORSE_MORGANA",
+    "pt": "T8_MOUNT_ARMORED_HORSE_MORGANA",
+    "en": "T8_MOUNT_ARMORED_HORSE_MORGANA",
+    "es": "T8_MOUNT_ARMORED_HORSE_MORGANA"
+  },
+  "T8_CAPEITEM_FW_FORTSTERLING": {
+    "id": "T8_CAPEITEM_FW_FORTSTERLING",
+    "pt": "T8_CAPEITEM_FW_FORTSTERLING",
+    "en": "T8_CAPEITEM_FW_FORTSTERLING",
+    "es": "T8_CAPEITEM_FW_FORTSTERLING"
+  },
+  "T8_CAPEITEM_KEEPER_BP": {
+    "id": "T8_CAPEITEM_KEEPER_BP",
+    "pt": "T8_CAPEITEM_KEEPER_BP",
+    "en": "T8_CAPEITEM_KEEPER_BP",
+    "es": "T8_CAPEITEM_KEEPER_BP"
+  },
+  "T8_HEAD_LEATHER_HELL": {
+    "id": "T8_HEAD_LEATHER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_MAIN_CURSEDSTAFF": {
+    "id": "T8_MAIN_CURSEDSTAFF",
+    "pt": "T8_MAIN_CURSEDSTAFF",
+    "en": "T8_MAIN_CURSEDSTAFF",
+    "es": "T8_MAIN_CURSEDSTAFF"
+  },
+  "T8_FARM_RABBIT_EASTER_BABY": {
+    "id": "T8_FARM_RABBIT_EASTER_BABY",
+    "pt": "T8_FARM_RABBIT_EASTER_BABY",
+    "en": "T8_FARM_RABBIT_EASTER_BABY",
+    "es": "T8_FARM_RABBIT_EASTER_BABY"
+  },
+  "T8_PLANKS_LEVEL1": {
+    "id": "T8_PLANKS_LEVEL1",
+    "pt": "T8_PLANKS_LEVEL1",
+    "en": "T8_PLANKS_LEVEL1",
+    "es": "T8_PLANKS_LEVEL1"
+  },
+  "T8_2H_FROSTSTAFF": {
+    "id": "T8_2H_FROSTSTAFF",
+    "pt": "T8_2H_FROSTSTAFF",
+    "en": "T8_2H_FROSTSTAFF",
+    "es": "T8_2H_FROSTSTAFF"
+  },
+  "T8_SKILLBOOK_GATHER_FIBER": {
+    "id": "T8_SKILLBOOK_GATHER_FIBER",
+    "pt": "T8_SKILLBOOK_GATHER_FIBER",
+    "en": "T8_SKILLBOOK_GATHER_FIBER",
+    "es": "T8_SKILLBOOK_GATHER_FIBER"
+  },
+  "T8_JOURNAL_TROPHY_HIDE": {
+    "id": "T8_JOURNAL_TROPHY_HIDE",
+    "pt": "T8_JOURNAL_TROPHY_HIDE",
+    "en": "T8_JOURNAL_TROPHY_HIDE",
+    "es": "T8_JOURNAL_TROPHY_HIDE"
+  },
+  "T8_FARM_DIREBEAR_BABY": {
+    "id": "T8_FARM_DIREBEAR_BABY",
+    "pt": "T8_FARM_DIREBEAR_BABY",
+    "en": "T8_FARM_DIREBEAR_BABY",
+    "es": "T8_FARM_DIREBEAR_BABY"
+  },
+  "T8_ARTEFACT_2H_KNUCKLES_MORGANA": {
+    "id": "T8_ARTEFACT_2H_KNUCKLES_MORGANA",
+    "pt": "T8_ARTEFACT_2H_KNUCKLES_MORGANA",
+    "en": "T8_ARTEFACT_2H_KNUCKLES_MORGANA",
+    "es": "T8_ARTEFACT_2H_KNUCKLES_MORGANA"
+  },
+  "T8_ARTEFACT_SHOES_LEATHER_FEY": {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_FEY",
+    "pt": "T8_ARTEFACT_SHOES_LEATHER_FEY",
+    "en": "T8_ARTEFACT_SHOES_LEATHER_FEY",
+    "es": "T8_ARTEFACT_SHOES_LEATHER_FEY"
+  },
+  "T8_SKILLBOOK_GATHER_ORE": {
+    "id": "T8_SKILLBOOK_GATHER_ORE",
+    "pt": "T8_SKILLBOOK_GATHER_ORE",
+    "en": "T8_SKILLBOOK_GATHER_ORE",
+    "es": "T8_SKILLBOOK_GATHER_ORE"
+  },
+  "T8_ARTEFACT_HEAD_CLOTH_HELL": {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER": {
+    "id": "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER",
+    "pt": "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER",
+    "en": "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER",
+    "es": "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER"
+  },
+  "T8_2H_KNUCKLES_HELL": {
+    "id": "T8_2H_KNUCKLES_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_2H_WARBOW": {
+    "id": "T8_2H_WARBOW",
+    "pt": "T8_2H_WARBOW",
+    "en": "T8_2H_WARBOW",
+    "es": "T8_2H_WARBOW"
+  },
+  "T8_FARM_OX_BABY": {
+    "id": "T8_FARM_OX_BABY",
+    "pt": "T8_FARM_OX_BABY",
+    "en": "T8_FARM_OX_BABY",
+    "es": "T8_FARM_OX_BABY"
+  },
+  "T8_MOUNT_DIREBEAR_FW_FORTSTERLING_ELITE": {
+    "id": "T8_MOUNT_DIREBEAR_FW_FORTSTERLING_ELITE",
+    "pt": "T8_MOUNT_DIREBEAR_FW_FORTSTERLING_ELITE",
+    "en": "T8_MOUNT_DIREBEAR_FW_FORTSTERLING_ELITE",
+    "es": "T8_MOUNT_DIREBEAR_FW_FORTSTERLING_ELITE"
+  },
+  "UNIQUE_LOOTCHEST_FIRSTREFERRAL": {
+    "id": "UNIQUE_LOOTCHEST_FIRSTREFERRAL",
+    "pt": "UNIQUE_LOOTCHEST_FIRSTREFERRAL",
+    "en": "UNIQUE_LOOTCHEST_FIRSTREFERRAL",
+    "es": "UNIQUE_LOOTCHEST_FIRSTREFERRAL"
+  },
+  "T8_HEAD_GATHERER_ORE": {
+    "id": "T8_HEAD_GATHERER_ORE",
+    "pt": "T8_HEAD_GATHERER_ORE",
+    "en": "T8_HEAD_GATHERER_ORE",
+    "es": "T8_HEAD_GATHERER_ORE"
+  },
+  "T8_ARTEFACT_ARMOR_PLATE_UNDEAD": {
+    "id": "T8_ARTEFACT_ARMOR_PLATE_UNDEAD",
+    "pt": "dos Mortos-Vivos",
+    "en": "Undead",
+    "es": "No-Muerto"
+  },
+  "UNIQUE_AVATAR_GVGSEASON_AVALON_INVASION": {
+    "id": "UNIQUE_AVATAR_GVGSEASON_AVALON_INVASION",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_QUARTERSTAFF": {
+    "id": "T8_2H_QUARTERSTAFF",
+    "pt": "T8_2H_QUARTERSTAFF",
+    "en": "T8_2H_QUARTERSTAFF",
+    "es": "T8_2H_QUARTERSTAFF"
+  },
+  "T8_FIBER_LEVEL1": {
+    "id": "T8_FIBER_LEVEL1",
+    "pt": "T8_FIBER_LEVEL1",
+    "en": "T8_FIBER_LEVEL1",
+    "es": "T8_FIBER_LEVEL1"
+  },
+  "T8_ARTEFACT_MAIN_NATURESTAFF_AVALON": {
+    "id": "T8_ARTEFACT_MAIN_NATURESTAFF_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_HEAD_PLATE_SET1": {
+    "id": "T8_HEAD_PLATE_SET1",
+    "pt": "T8_HEAD_PLATE_SET1",
+    "en": "T8_HEAD_PLATE_SET1",
+    "es": "T8_HEAD_PLATE_SET1"
+  },
+  "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_CRYSTAL": {
+    "id": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_CRYSTAL",
+    "pt": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_CRYSTAL",
+    "en": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_CRYSTAL",
+    "es": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_CRYSTAL"
+  },
+  "T8_2H_AXE": {
+    "id": "T8_2H_AXE",
+    "pt": "Machado",
+    "en": "Axe",
+    "es": "Hacha"
+  },
+  "T8_MAIN_SPEAR_KEEPER": {
+    "id": "T8_MAIN_SPEAR_KEEPER",
+    "pt": "T8_MAIN_SPEAR_KEEPER",
+    "en": "T8_MAIN_SPEAR_KEEPER",
+    "es": "T8_MAIN_SPEAR_KEEPER"
+  },
+  "T8_ARTEFACT_OFF_HORN_KEEPER": {
+    "id": "T8_ARTEFACT_OFF_HORN_KEEPER",
+    "pt": "T8_ARTEFACT_OFF_HORN_KEEPER",
+    "en": "T8_ARTEFACT_OFF_HORN_KEEPER",
+    "es": "T8_ARTEFACT_OFF_HORN_KEEPER"
+  },
+  "UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL": {
+    "id": "UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL",
+    "pt": "UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL",
+    "en": "UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL",
+    "es": "UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL"
+  },
+  "T8_2H_TOOL_SICKLE_AVALON": {
+    "id": "T8_2H_TOOL_SICKLE_AVALON",
+    "pt": "Avalon",
+    "en": "Avalon",
+    "es": "Avalon"
+  },
+  "T8_2H_RAM_KEEPER": {
+    "id": "T8_2H_RAM_KEEPER",
+    "pt": "T8_2H_RAM_KEEPER",
+    "en": "T8_2H_RAM_KEEPER",
+    "es": "T8_2H_RAM_KEEPER"
+  },
+  "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN": {
+    "id": "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN",
+    "pt": "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN",
+    "en": "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN",
+    "es": "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN"
+  },
+  "T8_ARTEFACT_2H_SKULLORB_HELL": {
+    "id": "T8_ARTEFACT_2H_SKULLORB_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_BAG": {
+    "id": "T8_BAG",
+    "pt": "T8_BAG",
+    "en": "T8_BAG",
+    "es": "T8_BAG"
+  },
+  "T8_CAPEITEM_FW_LYMHURST_BP": {
+    "id": "T8_CAPEITEM_FW_LYMHURST_BP",
+    "pt": "T8_CAPEITEM_FW_LYMHURST_BP",
+    "en": "T8_CAPEITEM_FW_LYMHURST_BP",
+    "es": "T8_CAPEITEM_FW_LYMHURST_BP"
+  },
+  "T8_ARMOR_LEATHER_HELL": {
+    "id": "T8_ARMOR_LEATHER_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_ALCOHOL": {
+    "id": "T8_ALCOHOL",
+    "pt": "T8_ALCOHOL",
+    "en": "T8_ALCOHOL",
+    "es": "T8_ALCOHOL"
+  },
+  "T8_ARMOR_PLATE_SET3": {
+    "id": "T8_ARMOR_PLATE_SET3",
+    "pt": "T8_ARMOR_PLATE_SET3",
+    "en": "T8_ARMOR_PLATE_SET3",
+    "es": "T8_ARMOR_PLATE_SET3"
+  },
+  "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN": {
+    "id": "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN",
+    "pt": "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN",
+    "en": "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN",
+    "es": "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN"
+  },
+  "UNIQUE_FURNITUREITEM_GVG_SEASON_ENERGY_RUSH_1ST": {
+    "id": "UNIQUE_FURNITUREITEM_GVG_SEASON_ENERGY_RUSH_1ST",
+    "pt": "UNIQUE_FURNITUREITEM_GVG_SEASON_ENERGY_RUSH_1ST",
+    "en": "UNIQUE_FURNITUREITEM_GVG_SEASON_ENERGY_RUSH_1ST",
+    "es": "UNIQUE_FURNITUREITEM_GVG_SEASON_ENERGY_RUSH_1ST"
+  },
+  "T8_MAIN_1HCROSSBOW": {
+    "id": "T8_MAIN_1HCROSSBOW",
+    "pt": "T8_MAIN_1HCROSSBOW",
+    "en": "T8_MAIN_1HCROSSBOW",
+    "es": "T8_MAIN_1HCROSSBOW"
+  },
+  "T8_2H_MACE": {
+    "id": "T8_2H_MACE",
+    "pt": "T8_2H_MACE",
+    "en": "T8_2H_MACE",
+    "es": "T8_2H_MACE"
+  },
+  "T8_MOUNT_ARMORED_HORSE": {
+    "id": "T8_MOUNT_ARMORED_HORSE",
+    "pt": "T8_MOUNT_ARMORED_HORSE",
+    "en": "T8_MOUNT_ARMORED_HORSE",
+    "es": "T8_MOUNT_ARMORED_HORSE"
+  },
+  "T8_MAIN_FROSTSTAFF_KEEPER": {
+    "id": "T8_MAIN_FROSTSTAFF_KEEPER",
+    "pt": "T8_MAIN_FROSTSTAFF_KEEPER",
+    "en": "T8_MAIN_FROSTSTAFF_KEEPER",
+    "es": "T8_MAIN_FROSTSTAFF_KEEPER"
+  },
+  "T8_JOURNAL_TROPHY_FIBER": {
+    "id": "T8_JOURNAL_TROPHY_FIBER",
+    "pt": "T8_JOURNAL_TROPHY_FIBER",
+    "en": "T8_JOURNAL_TROPHY_FIBER",
+    "es": "T8_JOURNAL_TROPHY_FIBER"
+  },
+  "T8_ARTEFACT_2H_DUALAXE_KEEPER": {
+    "id": "T8_ARTEFACT_2H_DUALAXE_KEEPER",
+    "pt": "Machado",
+    "en": "Axe",
+    "es": "Hacha"
+  },
+  "T8_OFF_SHIELD_HELL": {
+    "id": "T8_OFF_SHIELD_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_2H_TOOL_AXE": {
+    "id": "T8_2H_TOOL_AXE",
+    "pt": "Ferramenta",
+    "en": "Tool",
+    "es": "Herramienta"
+  },
+  "T8_MAIN_NATURESTAFF_KEEPER": {
+    "id": "T8_MAIN_NATURESTAFF_KEEPER",
+    "pt": "T8_MAIN_NATURESTAFF_KEEPER",
+    "en": "T8_MAIN_NATURESTAFF_KEEPER",
+    "es": "T8_MAIN_NATURESTAFF_KEEPER"
+  },
+  "T8_FARM_DIREWOLF_BABY": {
+    "id": "T8_FARM_DIREWOLF_BABY",
+    "pt": "T8_FARM_DIREWOLF_BABY",
+    "en": "T8_FARM_DIREWOLF_BABY",
+    "es": "T8_FARM_DIREWOLF_BABY"
+  },
+  "T8_ARMOR_PLATE_KEEPER": {
+    "id": "T8_ARMOR_PLATE_KEEPER",
+    "pt": "T8_ARMOR_PLATE_KEEPER",
+    "en": "T8_ARMOR_PLATE_KEEPER",
+    "es": "T8_ARMOR_PLATE_KEEPER"
+  },
+  "T8_2H_BOW_HELL": {
+    "id": "T8_2H_BOW_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_PLANKS_LEVEL3": {
+    "id": "T8_PLANKS_LEVEL3",
+    "pt": "T8_PLANKS_LEVEL3",
+    "en": "T8_PLANKS_LEVEL3",
+    "es": "T8_PLANKS_LEVEL3"
+  },
+  "T8_SHOES_LEATHER_FEY": {
+    "id": "T8_SHOES_LEATHER_FEY",
+    "pt": "T8_SHOES_LEATHER_FEY",
+    "en": "T8_SHOES_LEATHER_FEY",
+    "es": "T8_SHOES_LEATHER_FEY"
+  },
+  "T8_HEAD_CLOTH_SET3": {
+    "id": "T8_HEAD_CLOTH_SET3",
+    "pt": "T8_HEAD_CLOTH_SET3",
+    "en": "T8_HEAD_CLOTH_SET3",
+    "es": "T8_HEAD_CLOTH_SET3"
+  },
+  "T8_ARTEFACT_OFF_DEMONSKULL_HELL": {
+    "id": "T8_ARTEFACT_OFF_DEMONSKULL_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "T8_HEAD_PLATE_FEY": {
+    "id": "T8_HEAD_PLATE_FEY",
+    "pt": "T8_HEAD_PLATE_FEY",
+    "en": "T8_HEAD_PLATE_FEY",
+    "es": "T8_HEAD_PLATE_FEY"
+  },
+  "T8_LEATHER_LEVEL2": {
+    "id": "T8_LEATHER_LEVEL2",
+    "pt": "T8_LEATHER_LEVEL2",
+    "en": "T8_LEATHER_LEVEL2",
+    "es": "T8_LEATHER_LEVEL2"
+  },
+  "T8_ARTEFACT_HEAD_PLATE_KEEPER": {
+    "id": "T8_ARTEFACT_HEAD_PLATE_KEEPER",
+    "pt": "T8_ARTEFACT_HEAD_PLATE_KEEPER",
+    "en": "T8_ARTEFACT_HEAD_PLATE_KEEPER",
+    "es": "T8_ARTEFACT_HEAD_PLATE_KEEPER"
+  },
+  "T8_MAIN_RAPIER_MORGANA": {
+    "id": "T8_MAIN_RAPIER_MORGANA",
+    "pt": "T8_MAIN_RAPIER_MORGANA",
+    "en": "T8_MAIN_RAPIER_MORGANA",
+    "es": "T8_MAIN_RAPIER_MORGANA"
+  },
+  "T8_MOUNTUPGRADE_HORSE_CURSE": {
+    "id": "T8_MOUNTUPGRADE_HORSE_CURSE",
+    "pt": "T8_MOUNTUPGRADE_HORSE_CURSE",
+    "en": "T8_MOUNTUPGRADE_HORSE_CURSE",
+    "es": "T8_MOUNTUPGRADE_HORSE_CURSE"
+  },
+  "T8_ARTEFACT_2H_BOW_HELL": {
+    "id": "T8_ARTEFACT_2H_BOW_HELL",
+    "pt": "Infernal",
+    "en": "Hell",
+    "es": "Infernal"
+  },
+  "UNIQUE_AVATAR_GVGSEASON_18_CRYSTAL": {
+    "id": "UNIQUE_AVATAR_GVGSEASON_18_CRYSTAL",
+    "pt": "UNIQUE_AVATAR_GVGSEASON_18_CRYSTAL",
+    "en": "UNIQUE_AVATAR_GVGSEASON_18_CRYSTAL",
+    "es": "UNIQUE_AVATAR_GVGSEASON_18_CRYSTAL"
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ idioma }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ texts.edit }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f0f2f5; padding: 20px; }
+    .container { max-width: 900px; margin: auto; padding: 10px; }
+    h2 { margin-bottom: 20px; }
+    .jogador { background-color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px; }
+    label { font-weight: bold; }
+    select, input, textarea { width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #ccc; }
+    .btn { background-color: #4a4a6a; color: white; padding: 10px 20px; border-radius: 8px; cursor: pointer; border: none; }
+    .btn:hover { background-color: #6a6a8a; }
+    .top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+    .btn-voltar { display: inline-block; margin-bottom: 20px; background-color: #6c757d; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  {% include 'header.html' %}
+  <div class="container">
+    <a href="{{ url_for('index') }}" class="btn-voltar">⬅️ Voltar para COMPs</a>
+
+    <div class="top-bar">
+      <h2>{{ texts.edit_title.format(comp=comp["nome"], num=comp['qtde_jogadores']) }}</h2>
+      <form method="POST">
+        <input type="hidden" name="delete" value="1">
+        <button type="submit" class="btn">{{ texts.delete }}</button>
+      </form>
+    </div>
+
+    <form method="POST">
+      {% for i in range(comp["qtde_jogadores"]) %}
+        {% set p = comp["players"][i] %}
+        <div class="jogador">
+          <h3>Jogador {{ i + 1 }}</h3>
+
+          <label>{{ texts.role }}</label>
+          <select name="role_{{ i }}">
+            {% for r in roles %}
+              <option value="{{ r }}" {% if r == p['Role'] %}selected{% endif %}>{{ r }}</option>
+            {% endfor %}
+          </select>
+
+          {% for campo, filtro in {
+            'arma': '2H',
+            'capuz': 'HEAD',
+            'peito': 'ARMOR',
+            'bota': 'SHOES',
+            'capa': 'CAPE',
+            'comida': 'MEAL',
+            'pocao': 'POTION'
+          }.items() %}
+            <label>{{ campo.capitalize() }}</label>
+            <select name="{{ campo }}_{{ i }}">
+              {% for id, nomes in itens.items() %}
+                {% if
+                  (not (id is none)) and
+                  (not ("@" in id)) and
+                  (not ("ARTEFACT" in id or "UNIQUE" in id or "QUESTITEM" in id or "TOKEN" in id or "EVENT" in id or "TOOL" in id or "SET1" in id or "FARM" in id or "SKILLBOOK" in id or "FISH" in id or "MOUNT" in id)) and
+                  (
+                    (campo == 'arma' and 'T8' in id and ('2H' in id or 'MAIN_' in id)) or
+                    (campo == 'capuz' and 'HEAD' in id and 'T8' in id) or
+                    (campo == 'peito' and 'ARMOR' in id and 'T8' in id) or
+                    (campo == 'bota' and 'SHOES' in id and 'T8' in id) or
+                    (campo == 'capa' and 'CAPE' in id and 'T8' in id) or
+                    (campo == 'comida' and 'MEAL' in id and ('T7' in id or 'T8' in id)) or
+                    (campo == 'pocao' and 'POTION' in id and ('T7' in id or 'T8' in id))
+                  )
+                %}
+                  <option value="{{ id }}" title="{{ id }}" {% if id == p[campo.capitalize()] %}selected{% endif %}>
+                    {{ nomes[idioma] or nomes['en'] }}
+                  </option>
+                {% endif %}
+              {% endfor %}
+            </select>
+          {% endfor %}
+        </div>
+      {% endfor %}
+
+      <label><strong>📝 Descreva brevemente o que foi alterado nesta COMP:</strong></label>
+      <textarea name="descricao_hist" placeholder="Exemplo: Troquei o healer para Fallen."></textarea>
+
+      <button type="submit" class="btn">{{ texts.save }}</button>
+    </form>
+  </div>
+</body>
+</html>

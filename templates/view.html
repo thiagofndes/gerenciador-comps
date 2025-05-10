@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="{{ idioma }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ comp["nome"] }} - Visualização</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    .btn-voltar {
+      display: inline-block;
+      margin-bottom: 20px;
+      background-color: #6c757d;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .preco-total {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    .comp-box {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: white;
+    }
+
+    .toggle-btn {
+      width: 100%;
+      background-color: #4a4a6a;
+      color: white;
+      padding: 10px;
+      border: none;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: left;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .comp-content {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .overlay-set {
+      position: relative;
+      width: 240px;
+      margin: 0 auto;
+    }
+
+    .overlay-set img.set-base {
+      width: 100%;
+      display: block;
+    }
+
+    .item-icon {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+    .capuz { top: 18px; left: 87px; }
+    .peito { top: 88px; left: 87px; }
+    .bota  { top: 158px; left: 87px; }
+    .arma  { top: 100px; left: 17px; }
+    .capa  { top: 22px; left: 157px; }
+    .comida { top: 175px; left: 157px; }
+    .pocao  { top: 175px; left: 17px; }
+
+    .skills-texto {
+      font-family: monospace;
+      margin-top: 10px;
+      background: #eee;
+      padding: 10px;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .historico {
+      background-color: white;
+      border-left: 4px solid #4a4a6a;
+      padding: 15px 20px;
+      margin-top: 40px;
+      border-radius: 6px;
+    }
+
+    .historico h3 {
+      margin-top: 0;
+      color: #4a4a6a;
+    }
+
+    .historico-item {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="{{ url_for('index') }}" class="btn-voltar">⬅️ {{ texts["edit"] }}</a>
+    <h2>{{ texts["edit_title"].format(comp=comp["nome"], num=comp["qtde_jogadores"]) }}</h2>
+
+    <div class="preco-total">💰 Total estimado: {{ "{:,.0f}".format(preco_total).replace(",", ".") }} silver</div>
+
+    {% for role in ["TANK", "HEALER", "DPS", "SUPORTE"] %}
+      {% set count = 0 %}
+      {% for jogador in comp["players"] %}
+        {% if jogador["Role"] == role %}
+          {% set count = count + 1 %}
+          <div class="comp-box">
+            <button class="toggle-btn" onclick="toggleBox(this)">
+              ▶️ {{ role }} {{ count }} – 💰 
+              {% set idx = loop.index0 %}
+              {{ "{:,.0f}".format(valores_por_jogador[idx]["preco"]).replace(",", ".") }} silver
+            </button>
+            <div class="comp-content">
+              <div class="overlay-set">
+                <img src="{{ url_for('static', filename='imagens/set.png') }}" alt="Set base" class="set-base">
+                {% for campo, classe in [("Capuz", "capuz"), ("Peito", "peito"), ("Bota", "bota"), ("Arma", "arma"), ("Capa", "capa"), ("Comida", "comida"), ("Poção", "pocao")] %}
+                  {% set item_id = jogador[campo] %}
+                  {% if item_id %}
+                    {% set item_nome = itens.get(item_id, {}).get(idioma, itens.get(item_id, {}).get("en", item_id)) %}
+                    <img src="{{ url_for('static', filename='icons/' + item_id + '.png') }}"
+                         class="item-icon {{ classe }}"
+                         alt="{{ item_nome }}"
+                         title="{{ item_nome }}">
+                  {% endif %}
+                {% endfor %}
+              </div>
+
+              <div class="skills-texto">
+                <strong>ARMA:</strong> {{ jogador.get("skills_arma", "") }}<br>
+                <strong>ARMADURA:</strong> {{ jogador.get("skills_peito", "") }}<br>
+                <strong>CAPUZ:</strong> {{ jogador.get("skills_capuz", "") }}<br>
+                <strong>BOTAS:</strong> {{ jogador.get("skills_bota", "") }}
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    {% if comp.get("historico") %}
+    <div class="historico">
+      <h3>📜 Histórico de Alterações</h3>
+      {% for h in comp["historico"] %}
+        <div class="historico-item">🕒 <strong>{{ h["data"] }}</strong>: {{ h["descricao"] }}</div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <script>
+    function toggleBox(btn) {
+      const content = btn.nextElementSibling;
+      const isVisible = content.style.display === "block";
+      content.style.display = isVisible ? "none" : "block";
+      btn.innerText = isVisible
+        ? btn.innerText.replace("🔼", "▶️").replace("Ocultar", "Ver")
+        : btn.innerText.replace("▶️", "🔼").replace("Ver", "Ocultar");
+    }
+  </script>
+</body>
+</html>

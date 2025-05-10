@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="{{ idioma }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ texts.create }}</title>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f0f2f5; padding: 20px; }
+    .container { max-width: 900px; margin: auto; padding: 10px; }
+    .form-box { background-color: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+    label { font-weight: bold; }
+    input, select { width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #ccc; }
+    .btn { background-color: #4a4a6a; color: white; padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; }
+    .btn:hover { background-color: #6a6a8a; }
+    .btn-voltar { display: inline-block; margin-bottom: 20px; background-color: #6c757d; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; }
+    .jogador { border: 1px solid #ccc; padding: 15px; border-radius: 10px; margin-bottom: 20px; background-color: #f9f9f9; }
+    .jogador h3 { margin-top: 0; }
+    #tooltip-img { position: absolute; display: none; border: 1px solid #ccc; background-color: white; padding: 5px; z-index: 9999; border-radius: 6px; box-shadow: 0 0 5px rgba(0,0,0,0.2); }
+    #tooltip-img img { max-width: 100px; height: auto; display: block; }
+  </style>
+</head>
+<body>
+  {% include 'header.html' %}
+  <div class="container">
+    <a href="{{ url_for('index') }}" class="btn-voltar">⬅️ {{ texts.edit }}</a>
+    <h2>{{ texts.create }}</h2>
+
+    <form method="POST">
+      <div class="form-box">
+        <label for="nome">{{ texts.comp_name }}</label>
+        <input type="text" name="nome" required>
+
+        <label for="senha">{{ texts.password }}</label>
+        <input type="password" name="senha" required>
+
+        <label for="qtde">{{ texts.num_players }}</label>
+        <input type="number" name="qtde" id="qtde" min="1" max="20" required oninput="gerarCampos()">
+
+        <div id="campos-jogadores"></div>
+
+        <button type="submit" class="btn">{{ texts.create_btn }}</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+  <div id="tooltip-img"><img src="" alt="preview item"></div>
+
+  <script>
+    const idioma = "{{ idioma }}";
+    const itens = {{ itens|tojson }};
+    const roles = {{ roles|tojson }};
+    const roleLabel = "{{ texts.role }}";
+
+    function gerarSelect(nomeCampo, filtro) {
+      let html = `<select name="${nomeCampo}" class="select2" required>`;
+      for (let key in itens) {
+        const item = itens[key];
+        if (!item) continue;
+
+        // filtros de lixo
+        if (["ARTEFACT", "UNIQUE", "QUESTITEM", "TOKEN", "EVENT", "TOOL", "SET1", "FARM", "@", "SKILLBOOK", "FISH", "MOUNT"]
+            .some(sub => key.includes(sub))) continue;
+
+        const isComidaOuPocao = nomeCampo.includes("comida") || nomeCampo.includes("pocao");
+        const isArma = nomeCampo.includes("arma");
+        const isTierValido = (
+          (isComidaOuPocao && (key.includes("T7") || key.includes("T8"))) ||
+          (!isComidaOuPocao && key.includes("T8"))
+        );
+
+        if (!isTierValido) continue;
+
+        // Novo filtro para armas
+        if (isArma) {
+          if (!(key.includes("2H") || key.includes("MAIN_"))) continue;
+        } else if (filtro && !key.includes(filtro)) {
+          continue;
+        }
+
+        const nome = item[idioma] || item["en"] || key;
+        html += `<option value="${key}" title="${key}">${nome}</option>`;
+      }
+      html += `</select>`;
+      return html;
+    }
+
+    function gerarCampos() {
+      const qtde = parseInt(document.getElementById("qtde").value);
+      const container = document.getElementById("campos-jogadores");
+      container.innerHTML = "";
+
+      if (isNaN(qtde) || qtde < 1) return;
+
+      for (let i = 0; i < qtde; i++) {
+        const div = document.createElement("div");
+        div.className = "jogador";
+        div.innerHTML = `
+          <h3>${roleLabel} ${i + 1}</h3>
+          <label>${roleLabel}</label>
+          <select name="role_${i}" class="select2">
+            ${roles.map(r => `<option value="${r}">${r}</option>`).join("")}
+          </select>
+
+          <label>Arma</label>
+          ${gerarSelect(`arma_${i}`, "2H")} <!-- filtro extra agora desnecessário mas mantido -->
+          <input type="text" name="skills_arma_${i}" placeholder="Skills da arma (ex: 3Q 5W 1E P4)">
+
+          <label>Capuz</label>
+          ${gerarSelect(`capuz_${i}`, "HEAD")}
+          <input type="text" name="skills_capuz_${i}" placeholder="Skills do capuz (ex: 3 - 3)">
+
+          <label>Peito</label>
+          ${gerarSelect(`peito_${i}`, "ARMOR")}
+          <input type="text" name="skills_peito_${i}" placeholder="Skills do peito (ex: 3 - 1 - 3)">
+
+          <label>Bota</label>
+          ${gerarSelect(`bota_${i}`, "SHOES")}
+          <input type="text" name="skills_bota_${i}" placeholder="Skills da bota (ex: 2 - 1)">
+
+          <label>Capa</label>
+          ${gerarSelect(`capa_${i}`, "CAPE")}
+
+          <label>Comida</label>
+          ${gerarSelect(`comida_${i}`, "MEAL")}
+
+          <label>Poção</label>
+          ${gerarSelect(`pocao_${i}`, "POTION")}
+        `;
+        container.appendChild(div);
+      }
+
+      setTimeout(() => { $('.select2').select2({ width: '100%' }); }, 0);
+    }
+
+    $(document).ready(function () { $('.select2').select2({ width: '100%' }); });
+
+    const tooltip = document.getElementById("tooltip-img");
+    document.addEventListener("mousemove", (e) => {
+      tooltip.style.top = (e.clientY + 20) + "px";
+      tooltip.style.left = (e.clientX + 20) + "px";
+    });
+
+    $(document).on("mouseenter", ".select2-results__option", function () {
+      const $option = $(this);
+      const itemId = $option.attr("title");
+      if (itemId && itemId.startsWith("T")) {
+        const url = `/static/icons/${itemId}.png`;
+        $("#tooltip-img img").attr("src", url);
+        tooltip.style.display = "block";
+      }
+    });
+
+    $(document).on("mouseleave", ".select2-results__option", function () {
+      tooltip.style.display = "none";
+    });
+  </script>
+</body>
+</html>
