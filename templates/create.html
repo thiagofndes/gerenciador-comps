@@ -60,7 +60,6 @@
         const item = itens[key];
         if (!item) continue;
 
-        // filtros de lixo
         if (["ARTEFACT", "UNIQUE", "QUESTITEM", "TOKEN", "EVENT", "TOOL", "FARM", "@", "SKILLBOOK", "FISH", "MOUNT"]
             .some(sub => key.includes(sub))) continue;
 
@@ -70,10 +69,8 @@
           (isComidaOuPocao && (key.includes("T7") || key.includes("T8"))) ||
           (!isComidaOuPocao && key.includes("T8"))
         );
-
         if (!isTierValido) continue;
 
-        // Novo filtro para armas
         if (isArma) {
           if (!(key.includes("2H") || key.includes("MAIN_"))) continue;
         } else if (filtro && !key.includes(filtro)) {
@@ -105,7 +102,7 @@
           </select>
 
           <label>Arma</label>
-          ${gerarSelect(`arma_${i}`, "2H")} <!-- filtro extra agora desnecessário mas mantido -->
+          ${gerarSelect(`arma_${i}`, "2H")}
           <input type="text" name="skills_arma_${i}" placeholder="Skills da arma (ex: 3Q 5W 1E P4)">
 
           <label>Capuz</label>
@@ -138,23 +135,57 @@
     $(document).ready(function () { $('.select2').select2({ width: '100%' }); });
 
     const tooltip = document.getElementById("tooltip-img");
+
     document.addEventListener("mousemove", (e) => {
       tooltip.style.top = (e.clientY + 20) + "px";
       tooltip.style.left = (e.clientX + 20) + "px";
     });
 
+    function showTooltip(itemId) {
+      const url = `/static/icons/${itemId}.png`;
+      $("#tooltip-img img").attr("src", url);
+      tooltip.style.display = "block";
+    }
+
+    function hideTooltip() {
+      tooltip.style.display = "none";
+    }
+
     $(document).on("mouseenter", ".select2-results__option", function () {
       const $option = $(this);
       const itemId = $option.attr("title");
       if (itemId && itemId.startsWith("T")) {
-        const url = `/static/icons/${itemId}.png`;
-        $("#tooltip-img img").attr("src", url);
-        tooltip.style.display = "block";
+        showTooltip(itemId);
       }
     });
 
     $(document).on("mouseleave", ".select2-results__option", function () {
-      tooltip.style.display = "none";
+      hideTooltip();
+    });
+
+    $(document).on('select2:select select2:close', function () {
+      hideTooltip();
+      $(document).off("mouseenter", ".select2-results__option");
+      $(document).off("mouseleave", ".select2-results__option");
+    });
+
+    $(document).on('select2:open', function () {
+      $(document).on("mouseenter", ".select2-results__option", function () {
+        const $option = $(this);
+        const itemId = $option.attr("title");
+        if (itemId && itemId.startsWith("T")) {
+          showTooltip(itemId);
+        }
+      });
+      $(document).on("mouseleave", ".select2-results__option", function () {
+        hideTooltip();
+      });
+    });
+
+    $(document).on("mousedown", function(e) {
+      if (!$(e.target).closest(".select2-container, #tooltip-img").length) {
+        hideTooltip();
+      }
     });
   </script>
 </body>
