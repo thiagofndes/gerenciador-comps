@@ -29,6 +29,7 @@ texts = {
         "success": "Comp '{comp}' criada com sucesso!",
         "error": "Você precisa preencher todos os campos obrigatórios.",
         "edit_title": "Editando: {comp} ({num} jogadores)",
+        "view_title": "Visualizando: {comp} ({num} jogadores)",
         "save": "💾 Salvar Alterações",
         "delete": "🗑️ Excluir COMP",
         "edit_success": "Comp '{comp}' atualizada com sucesso!",

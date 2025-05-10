@@ -114,7 +114,7 @@
 <body>
   <div class="container">
     <a href="{{ url_for('index') }}" class="btn-voltar">⬅️ {{ texts["edit"] }}</a>
-    <h2>{{ texts["edit_title"].format(comp=comp["nome"], num=comp["qtde_jogadores"]) }}</h2>
+    <h2>{{ texts["view_title"].format(comp=comp["nome"], num=comp["qtde_jogadores"]) }}</h2>
 
     <div class="preco-total">💰 Total estimado: {{ "{:,.0f}".format(preco_total).replace(",", ".") }} silver</div>
 
@@ -123,7 +123,7 @@
       {% for jogador in players_role %}
         <div class="comp-box">
           <button class="toggle-btn" onclick="toggleBox(this)">
-            ▶️ {{ role }} 1 – 💰 {{ "{:,.0f}".format(jogador["preco"]).replace(",", ".") }} silver
+            ▶️ {{ role }} {{ loop.index }} – 💰 {{ "{:,.0f}".format(jogador["preco"]).replace(",", ".") }} silver
           </button>
           <div class="comp-content">
             <div class="overlay-set">
