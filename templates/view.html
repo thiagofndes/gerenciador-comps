@@ -119,40 +119,35 @@
     <div class="preco-total">💰 Total estimado: {{ "{:,.0f}".format(preco_total).replace(",", ".") }} silver</div>
 
     {% for role in ["TANK", "HEALER", "DPS", "SUPORTE"] %}
-      {% set count = 0 %}
-      {% for jogador in comp["players"] %}
-        {% if jogador["Role"] == role %}
-          {% set count = count + 1 %}
-          <div class="comp-box">
-            <button class="toggle-btn" onclick="toggleBox(this)">
-              ▶️ {{ role }} {{ count }} – 💰 
-              {% set idx = loop.index0 %}
-              {{ "{:,.0f}".format(valores_por_jogador[idx]["preco"]).replace(",", ".") }} silver
-            </button>
-            <div class="comp-content">
-              <div class="overlay-set">
-                <img src="{{ url_for('static', filename='imagens/set.png') }}" alt="Set base" class="set-base">
-                {% for campo, classe in [("Capuz", "capuz"), ("Peito", "peito"), ("Bota", "bota"), ("Arma", "arma"), ("Capa", "capa"), ("Comida", "comida"), ("Poção", "pocao")] %}
-                  {% set item_id = jogador[campo] %}
-                  {% if item_id %}
-                    {% set item_nome = itens.get(item_id, {}).get(idioma, itens.get(item_id, {}).get("en", item_id)) %}
-                    <img src="{{ url_for('static', filename='icons/' + item_id + '.png') }}"
-                         class="item-icon {{ classe }}"
-                         alt="{{ item_nome }}"
-                         title="{{ item_nome }}">
-                  {% endif %}
-                {% endfor %}
-              </div>
+      {% set players_role = comp["players"] | selectattr("Role", "equalto", role) | list %}
+      {% for jogador in players_role %}
+        <div class="comp-box">
+          <button class="toggle-btn" onclick="toggleBox(this)">
+            ▶️ {{ role }} 1 – 💰 {{ "{:,.0f}".format(jogador["preco"]).replace(",", ".") }} silver
+          </button>
+          <div class="comp-content">
+            <div class="overlay-set">
+              <img src="{{ url_for('static', filename='imagens/set.png') }}" alt="Set base" class="set-base">
+              {% for campo, classe in [("Capuz", "capuz"), ("Peito", "peito"), ("Bota", "bota"), ("Arma", "arma"), ("Capa", "capa"), ("Comida", "comida"), ("pocao", "pocao")] %}
+                {% set item_id = jogador.get(campo) %}
+                {% if item_id %}
+                  {% set item_nome = itens.get(item_id, item_id) %}
+                  <img src="{{ url_for('static', filename='icons/' + item_id + '.png') }}"
+                       class="item-icon {{ classe }}"
+                       alt="{{ item_nome }}"
+                       title="{{ item_nome }}">
+                {% endif %}
+              {% endfor %}
+            </div>
 
-              <div class="skills-texto">
-                <strong>ARMA:</strong> {{ jogador.get("skills_arma", "") }}<br>
-                <strong>ARMADURA:</strong> {{ jogador.get("skills_peito", "") }}<br>
-                <strong>CAPUZ:</strong> {{ jogador.get("skills_capuz", "") }}<br>
-                <strong>BOTAS:</strong> {{ jogador.get("skills_bota", "") }}
-              </div>
+            <div class="skills-texto">
+              <strong>ARMA:</strong> {{ jogador.get("skills_arma", "") }}<br>
+              <strong>ARMADURA:</strong> {{ jogador.get("skills_peito", "") }}<br>
+              <strong>CAPUZ:</strong> {{ jogador.get("skills_capuz", "") }}<br>
+              <strong>BOTAS:</strong> {{ jogador.get("skills_bota", "") }}
             </div>
           </div>
-        {% endif %}
+        </div>
       {% endfor %}
     {% endfor %}
 

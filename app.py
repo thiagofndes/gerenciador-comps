@@ -57,7 +57,8 @@ def save_comps(comps):
 
 def load_itens(idioma):
     with open(os.path.join(DATA_PATH, "nomes_itens.json"), "r", encoding="utf-8") as f:
-        return json.load(f)
+        return json.load(f)  # <-- CORRETO para seu caso
+
 
 def load_precos():
     try:
@@ -75,11 +76,9 @@ def get_item_price(item_id):
         return 0
 
     precos = load_precos()
-
     if item_id in precos:
         return precos[item_id]
 
-    # Caso não exista, busca na API e salva
     try:
         url = f"https://www.albion-online-data.com/api/v2/stats/prices/{item_id}.json"
         response = requests.get(url, timeout=5)
@@ -130,7 +129,7 @@ def create():
                 "Bota": request.form.get(f"bota_{i}"),
                 "Capa": request.form.get(f"capa_{i}"),
                 "Comida": request.form.get(f"comida_{i}"),
-                "Poção": request.form.get(f"pocao_{i}"),
+                "pocao": request.form.get(f"pocao_{i}"),  # <-- AJUSTE PARA CONSISTÊNCIA
                 "skills_arma": request.form.get(f"skills_arma_{i}", ""),
                 "skills_capuz": request.form.get(f"skills_capuz_{i}", ""),
                 "skills_peito": request.form.get(f"skills_peito_{i}", ""),
@@ -191,7 +190,7 @@ def edit_comp(comp_id):
                 "Bota": request.form.get(f"bota_{i}"),
                 "Capa": request.form.get(f"capa_{i}"),
                 "Comida": request.form.get(f"comida_{i}"),
-                "Poção": request.form.get(f"pocao_{i}"),
+                "pocao": request.form.get(f"pocao_{i}"),  # <-- AJUSTE PARA CONSISTÊNCIA
                 "skills_arma": request.form.get(f"skills_arma_{i}", ""),
                 "skills_capuz": request.form.get(f"skills_capuz_{i}", ""),
                 "skills_peito": request.form.get(f"skills_peito_{i}", ""),
@@ -228,19 +227,15 @@ def view_comp(comp_id):
 
     comp = comps[comp_id]
     total = 0
-    valores_por_jogador = []
 
     for jogador in comp["players"]:
-        total_jogador = sum(get_item_price(jogador.get(slot)) for slot in ["Arma", "Capuz", "Peito", "Bota", "Capa", "Comida", "Poção"] if jogador.get(slot))
-        valores_por_jogador.append({
-            "role": jogador["Role"],
-            "preco": total_jogador,
-            "skills_arma": jogador.get("skills_arma", ""),
-            "skills_capuz": jogador.get("skills_capuz", ""),
-            "skills_peito": jogador.get("skills_peito", ""),
-            "skills_bota": jogador.get("skills_bota", "")
-        })
-        total += total_jogador
+        preco_jogador = 0
+        for slot in ["Arma", "Capuz", "Peito", "Bota", "Capa", "Comida", "pocao"]:  # <-- AJUSTE FINAL
+            item_id = jogador.get(slot)
+            if item_id:
+                preco_jogador += get_item_price(item_id)
+        jogador["preco"] = preco_jogador
+        total += preco_jogador
 
     return render_template(
         "view.html",
@@ -249,7 +244,6 @@ def view_comp(comp_id):
         comp_id=comp_id,
         comp=comp,
         preco_total=total,
-        valores_por_jogador=valores_por_jogador,
         roles=roles,
         itens=itens,
         colors=ROLE_COLORS
@@ -259,8 +253,6 @@ def view_comp(comp_id):
 def set_language(lang):
     session["idioma"] = lang
     return redirect(request.referrer or url_for("index"))
-
-import os
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
