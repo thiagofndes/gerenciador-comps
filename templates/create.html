@@ -61,7 +61,7 @@
         if (!item) continue;
 
         // filtros de lixo
-        if (["ARTEFACT", "UNIQUE", "QUESTITEM", "TOKEN", "EVENT", "TOOL", "SET1", "FARM", "@", "SKILLBOOK", "FISH", "MOUNT"]
+        if (["ARTEFACT", "UNIQUE", "QUESTITEM", "TOKEN", "EVENT", "TOOL", "FARM", "@", "SKILLBOOK", "FISH", "MOUNT"]
             .some(sub => key.includes(sub))) continue;
 
         const isComidaOuPocao = nomeCampo.includes("comida") || nomeCampo.includes("pocao");

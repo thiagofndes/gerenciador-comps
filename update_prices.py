@@ -34,8 +34,7 @@ def main():
 
     for item_id in itens.keys():
         # Lixo que não queremos
-        if any(sub in item_id for sub in ["ARTEFACT", "UNIQUE", "QUESTITEM", "TOKEN", "EVENT", "TOOL", 
-                                          "SET1", "FARM", "@", "SKILLBOOK", "FISH", "MOUNT"]):
+        if any(sub in item_id for sub in ["ARTEFACT", "UNIQUE", "QUESTITEM", "TOKEN", "EVENT", "TOOL", "FARM", "@", "SKILLBOOK", "FISH", "MOUNT"]):
             continue
 
         # Armas
