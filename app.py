@@ -16,7 +16,6 @@ ROLE_COLORS = {
     "DPS": "#7F1D1D",
     "SUPORTE": "#78350F"
 }
-
 texts = {
     "pt": {
         "title": "🌹 Gerenciador de COMPS - Albion Online",
