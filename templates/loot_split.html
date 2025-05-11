@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="{{ idioma }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ texts.loot_split_title }} - {{ texts.title }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f0f2f5; padding: 20px; }
+    .container { max-width: 900px; margin: auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+    .btn-voltar { background-color: #6c757d; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; }
+    h2 { text-align: center; margin-bottom: 20px; }
+    label { display: block; margin-top: 15px; font-weight: bold; }
+    input[type="number"], input[type="text"] { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; border-radius: 4px; border: 1px solid #ccc; }
+    .money-buttons button { margin: 5px 5px 5px 0; padding: 5px 10px; background-color: #4a4a6a; color: white; border: none; cursor: pointer; border-radius: 6px; font-size: 14px; }
+    .money-buttons button:hover { background-color: #333; }
+    button { margin-top: 20px; padding: 10px 15px; background-color: #4a4a6a; color: white; border: none; cursor: pointer; border-radius: 6px; }
+    button:hover { background-color: #333; }
+    small { display: block; margin-top: 5px; color: #666; font-size: 12px; }
+    .results { margin-top: 25px; background-color: #e7f3fe; padding: 15px; border-radius: 6px; }
+    .results ul { list-style-type: none; padding: 0; }
+    .results li { margin: 5px 0; }
+  </style>
+</head>
+<body>
+  {% include 'header.html' %}
+  <div class="container">
+    <div class="top-bar">
+      <a href="{{ url_for('index') }}" class="btn-voltar">⬅️ Voltar para COMPs</a>
+    </div>
+
+    <h2>💎 {{ texts.loot_split_title }}</h2>
+
+    <label>{{ texts.participant_count }}</label>
+    <input type="number" id="qtd_participantes" min="1" max="20" onchange="gerarCamposParticipantes()">
+
+    <label>Valor do Loot (em milhões)</label>
+    <input type="number" id="valor_milhoes" min="0" value="0">
+    <small>Digite o número em milhões. Ex.: 80 = 80 milhões (80.000.000 silver)</small>
+
+    <div class="money-buttons">
+      <button type="button" onclick="adicionarMilhoes(1)">+1M</button>
+      <button type="button" onclick="adicionarMilhoes(10)">+10M</button>
+      <button type="button" onclick="adicionarMilhoes(100)">+100M</button>
+      <button type="button" onclick="resetarMilhoes()">Limpar</button>
+    </div>
+
+    <label>{{ texts.repair_cost }}</label>
+    <input type="text" id="valor_reparo">
+
+    <label>ID do Evento (Albion)</label>
+    <input type="text" id="evento_id">
+
+    <label>ID do Canal Discord</label>
+    <input type="text" id="id_canal">
+
+    <div id="nomes_participantes"></div>
+
+    <button onclick="calcularSplit()">{{ texts.calculate_btn }}</button>
+    <button id="btnDiscord" onclick="enviarDiscord()" style="display:none;">Enviar notificação ao Discord</button>
+
+    <div class="results" id="resultado"></div>
+  </div>
+
+  <script>
+    function adicionarMilhoes(valor) {
+      const campo = document.getElementById('valor_milhoes');
+      campo.value = parseInt(campo.value || 0) + valor;
+    }
+
+    function resetarMilhoes() {
+      document.getElementById('valor_milhoes').value = 0;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const moneyInputs = [document.getElementById('valor_reparo')];
+      moneyInputs.forEach(input => {
+          input.addEventListener('input', function(e) {
+              let value = e.target.value.replace(/\D/g, '');
+              if (value) {
+                  e.target.value = parseInt(value).toLocaleString('pt-BR');
+              } else {
+                  e.target.value = '';
+              }
+          });
+      });
+    });
+
+    function limparMascara(valorComMascara) {
+      return parseInt(valorComMascara.replace(/\D/g, '')) || 0;
+    }
+
+    function gerarCamposParticipantes() {
+      const container = document.getElementById('nomes_participantes');
+      container.innerHTML = '';
+      let qtd = parseInt(document.getElementById('qtd_participantes').value);
+      if (isNaN(qtd) || qtd <= 0) return;
+      if (qtd > 20) {
+          alert("NÚMERO MÁXIMO PERMITIDO ATÉ 20");
+          qtd = 20;
+          document.getElementById('qtd_participantes').value = 20;
+      }
+      for (let i = 1; i <= qtd; i++) {
+          const label = document.createElement('label');
+          label.textContent = `{{ texts.participant_label }} ${i}:`;
+          const input = document.createElement('input');
+          input.type = 'text';
+          input.id = `participante_${i}`;
+          input.placeholder = `{{ texts.participant_placeholder }} ${i}`;
+          container.appendChild(label);
+          container.appendChild(input);
+      }
+    }
+
+    function calcularSplit() {
+      const qtd = parseInt(document.getElementById('qtd_participantes').value);
+      const valorMilhoes = parseInt(document.getElementById('valor_milhoes').value) || 0;
+      const valorTotal = valorMilhoes * 1000000;
+      const valorReparo = limparMascara(document.getElementById('valor_reparo').value);
+      if (isNaN(qtd) || qtd <= 0 || qtd > 20 || valorTotal <= 0 || isNaN(valorReparo)) {
+        alert('{{ texts.fill_all_fields }}');
+        return;
+      }
+      const nomes = [];
+      for (let i = 1; i <= qtd; i++) {
+        const nome = document.getElementById(`participante_${i}`).value.trim();
+        if (nome === '') {
+          alert(`{{ texts.fill_name_field }}`.replace('{num}', i));
+          return;
+        }
+        nomes.push(nome);
+      }
+      const valorLiquido = valorTotal - valorReparo;
+      const taxaGuilda = valorLiquido * 0.10;
+      const valorParaDividir = valorLiquido - taxaGuilda;
+      const valorPorJogador = valorParaDividir / qtd;
+      const indices = [...Array(qtd).keys()];
+      for (let i = indices.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [indices[i], indices[j]] = [indices[j], indices[i]];
+      }
+      let resultadoHTML = `
+        <p><strong>{{ texts.result_liquid_value }}:</strong> ${valorLiquido.toLocaleString()} silver</p>
+        <p><strong>{{ texts.result_guild_tax }}:</strong> ${taxaGuilda.toLocaleString()} silver</p>
+        <p><strong>{{ texts.result_division_value }}:</strong> ${valorParaDividir.toLocaleString()} silver</p>
+        <p><strong>{{ texts.result_value_per_player }}:</strong> ${valorPorJogador.toLocaleString()} silver</p>
+        <h3>{{ texts.result_chest_distribution }}:</h3>
+        <ul>`;
+      for (let i = 0; i < qtd; i++) {
+        resultadoHTML += `<li>Baú ${i + 1}: ${nomes[indices[i]]}</li>`;
+      }
+      resultadoHTML += '</ul>';
+      document.getElementById('resultado').innerHTML = resultadoHTML;
+
+      document.getElementById('btnDiscord').style.display = 'inline-block';
+    }
+
+    function enviarDiscord() {
+      const evento_id = document.getElementById('evento_id').value.trim();
+      const id_canal = document.getElementById('id_canal').value.trim();
+      const resultado = document.getElementById('resultado').innerText;
+      if (!evento_id || !id_canal) {
+        alert("Preencha o ID do Evento e ID do Canal para enviar ao Discord.");
+        return;
+      }
+      if (!resultado) {
+        alert("Por favor, calcule o split antes de enviar ao Discord.");
+        return;
+      }
+      fetch("/enviar_discord", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ evento_id, id_canal, resultado })
+      }).then(res => {
+        if (res.ok) alert("Notificação enviada ao Discord!");
+        else alert("Erro ao enviar para o Discord.");
+      }).catch(() => alert("Erro ao enviar para o Discord."));
+    }
+  </script>
+</body>
+</html>
