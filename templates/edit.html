@@ -22,7 +22,7 @@
     <a href="{{ url_for('index') }}" class="btn-voltar">⬅️ Voltar para COMPs</a>
 
     <div class="top-bar">
-      <h2>{{ texts.edit_title.format(comp=comp["nome"], num=comp['qtde_jogadores']) }}</h2>
+      <h2>{{ texts.edit.format(comp=comp["nome"], num=comp['qtde_jogadores']) }}</h2>
       <form method="POST">
         <input type="hidden" name="delete" value="1">
         <button type="submit" class="btn">{{ texts.delete }}</button>
