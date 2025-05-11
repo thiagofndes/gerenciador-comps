@@ -347,6 +347,7 @@ DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1370991835111227463/GwJ_
 
 @app.route("/enviar_discord", methods=["POST"])
 def enviar_discord():
+    return #Desativado por Romero.
     data = request.get_json()
     evento_id = data.get("evento_id")
     id_canal = data.get("id_canal")
