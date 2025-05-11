@@ -156,8 +156,6 @@ texts = {
     }
 }
 
-
-
 def get_idioma():
     return session.get("idioma", "pt")
 
